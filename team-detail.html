@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Team member profile - Cathay Praxis Law">
+    <title>Team Member | Cathay Praxis Law</title>
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:wght@400;500;600&family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/shared.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1B3A5C',
+                        'primary-light': '#2A4F7A',
+                        'primary-dark': '#0F2440',
+                        accent: '#C8A97E',
+                        'accent-light': '#D9C4A3',
+                        'sky-light': '#F0F4F8',
+                        'ivory': '#FAFAF8'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .heading-section { font-family: 'Cormorant Garamond', 'Noto Serif SC', Georgia, serif; }
+        .heading-card { font-family: 'Cormorant Garamond', 'Noto Serif SC', Georgia, serif; }
+        .body-text { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; }
+        .label-text { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; letter-spacing: 0.12em; }
+        .sidebar-link { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; transition: all 0.2s ease; }
+        .sidebar-link:hover, .sidebar-link.active { color: #1B3A5C; background: #F0F4F8; border-left: 3px solid #C8A97E; }
+        .section-anchor:target::before { content: ''; display: block; height: 100px; margin-top: -100px; }
+        .section-heading { position: relative; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+        .section-heading::after { content: ''; position: absolute; bottom: 0; left: 0; width: 40px; height: 2px; background: #C8A97E; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Language Switcher -->
+    <button id="lang-switch" class="fixed top-6 right-6 z-50 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center hover:bg-primary-light transition shadow-lg label-text text-xs font-semibold" onclick="LanguageModule.toggle()">EN</button>
+
+    <!-- Top Contact Bar -->
+    <div class="bg-primary text-white/90 py-2.5 border-b border-white/10">
+        <div class="w-full px-6 lg:px-12 xl:px-16 flex flex-wrap items-center justify-between gap-2">
+            <div class="flex flex-wrap items-center gap-6">
+                <a href="tel:+1-341-237-9530" class="flex items-center hover:text-accent-light transition">
+                    <svg class="w-3.5 h-3.5 mr-2 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                    <span class="body-text text-xs">341 237 9530</span>
+                </a>
+                <a href="mailto:info@cathaypraxis.com" class="flex items-center hover:text-accent-light transition">
+                    <svg class="w-3.5 h-3.5 mr-2 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    <span class="body-text text-xs">info@cathaypraxis.com</span>
+                </a>
+            </div>
+            <div class="flex flex-wrap items-center gap-6">
+                <div class="flex items-center">
+                    <svg class="w-3.5 h-3.5 mr-2 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+                    <span class="body-text text-xs">Silicon Valley</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sticky-nav bg-white/95 backdrop-blur-sm border-b border-gray-200">
+        <div class="w-full px-6 lg:px-12 xl:px-16 flex items-center justify-between h-20">
+            <a href="index.html" class="flex items-center gap-4">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none"><path d="M8 36L22 8L36 36H8Z" stroke="#1B3A5C" stroke-width="2.5" fill="none"/><path d="M12 30H32L22 12L12 30Z" stroke="#C8A97E" stroke-width="1.5" fill="none"/><path d="M16 26H28L22 16L16 26Z" fill="#1B3A5C" opacity="0.9"/></svg>
+                <div>
+                    <div class="text-xl font-semibold tracking-wide text-primary" style="font-family: 'Cormorant Garamond', serif;">Cathay Praxis Law</div>
+                </div>
+            </a>
+            <div class="hidden md:flex items-center space-x-10">
+                <a href="index.html#practice" class="nav-link body-text text-sm" data-i18n="nav_practice">Practice Areas</a>
+                <a href="index.html#news" class="nav-link body-text text-sm" data-i18n="nav_insights">News</a>
+                <a href="index.html#insights" class="nav-link body-text text-sm" data-i18n="nav_insights">Insights</a>
+                <a href="index.html#team" class="nav-link body-text text-sm" data-i18n="nav_team">Team</a>
+                <a href="index.html#contact" class="nav-link body-text text-sm" data-i18n="nav_contact">Contact</a>
+            </div>
+            <button class="md:hidden w-8 h-8 flex items-center justify-center" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="w-full px-6 py-4 space-y-3">
+                <a href="index.html#practice" class="block body-text text-sm text-gray-600">Practice Areas</a>
+                <a href="index.html#news" class="block body-text text-sm text-gray-600">News</a>
+                <a href="index.html#insights" class="block body-text text-sm text-gray-600">Insights</a>
+                <a href="index.html#team" class="block body-text text-sm text-gray-600">Team</a>
+                <a href="index.html#contact" class="block body-text text-sm text-gray-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="relative bg-primary-dark overflow-hidden" style="min-height: 400px;">
+        <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(27,58,92,0.95) 0%, rgba(15,36,64,0.98) 100%);"></div>
+        <div class="relative w-full px-6 lg:px-12 xl:px-16 py-16 lg:py-20">
+            <div class="flex flex-col lg:flex-row items-start gap-10 max-w-6xl">
+                <div class="lg:w-1/3 flex-shrink-0">
+                    <div class="w-64 h-80 mx-auto lg:mx-0 overflow-hidden bg-gray-200 shadow-2xl">
+                        <img id="member-photo" src="" alt="" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="lg:w-2/3 text-white">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-accent label-text text-xs uppercase tracking-widest" id="member-role"></span>
+                    </div>
+                    <h1 class="heading-section text-4xl lg:text-5xl mb-4" id="member-name"></h1>
+                    <div class="flex flex-wrap items-center gap-4 text-white/70 text-sm mb-6 body-text">
+                        <span class="flex items-center gap-1.5">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+                            <span id="member-location"></span>
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            <a id="member-email" href="" class="hover:text-accent transition"></a>
+                        </span>
+                    </div>
+                    <div id="member-focus-tags" class="flex flex-wrap gap-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="w-full px-6 lg:px-12 xl:px-16 py-12 lg:py-16" id="content-main">
+        <div class="flex flex-col lg:flex-row gap-10 max-w-6xl">
+            <!-- Sidebar Navigation -->
+            <div class="lg:w-1/4 flex-shrink-0">
+                <div class="lg:sticky lg:top-28 space-y-1">
+                    <a href="#overview" class="sidebar-link active block px-4 py-3 text-sm text-gray-600 rounded" data-i18n="td_overview">Professional Overview</a>
+                    <a href="#practice-areas" class="sidebar-link block px-4 py-3 text-sm text-gray-600 rounded" data-i18n="td_practice">Core Practice Areas</a>
+                    <a href="#experience" class="sidebar-link block px-4 py-3 text-sm text-gray-600 rounded" data-i18n="td_experience">Professional Experience</a>
+                    <a href="#matters" class="sidebar-link block px-4 py-3 text-sm text-gray-600 rounded" data-i18n="td_matters">Representative Matters</a>
+                    <a href="#recognition" class="sidebar-link block px-4 py-3 text-sm text-gray-600 rounded" data-i18n="td_recognition">Recognition</a>
+                    <a href="#education" class="sidebar-link block px-4 py-3 text-sm text-gray-600 rounded" data-i18n="td_education">Education</a>
+                    <a href="#bar" class="sidebar-link block px-4 py-3 text-sm text-gray-600 rounded" data-i18n="td_bar">Bar Admissions</a>
+                    <a href="#languages" class="sidebar-link block px-4 py-3 text-sm text-gray-600 rounded" data-i18n="td_languages">Languages</a>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="lg:w-3/4">
+                <div id="overview" class="section-anchor mb-12">
+                    <h2 class="section-heading heading-card text-2xl text-primary" data-i18n="td_overview">Professional Overview</h2>
+                    <p class="text-gray-600 leading-relaxed body-text" id="bio-text"></p>
+                </div>
+
+                <div id="practice-areas" class="section-anchor mb-12">
+                    <h2 class="section-heading heading-card text-2xl text-primary" data-i18n="td_practice">Core Practice Areas</h2>
+                    <ul class="space-y-3 text-gray-600 body-text" id="practice-list"></ul>
+                </div>
+
+                <div id="experience" class="section-anchor mb-12">
+                    <h2 class="section-heading heading-card text-2xl text-primary" data-i18n="td_experience">Professional Experience</h2>
+                    <p class="text-gray-600 leading-relaxed body-text" id="experience-text"></p>
+                </div>
+
+                <div id="matters" class="section-anchor mb-12">
+                    <h2 class="section-heading heading-card text-2xl text-primary" data-i18n="td_matters">Representative Matters</h2>
+                    <ul class="space-y-3 text-gray-600 body-text" id="matters-list"></ul>
+                </div>
+
+                <div id="recognition" class="section-anchor mb-12">
+                    <h2 class="section-heading heading-card text-2xl text-primary" data-i18n="td_recognition">Recognition</h2>
+                    <ul class="space-y-3 text-gray-600 body-text" id="recognition-list"></ul>
+                </div>
+
+                <div id="education" class="section-anchor mb-12">
+                    <h2 class="section-heading heading-card text-2xl text-primary" data-i18n="td_education">Education</h2>
+                    <ul class="space-y-2 text-gray-600 body-text" id="education-list"></ul>
+                </div>
+
+                <div id="bar" class="section-anchor mb-12">
+                    <h2 class="section-heading heading-card text-2xl text-primary" data-i18n="td_bar">Bar Admissions</h2>
+                    <p class="text-gray-600 body-text" id="bar-text"></p>
+                </div>
+
+                <div id="languages" class="section-anchor mb-12">
+                    <h2 class="section-heading heading-card text-2xl text-primary" data-i18n="td_languages">Languages</h2>
+                    <p class="text-gray-600 body-text" id="languages-text"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="w-full px-6 lg:px-12 xl:px-16 py-16 bg-sky-light">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="heading-section text-3xl text-primary mb-4" data-i18n="td_cta_title">Need Assistance?</h2>
+            <p class="text-gray-600 mb-8 body-text" data-i18n="td_cta_desc">Our legal team can help you develop strategies for your specific situation.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="index.html#contact" class="inline-block bg-primary text-white px-8 py-4 hover:bg-primary-light transition duration-300 text-sm tracking-widest uppercase font-medium label-text" data-i18n="contact_us">Contact Us</a>
+                <a href="index.html#team" class="inline-block border-2 border-primary text-primary px-8 py-4 hover:bg-primary hover:text-white transition duration-300 text-sm tracking-widest uppercase font-medium label-text" data-i18n="td_back_team">Back to Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary-dark text-white py-16">
+        <div class="w-full px-6 lg:px-12 xl:px-16">
+            <div class="grid md:grid-cols-4 gap-12 mb-12">
+                <div class="md:col-span-2">
+                    <div class="flex items-center gap-3 mb-6">
+                        <svg width="40" height="40" viewBox="0 0 44 44" fill="none"><path d="M8 36L22 8L36 36H8Z" stroke="white" stroke-width="2" fill="none" opacity="0.9"/><path d="M16 26H28L22 16L16 26Z" fill="white" opacity="0.3"/></svg>
+                        <div>
+                            <h3 class="text-lg font-semibold" style="font-family: 'Cormorant Garamond', serif;">Cathay Praxis Law</h3>
+                            <p class="text-gray-400 text-sm mt-1 body-text" data-i18n="footer_tagline">Bridging Legal Systems with Practical Judgment</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed body-text max-w-sm">A U.S. law firm focusing on cross-border transactions, regulatory compliance, and dispute resolution.</p>
+                </div>
+                <div>
+                    <h4 class="text-sm font-semibold uppercase tracking-wider mb-4 label-text">Navigation</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm body-text">
+                        <li><a href="index.html#practice" class="hover:text-accent-light transition">Practice Areas</a></li>
+                        <li><a href="index.html#news" class="hover:text-accent-light transition">News</a></li>
+                        <li><a href="index.html#insights" class="hover:text-accent-light transition">Insights</a></li>
+                        <li><a href="index.html#team" class="hover:text-accent-light transition">Team</a></li>
+                        <li><a href="index.html#contact" class="hover:text-accent-light transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-semibold uppercase tracking-wider mb-4 label-text">Legal</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm body-text">
+                        <li><a href="#" class="hover:text-accent-light transition" data-i18n="footer_privacy" onclick="showPrivacyPolicy(); return false;">Privacy Policy</a></li>
+                        <li><span class="text-gray-500 text-xs" data-i18n="footer_disclaimer">Informational purposes only. No attorney-client relationship.</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-xs body-text">&copy; 2026 Cathay Praxis Law, P.C. All rights reserved.</p>
+                <p class="text-gray-600 text-xs body-text">A Professional Corporation</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal-overlay" id="privacy-modal">
+        <div class="modal-container max-w-4xl">
+            <div class="flex items-center justify-between p-6 border-b border-gray-200">
+                <h3 class="heading-section text-2xl text-primary" data-i18n="privacy_policy_title">Privacy Policy</h3>
+                <button class="modal-close" onclick="closePrivacyPolicy()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <div id="privacy-content" class="modal-body"></div>
+        </div>
+    </div>
+
+    <script>
+    // Team Member Data
+    const teamMembers = {
+        'david-zhou': {
+            name: { en: 'Zhengping (David) Zhou', zh: '周争平' },
+            role: { en: 'Founder & Managing Partner', zh: '创始人 / 管理合伙人' },
+            location: { en: 'Silicon Valley, CA', zh: '硅谷，加州' },
+            email: 'david@cathaypraxis.com',
+            image: 'images/david-zhou.png',
+            focusTags: {
+                en: ['Cross-Border Transactions', 'Export Controls', 'International Arbitration', 'Corporate Structuring', 'Regulatory Compliance'],
+                zh: ['跨境交易', '出口管制', '国际仲裁', '公司架构', '合规咨询']
+            },
+            bio: {
+                en: 'David Zhou is a dual-qualified attorney admitted in California and the People\'s Republic of China, with nearly two decades of experience in cross-border transactions, regulatory compliance, and international dispute resolution. He is the founder of Cathay Praxis Law. Drawing on extensive experience across both the Chinese and U.S. legal environments, David brings a practical, execution-oriented approach to legal strategy, helping clients navigate cross-border challenges with commercially grounded solutions.',
+                zh: '周争平律师为中国及美国加州双执业律师，拥有近二十年的跨境法律服务经验，专注于跨境交易、合规及国际争议解决。其为博衡律师事务所创始人。基于其在中美两种法律体系中的长期实践经验，周律师注重将法律分析转化为可执行的商业方案，为客户提供务实且可落地的解决路径。'
+            },
+            practiceAreas: {
+                en: ['Cross-Border Mergers & Acquisitions', 'Export Controls & Sanctions Compliance (U.S./EU)', 'International Arbitration & Dispute Resolution', 'Corporate Structuring & U.S. Market Entry', 'Cross-Border Regulatory & Compliance Advisory'],
+                zh: ['跨境投资与并购（M&A）', '出口管制与制裁合规（美国/欧盟）', '国际仲裁与跨境争议解决', '公司架构设计与美国市场准入', '跨境监管与合规咨询']
+            },
+            experience: {
+                en: 'Founder of Cathay Praxis Law, P.C., a California-based law firm focusing on cross-border legal services. David has extensive experience advising multinational companies and internationally active businesses on transactions, compliance structures, and dispute resolution across multiple jurisdictions. Prior to establishing his U.S. practice, David accumulated substantial experience advising major enterprises and financial institutions on complex domestic and cross-border matters, including large-scale transactions and regulatory compliance.',
+                zh: '现为美国加州 Cathay Praxis Law, P.C.（博衡）创始人，专注于跨境法律服务。周律师长期为跨国企业及国际业务主体提供交易、合规及争议解决方面的法律支持。在设立美国业务之前，周律师在中国市场长期从事法律实务工作，服务对象涵盖大型企业及金融机构，参与多项复杂交易及合规项目，积累了丰富经验。'
+            },
+            matters: {
+                en: ['Advised on large-scale cross-border transactions involving healthcare and industrial sectors', 'Designed export control and sanctions compliance frameworks for international operations', 'Acted in complex international arbitration proceedings involving cross-border investment disputes', 'Provided legal support for multinational corporate structuring and U.S. market entry'],
+                zh: ['参与多个医疗及工业领域的大型跨境交易项目', '为企业设计出口管制与制裁合规体系', '参与处理复杂跨境投资仲裁案件', '为企业美国市场准入及公司架构设计提供法律支持']
+            },
+            recognition: {
+                en: ['China Business Law Journal "A-List Legal Elite" (International Trade & Compliance) \u2014 2023 & 2025', 'Recognized in professional publications for cross-border transactions and dispute resolution', 'Frequent commentator on international trade policy, export controls, and compliance frameworks'],
+                zh: ['2023及2025年《商法》A-List法律精英（国际贸易与合规领域）', '在跨境交易与争议解决领域获得多项专业认可', '长期关注并研究国际贸易政策、出口管制与合规问题']
+            },
+            education: {
+                en: ['LL.M., University of California, Berkeley', 'Master of Law, Central South University (China)'],
+                zh: ['美国加州大学伯克利分校 法学硕士', '中南大学 法律硕士']
+            },
+            bar: { en: 'State Bar of California; PRC Bar', zh: '美国加州律师执业资格；中华人民共和国律师执业资格' },
+            languages: { en: 'English; Chinese (Mandarin & Cantonese)', zh: '英文；中文（普通话及粤语）' }
+        },
+        'jennifer-li': {
+            name: { en: 'Jennifer Li', zh: '李律师' },
+            role: { en: 'Partner', zh: '合伙人' },
+            location: { en: 'Silicon Valley, CA', zh: '硅谷，加州' },
+            email: 'info@cathaypraxis.com',
+            image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=533&fit=crop',
+            focusTags: { en: ['Export Controls', 'Economic Sanctions', 'Trade Compliance'], zh: ['出口管制', '经济制裁', '贸易合规'] },
+            bio: {
+                en: 'Jennifer Li specializes in U.S. export controls, economic sanctions, and trade compliance. She previously served as an attorney-advisor at the U.S. Department of Commerce, Bureau of Industry and Security.',
+                zh: '李律师专注于美国出口管制、经济制裁和贸易合规。她曾在美国商务部工业与安全局担任律师顾问。'
+            },
+            practiceAreas: {
+                en: ['U.S. Export Controls (EAR/ITAR)', 'Economic Sanctions (OFAC)', 'Trade Compliance Programs', 'Internal Investigations', 'Government Enforcement Defense'],
+                zh: ['美国出口管制（EAR/ITAR）', '经济制裁（OFAC）', '贸易合规项目', '内部调查', '政府执法辩护']
+            },
+            experience: {
+                en: 'Jennifer Li brings deep expertise in U.S. export controls and economic sanctions. Her experience spans both government service and private practice, providing clients with practical compliance solutions.',
+                zh: '李律师在美国出口管制和经济制裁领域拥有深厚专业知识。其经验涵盖政府服务与私人执业，为客户提供务实的合规解决方案。'
+            },
+            matters: {
+                en: ['Advised technology companies on export control compliance for global operations', 'Assisted clients in responding to BIS enforcement actions', 'Developed trade compliance frameworks for multinational corporations'],
+                zh: ['为科技企业提供全球运营出口管制合规咨询', '协助客户应对BIS执法行动', '为跨国公司开发贸易合规框架']
+            },
+            recognition: {
+                en: ['Washington DC Super Lawyers', 'WorldECR Export Controls Practitioner of the Year'],
+                zh: ['华盛顿特区超级律师', 'WorldECR年度出口管制执业律师']
+            },
+            education: {
+                en: ['J.D., Georgetown University Law Center', 'B.S., Tsinghua University'],
+                zh: ['乔治城大学法律中心法学博士', '清华大学理学学士']
+            },
+            bar: { en: 'New York; D.C.', zh: '纽约州；华盛顿特区' },
+            languages: { en: 'English; Chinese (Mandarin)', zh: '英文；中文（普通话）' }
+        },
+        'robert-chen': {
+            name: { en: 'Robert Chen', zh: '陈律师' },
+            role: { en: 'Of Counsel', zh: '资深顾问' },
+            location: { en: 'Silicon Valley, CA', zh: '硅谷，加州' },
+            email: 'info@cathaypraxis.com',
+            image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=533&fit=crop',
+            focusTags: { en: ['International Arbitration', 'Commercial Litigation', 'Dispute Resolution'], zh: ['国际仲裁', '商业诉讼', '争议解决'] },
+            bio: {
+                en: 'Robert Chen has extensive experience in international arbitration and complex commercial litigation. He has represented clients in ICC, LCIA, and other major arbitral institutions.',
+                zh: '陈律师在国际仲裁和复杂商业诉讼方面拥有丰富经验。他曾代表客户参与ICC、LCIA及其他主要仲裁机构的仲裁程序。'
+            },
+            practiceAreas: {
+                en: ['International Arbitration (ICC, LCIA, UNCITRAL)', 'Complex Commercial Litigation', 'Investment Treaty Arbitration', 'Cross-Border Dispute Resolution', 'Enforcement of Arbitral Awards'],
+                zh: ['国际仲裁（ICC、LCIA、UNCITRAL）', '复杂商业诉讼', '投资条约仲裁', '跨境争议解决', '仲裁裁决执行']
+            },
+            experience: {
+                en: 'Robert Chen specializes in resolving complex cross-border disputes through arbitration and litigation. His practice covers a wide range of industries and jurisdictions.',
+                zh: '陈律师专注于通过仲裁和诉讼解决复杂跨境争议。其执业涵盖多个行业和司法管辖区。'
+            },
+            matters: {
+                en: ['Represented clients in ICC arbitration involving cross-border investment disputes', 'Handled complex commercial litigation in U.S. federal courts', 'Advised on enforcement of international arbitral awards'],
+                zh: ['代表客户参与涉及跨境投资争议的ICC仲裁', '在美国联邦法院处理复杂商业诉讼', '就国际仲裁裁决执行提供咨询']
+            },
+            recognition: {
+                en: ["Who's Who Legal Arbitration Expert", 'GAR 30 Under 30 (Former)'],
+                zh: ["Who's Who Legal仲裁专家", 'GAR 30位30岁以下精英（往届）']
+            },
+            education: {
+                en: ['LL.M., London School of Economics', 'LL.B., University of Hong Kong'],
+                zh: ['伦敦政治经济学院法学硕士', '香港大学法学学士']
+            },
+            bar: { en: 'New York; Hong Kong (Solicitor)', zh: '纽约州；香港（事务律师）' },
+            languages: { en: 'English; Chinese (Cantonese & Mandarin)', zh: '英文；中文（粤语及普通话）' }
+        }
+    };
+
+    // Detail Page Translations
+    const detailTranslations = {
+        en: {
+            td_overview: 'Professional Overview',
+            td_practice: 'Core Practice Areas',
+            td_experience: 'Professional Experience',
+            td_matters: 'Representative Matters',
+            td_recognition: 'Recognition',
+            td_education: 'Education',
+            td_bar: 'Bar Admissions',
+            td_languages: 'Languages',
+            td_cta_title: 'Need Assistance?',
+            td_cta_desc: 'Our legal team can help you develop strategies for your specific situation.',
+            contact_us: 'Contact Us',
+            td_back_team: 'Back to Team',
+            nav_practice: 'Practice Areas',
+            nav_insights: 'Insights',
+            nav_team: 'Team',
+            nav_contact: 'Contact',
+            footer_tagline: 'Bridging Legal Systems with Practical Judgment',
+            footer_privacy: 'Privacy Policy',
+            footer_disclaimer: 'Informational purposes only. No attorney-client relationship.',
+            privacy_policy_title: 'Privacy Policy'
+        },
+        zh: {
+            td_overview: '专业概述',
+            td_practice: '核心业务领域',
+            td_experience: '执业经历',
+            td_matters: '代表性项目',
+            td_recognition: '荣誉与研究',
+            td_education: '教育背景',
+            td_bar: '执业资格',
+            td_languages: '工作语言',
+            td_cta_title: '需要帮助？',
+            td_cta_desc: '我们的法律团队可以帮助您针对具体情况制定策略。',
+            contact_us: '联系我们',
+            td_back_team: '返回团队',
+            nav_practice: '业务领域',
+            nav_insights: '评析',
+            nav_team: '专业团队',
+            nav_contact: '联系我们',
+            footer_tagline: '以务实判断连接不同法律体系',
+            footer_privacy: '隐私政策',
+            footer_disclaimer: '仅供参考，不构成法律意见。',
+            privacy_policy_title: '隐私政策'
+        }
+    };
+
+    // Render Member
+    function renderMember() {
+        const params = new URLSearchParams(window.location.search);
+        const slug = params.get('member') || 'david-zhou';
+        const member = teamMembers[slug];
+        
+        if (!member) {
+            document.getElementById('content-main').innerHTML = '<div class="text-center py-20"><h2 class="heading-section text-2xl text-primary mb-4">Member Not Found</h2><p class="text-gray-600 body-text">The team member you are looking for does not exist.</p></div>';
+            return;
+        }
+        
+        const lang = LanguageModule.getCurrent();
+        
+        // Hero
+        document.getElementById('member-photo').src = member.image;
+        document.getElementById('member-photo').alt = member.name[lang];
+        document.getElementById('member-name').textContent = member.name[lang];
+        document.getElementById('member-role').textContent = member.role[lang];
+        document.getElementById('member-location').textContent = member.location[lang];
+        document.getElementById('member-email').textContent = member.email;
+        document.getElementById('member-email').href = 'mailto:' + member.email;
+        
+        // Focus tags
+        const tagsContainer = document.getElementById('member-focus-tags');
+        const tags = member.focusTags[lang] || member.focusTags.en;
+        tagsContainer.innerHTML = tags.map(tag => `<span class="px-3 py-1 border border-white/30 text-white/90 text-sm body-text">${tag}</span>`).join('');
+        
+        // Bio
+        document.getElementById('bio-text').textContent = member.bio[lang];
+        
+        // Practice areas
+        const practiceList = member.practiceAreas[lang] || member.practiceAreas.en;
+        document.getElementById('practice-list').innerHTML = practiceList.map(item => `<li class="flex items-start gap-3"><span class="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></span><span>${item}</span></li>`).join('');
+        
+        // Experience
+        document.getElementById('experience-text').textContent = member.experience[lang];
+        
+        // Matters
+        const mattersList = member.matters[lang] || member.matters.en;
+        document.getElementById('matters-list').innerHTML = mattersList.map(item => `<li class="flex items-start gap-3"><span class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span><span>${item}</span></li>`).join('');
+        
+        // Recognition
+        const recognitionList = member.recognition[lang] || member.recognition.en;
+        document.getElementById('recognition-list').innerHTML = recognitionList.map(item => `<li class="flex items-start gap-3"><span class="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></span><span>${item}</span></li>`).join('');
+        
+        // Education
+        const eduList = member.education[lang] || member.education.en;
+        document.getElementById('education-list').innerHTML = eduList.map(item => `<li class="flex items-start gap-3"><span class="text-accent font-semibold">\u2022</span><span>${item}</span></li>`).join('');
+        
+        // Bar
+        document.getElementById('bar-text').textContent = member.bar[lang];
+        
+        // Languages
+        document.getElementById('languages-text').textContent = member.languages[lang];
+    }
+
+    // Active sidebar link on scroll
+    function updateActiveLink() {
+        const sections = document.querySelectorAll('.section-anchor');
+        const links = document.querySelectorAll('.sidebar-link');
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < 150) current = section.id;
+        });
+        links.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+        });
+    }
+    window.addEventListener('scroll', updateActiveLink);
+
+    // Privacy Policy (reuse from index)
+    function showPrivacyPolicy() {
+        const lang = LanguageModule.getCurrent();
+        const pp = window.opener && window.opener.privacyPolicyContent ? window.opener.privacyPolicyContent[lang] : '<p class="p-6 text-gray-600">Please return to the homepage to view the full Privacy Policy.</p>';
+        document.getElementById('privacy-content').innerHTML = pp;
+        document.getElementById('privacy-modal').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    function closePrivacyPolicy() {
+        document.getElementById('privacy-modal').classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', () => {
+        if (typeof LanguageModule !== 'undefined' && LanguageModule.addTranslations) {
+            LanguageModule.addTranslations(detailTranslations);
+        }
+        try {
+            renderMember();
+        } catch (e) {
+            console.error('Render member error:', e);
+        }
+    });
+    document.addEventListener('languageChanged', renderMember);
+    </script>
+</body>
+</html>
