@@ -1,0 +1,8 @@
+{
+  "name": "cathaypraxis-website",
+  "version": "1.0.0",
+  "description": "Cathay Praxis Law - Cross-border legal services",
+  "dependencies": {
+    "resend": "^3.2.0"
+  }
+}
