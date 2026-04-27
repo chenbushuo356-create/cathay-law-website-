@@ -864,8 +864,7 @@ const categoryDefinitions = {
         ip: { en: 'Intellectual Property', zh: '知识产权' },
         compliance: { en: 'Compliance', zh: '合规监管' },
         litigation: { en: 'Litigation', zh: '诉讼仲裁' },
-        transaction: { en: 'Transaction', zh: '跨境交易' },
-        immigration: { en: 'Immigration', zh: '移民服务' }
+        transaction: { en: 'Transaction', zh: '跨境交易' }
     }
 };
 
