@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Cathay Praxis Law - Shared JavaScript
  * 统一功能模块 - 确保所有页面一致性
  */
@@ -24,7 +24,8 @@ const LanguageModule = (function() {
             
             // Hero Section
             'hero_title_1': 'Where Cross-Border Strategy',
-            'hero_title_2': 'Meets U.S. Execution',
+            'hero_title_2_prefix': 'Meets U.S.',
+            'hero_title_2_suffix': 'Execution',
             'hero_subtitle': 'We provide strategic counsel for complex U.S. matters, including transactions, compliance, and dispute resolution.',
             'hero_desc': 'Cathay Praxis Law P.C. is a U.S.-based law firm focused on helping businesses operate confidently across borders.',
             'contact_us': 'Contact Us',
@@ -183,7 +184,8 @@ const LanguageModule = (function() {
             
             // Hero Section
             'hero_title_1': '跨境有道',
-            'hero_title_2': '判断有衡',
+            'hero_title_2_prefix': '',
+            'hero_title_2_suffix': '判断有衡',
             'hero_subtitle': '我们专注于复杂的美国法律事务，为跨境交易、监管合规及争议解决提供战略性法律咨询。',
             'hero_desc': '博衡律师事务所是一家美国律师事务所，致力于协助企业在跨境经营中稳健发展。',
             'contact_us': '联系我们',
@@ -220,10 +222,10 @@ const LanguageModule = (function() {
             'clients': '客户',
             'clients_desc': '我们为面临复杂美国法律与监管挑战的企业、投资者及机构提供法律服务。',
             'clients_include': '我们的客户包括：',
-            'client_1': '已进入或正在拓展美国市场的国际公司',
-            'client_2': '成长型企业及拥有跨境业务的跨国企业',
+            'client_1': '进入或拓展美国市场的国际企业',
+            'client_2': '拥有跨境业务的成长型及跨国企业',
             'client_3': '从事美国相关交易的私募股权及投资基金',
-            'client_4': '从事国际业务、面临跨境争议的美国企业',
+            'client_4': '从事国际业务并面临跨境争议的美国企业',
             
             // Industries Section
             'sectors_label': '重点行业',
