@@ -7,7 +7,12 @@
 // Language Module
 // ============================================
 const LanguageModule = (function() {
-    let currentLang = localStorage.getItem('cathay-lang') || 'en';
+    let currentLang;
+    try {
+        currentLang = localStorage.getItem('cathay-lang') || 'en';
+    } catch (e) {
+        currentLang = 'en';
+    }
     
     const translations = {
         en: {
@@ -351,7 +356,7 @@ const LanguageModule = (function() {
     function set(lang) {
         if (translations[lang]) {
             currentLang = lang;
-            localStorage.setItem('cathay-lang', currentLang);
+            try { localStorage.setItem('cathay-lang', currentLang); } catch (e) {}
             updatePage();
         }
     }
