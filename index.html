@@ -397,7 +397,7 @@
                     <h3 class="heading-card text-xl text-primary mb-3" data-i18n="practice_3_title">Dispute Resolution &amp; Cross-Border Enforcement</h3>
                     <p class="text-gray-600 text-sm leading-relaxed body-text" data-i18n="practice_3_desc">Representing clients in complex commercial disputes across jurisdictions, including U.S. litigation, international arbitration, and cross-border enforcement. We focus on high-stakes disputes arising from transactions, shareholder conflicts, and international business operations.</p>
                 </div>
-                <div class="bg-white p-8 hover-lift practice-card card-shadow group cursor-pointer lg:col-start-2">
+                <div class="bg-white p-8 hover-lift practice-card card-shadow group cursor-pointer">
                     <div class="w-14 h-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition">
                         <svg class="w-7 h-7 text-primary group-hover:text-white transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
@@ -918,6 +918,7 @@
             {
                 id: 'lawyer6',
                 slug: 'hua-zhongyi',
+                noDetail: true,
                 name: { en: 'Zhongyi Hua', zh: '化中毅' },
                 role: { en: 'Of Counsel', zh: '顾问律师' },
                 focus: { en: 'Cross-Border Disputes / U.S. Investment & Immigration / Corporate Law', zh: '跨境争议解决 / 美国投资与移民 / 公司法' },
@@ -941,7 +942,7 @@
             {
                 id: 'lawyer4',
                 slug: 'mingbo-ye',
-                name: { en: 'Mingbo Ye', zh: '叶明波' },
+                name: { en: 'Mingbo Ye', zh: '叶明博' },
                 role: { en: 'Of Counsel', zh: '顾问律师' },
                 focus: { en: 'IP Litigation / Trademark Prosecution / Schedule A Cases', zh: '知识产权诉讼 / 商标申请 / Schedule A 案件' },
                 location: { en: 'Houston, Texas', zh: '美国得克萨斯州休斯敦' },
@@ -949,7 +950,7 @@
                 image: 'images/mingbo-ye.png',
                 bio: {
                     en: 'Mingbo Ye is a licensed attorney in Texas and California whose practice centers on intellectual property litigation and trademark prosecution. She brings a distinctive dual perspective, having served as a CNIPA Patent Examiner for seven years before entering U.S. practice, followed by three years at Kilpatrick Townsend & Stockton LLP.',
-                    zh: '叶明波律师拥有美国德州与加州双重执业资格，专注于知识产权诉讼与商标申请业务。她兼具专利审查与诉讼代理的双重背景：曾在中国国家知识产权局担任专利审查员七年，后在美国顶尖知识产权律所 Kilpatrick Townsend & Stockton LLP 执业三年。'
+                    zh: '叶明博律师拥有美国德州与加州双重执业资格，专注于知识产权诉讼与商标申请业务。她兼具专利审查与诉讼代理的双重背景：曾在中国国家知识产权局担任专利审查员七年，后在美国顶尖知识产权律所 Kilpatrick Townsend & Stockton LLP 执业三年。'
                 },
                 education: {
                     en: ['UCLA School of Law', 'Peking University', 'East China University of Political Science and Law'],
@@ -992,16 +993,29 @@
             
             let html = '';
             teamData.forEach(member => {
-                html += `
-                    <a href="team-detail.html?member=${member.slug || member.id}" class="group text-center block">
-                        <div class="relative mb-6 overflow-hidden bg-gray-100 aspect-[3/4]">
-                            <img src="${member.image}" alt="${member.name[lang]}" class="w-full h-full object-cover">
+                if (member.noDetail) {
+                    html += `
+                        <div class="group text-center block cursor-default">
+                            <div class="relative mb-6 overflow-hidden bg-gray-100 aspect-[3/4]">
+                                <img src="${member.image}" alt="${member.name[lang]}" class="w-full h-full object-cover">
+                            </div>
+                            <h3 class="heading-card text-xl text-primary">${member.name[lang]}</h3>
+                            <p class="text-accent text-sm mb-1 label-text">${member.role[lang]}</p>
+                            <p class="text-gray-500 text-sm body-text">${member.focus[lang]}</p>
                         </div>
-                        <h3 class="heading-card text-xl text-primary">${member.name[lang]}</h3>
-                        <p class="text-accent text-sm mb-1 label-text">${member.role[lang]}</p>
-                        <p class="text-gray-500 text-sm body-text">${member.focus[lang]}</p>
-                    </a>
-                `;
+                    `;
+                } else {
+                    html += `
+                        <a href="team-detail.html?member=${member.slug || member.id}" class="group text-center block">
+                            <div class="relative mb-6 overflow-hidden bg-gray-100 aspect-[3/4]">
+                                <img src="${member.image}" alt="${member.name[lang]}" class="w-full h-full object-cover">
+                            </div>
+                            <h3 class="heading-card text-xl text-primary">${member.name[lang]}</h3>
+                            <p class="text-accent text-sm mb-1 label-text">${member.role[lang]}</p>
+                            <p class="text-gray-500 text-sm body-text">${member.focus[lang]}</p>
+                        </a>
+                    `;
+                }
             });
             
             container.innerHTML = html;
