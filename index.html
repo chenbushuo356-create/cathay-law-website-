@@ -18,13 +18,20 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: { DEFAULT: '#1e3a5f', light: '#2d5a87', dark: '#0f1f33' },
-                        accent: { DEFAULT: '#5b8db8', light: '#7ba3c7', dark: '#4a7ba8' },
+                        primary: { DEFAULT: '#0F172A', light: '#1e3a5f', dark: '#020617' },
+                        accent: { DEFAULT: '#2563EB', light: '#3B82F6', dark: '#1D4ED8' },
                         sky: { DEFAULT: '#e8f4fc', light: '#f0f8ff', dark: '#d6e9f5' }
                     },
-                    fontFamily: { 
+                    fontFamily: {
                         serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
-                        sans: ['"Inter"', 'system-ui', 'sans-serif'] 
+                        sans: ['"Inter"', 'system-ui', '-apple-system', '"PingFang SC"', '"Microsoft YaHei"', 'sans-serif']
+                    },
+                    borderRadius: {
+                        'ios-sm': '8px',
+                        'ios-md': '10px',
+                        'ios-lg': '14px',
+                        'ios-xl': '20px',
+                        'ios-2xl': '24px'
                     }
                 }
             }
@@ -49,10 +56,11 @@
             z-index: 10;
         }
 
-        /* Transparent navbar over hero canvas (homepage only) */
+        /* Dark navbar over hero canvas (homepage only) */
         body.home-page .navbar:not(.navbar-scrolled) {
-            background-color: transparent;
+            background: rgb(15, 23, 42);
             backdrop-filter: none;
+            -webkit-backdrop-filter: none;
             border-bottom: 1px solid rgba(255, 255, 255, 0.08);
             box-shadow: none;
         }
@@ -77,6 +85,23 @@
         body.home-page .navbar:not(.navbar-scrolled) img[alt="Cathay Praxis Law"] {
             filter: brightness(0) invert(1);
         }
+        /* Scroll Reveal Animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+                        transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .reveal.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .reveal-group .reveal:nth-child(1) { transition-delay: 0ms; }
+        .reveal-group .reveal:nth-child(2) { transition-delay: 80ms; }
+        .reveal-group .reveal:nth-child(3) { transition-delay: 160ms; }
+        .reveal-group .reveal:nth-child(4) { transition-delay: 240ms; }
+        .reveal-group .reveal:nth-child(5) { transition-delay: 320ms; }
+        .reveal-group .reveal:nth-child(6) { transition-delay: 400ms; }
         body.home-page .navbar:not(.navbar-scrolled) .mobile-menu-btn span {
             background-color: #ffffff;
         }
@@ -146,13 +171,21 @@
             border-color: rgba(91, 141, 184, 0.5);
         }
         
-        /* Practice Card */
+        /* Practice Card (Glassmorphism) */
         .practice-card {
-            border-top: 3px solid transparent;
-            transition: all 0.3s ease;
+            background: var(--glass-bg-card);
+            backdrop-filter: blur(16px) saturate(1.1);
+            -webkit-backdrop-filter: blur(16px) saturate(1.1);
+            border: 1px solid var(--glass-border);
+            border-top-color: var(--glass-border-highlight);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--glass-shadow);
+            transition: all var(--transition-base);
         }
         .practice-card:hover {
-            border-top-color: #5b8db8;
+            box-shadow: var(--glass-shadow-hover);
+            transform: translateY(-4px);
+            border-color: var(--glass-border-highlight);
         }
         
         /* Card Shadow */
@@ -163,12 +196,13 @@
             box-shadow: 0 8px 30px rgba(30, 58, 95, 0.15);
         }
         
-        /* Team Modal */
+        /* Modal Overlay */
         .modal-overlay {
             position: fixed;
             inset: 0;
-            background: rgba(0, 0, 0, 0.5);
+            background: rgba(15, 23, 42, 0.25);
             backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
             z-index: 100;
             display: none;
             align-items: center;
@@ -239,7 +273,7 @@
         }
     </style>
 </head>
-<body class="bg-white text-gray-800 antialiased home-page">
+<body class="text-gray-800 antialiased home-page">
     <!-- Top Contact Bar -->
     <div class="top-contact-bar">
         <div class="container">
@@ -274,10 +308,10 @@
     <!-- Navigation -->
     <nav id="navbar" class="navbar">
         <div class="container">
-            <div class="flex justify-between items-center h-20">
+            <div class="flex justify-between items-center h-32">
                 <div class="flex-shrink-0 flex items-center">
                     <a href="index.html" class="inline-flex items-center">
-                        <img src="images/logo.png" alt="Cathay Praxis Law" class="h-16 w-auto">
+                        <img src="images/logo.png" alt="Cathay Praxis Law" class="h-32 w-auto" style="height:128px">
                     </a>
                 </div>
                 <div class="nav-links-desktop hidden md:flex items-center space-x-8" id="nav-links">
@@ -328,13 +362,13 @@
                 Cathay Praxis Law P.C. is a U.S.-based law firm focused on helping businesses operate confidently across borders.
             </p>
             <div class="flex flex-col sm:flex-row gap-4">
-                <a href="#contact" class="btn btn-primary">
+                <a href="#contact" class="btn btn-glass-light">
                     <span data-i18n="contact_us">Contact Us</span>
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>
                 </a>
-                <a href="#practice" class="btn btn-outline">
+                <a href="#practice" class="btn btn-glass-light">
                     <span data-i18n="our_services">Our Services</span>
                 </a>
             </div>
@@ -357,9 +391,9 @@
     </section>
 
     <!-- About Us Section -->
-    <section id="about" class="section bg-white">
+    <section id="about" class="section">
         <div class="container">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="grid lg:grid-cols-2 gap-16 items-center reveal">
                 <div>
                     <p class="section-label" data-i18n="nav_about">About Us</p>
                     <h2 class="heading-section text-4xl md:text-5xl text-primary mb-6" data-i18n="about_title">
@@ -385,9 +419,9 @@
                 </div>
                 <div class="relative">
                     <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop" alt="Office" class="w-full h-[500px] object-cover shadow-lg">
-                    <div class="absolute -bottom-6 -left-6 bg-primary text-white p-8 shadow-xl">
-                        <p class="font-serif text-3xl italic">"</p>
-                        <p class="text-sm leading-relaxed mt-2 body-text" data-i18n="about_quote">
+                    <div class="absolute -bottom-6 -left-6 glass-interactive text-primary p-8 shadow-xl">
+                        <p class="font-serif text-3xl italic text-accent">"</p>
+                        <p class="text-sm leading-relaxed mt-2 body-text text-secondary" data-i18n="about_quote">
                             Bridging Legal Systems with Practical Judgment.
                         </p>
                     </div>
@@ -397,15 +431,15 @@
     </section>
 
     <!-- Practice Areas -->
-    <section id="practice" class="section bg-sky-gradient">
+    <section id="practice" class="section">
         <div class="container">
-            <div class="text-center mb-16">
+            <div class="text-center mb-16 reveal">
                 <p class="section-label" data-i18n="services">Services</p>
                 <h2 class="heading-section text-4xl md:text-5xl text-primary mb-4" data-i18n="practice_areas">Practice Areas</h2>
                 <div class="w-20 h-0.5 bg-accent mx-auto"></div>
             </div>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white p-8 hover-lift practice-card card-shadow group cursor-pointer">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 reveal-group">
+                <div class="glass-card p-8 hover-lift practice-card group cursor-pointer reveal reveal">
                     <div class="w-14 h-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition">
                         <svg class="w-7 h-7 text-primary group-hover:text-white transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
@@ -414,7 +448,7 @@
                     <h3 class="heading-card text-xl text-primary mb-3" data-i18n="practice_1_title">Cross-Border Transactions &amp; U.S. Market Entry</h3>
                     <p class="text-gray-600 text-sm leading-relaxed body-text" data-i18n="practice_1_desc">Advising international companies on strategic investments, acquisitions, and market entry into the United States. We provide end-to-end support across the transaction lifecycle, including structuring, due diligence, negotiation, and post-closing integration, with a focus on managing cross-border legal and regulatory risks.</p>
                 </div>
-                <div class="bg-white p-8 hover-lift practice-card card-shadow group cursor-pointer">
+                <div class="glass-card p-8 hover-lift practice-card group cursor-pointer reveal">
                     <div class="w-14 h-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition">
                         <svg class="w-7 h-7 text-primary group-hover:text-white transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
@@ -423,7 +457,7 @@
                     <h3 class="heading-card text-xl text-primary mb-3" data-i18n="practice_2_title">Regulatory, Compliance &amp; Risk Management</h3>
                     <p class="text-gray-600 text-sm leading-relaxed body-text" data-i18n="practice_2_desc">Counseling clients on U.S. regulatory frameworks and global compliance obligations, including export controls, economic sanctions, and supply chain risk. We help companies design and implement compliance systems that align with U.S. enforcement standards and evolving international regulations.</p>
                 </div>
-                <div class="bg-white p-8 hover-lift practice-card card-shadow group cursor-pointer">
+                <div class="glass-card p-8 hover-lift practice-card group cursor-pointer reveal">
                     <div class="w-14 h-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition">
                         <svg class="w-7 h-7 text-primary group-hover:text-white transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
@@ -432,7 +466,7 @@
                     <h3 class="heading-card text-xl text-primary mb-3" data-i18n="practice_3_title">Dispute Resolution &amp; Cross-Border Enforcement</h3>
                     <p class="text-gray-600 text-sm leading-relaxed body-text" data-i18n="practice_3_desc">Representing clients in complex commercial disputes across jurisdictions, including U.S. litigation, international arbitration, and cross-border enforcement. We focus on high-stakes disputes arising from transactions, shareholder conflicts, and international business operations.</p>
                 </div>
-                <div class="bg-white p-8 hover-lift practice-card card-shadow group cursor-pointer">
+                <div class="glass-card p-8 hover-lift practice-card group cursor-pointer reveal">
                     <div class="w-14 h-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition">
                         <svg class="w-7 h-7 text-primary group-hover:text-white transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
@@ -441,7 +475,7 @@
                     <h3 class="heading-card text-xl text-primary mb-3" data-i18n="practice_4_title">U.S. Local Counsel &amp; Cross-Border Coordination</h3>
                     <p class="text-gray-600 text-sm leading-relaxed body-text" data-i18n="practice_4_desc">Acting as U.S. counsel or coordinating with local counsel in multi-jurisdictional matters involving foreign clients. We bridge legal, cultural, and procedural gaps to ensure effective representation in U.S. legal proceedings and transactions.</p>
                 </div>
-                <div class="bg-white p-8 hover-lift practice-card card-shadow group cursor-pointer">
+                <div class="glass-card p-8 hover-lift practice-card group cursor-pointer reveal">
                     <div class="w-14 h-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition">
                         <svg class="w-7 h-7 text-primary group-hover:text-white transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
@@ -455,68 +489,71 @@
     </section>
 
     <!-- Clients & Industries -->
-    <section id="clients" class="section bg-white">
+    <section id="clients" class="section">
         <div class="container">
-            <div class="grid lg:grid-cols-2 gap-16">
-                <!-- Left: Clients -->
-                <div>
+            <div class="grid lg:grid-cols-2 gap-x-16 gap-y-4 reveal">
+                <!-- Headers -->
+                <div class="mb-6">
                     <p class="section-label" data-i18n="who_we_serve">WHO WE SERVE</p>
                     <h2 class="heading-section text-4xl text-primary mb-4" data-i18n="clients">Clients</h2>
-                    <p class="text-gray-600 body-text mb-6" data-i18n="clients_desc">We advise companies, investors, and institutions navigating complex legal and regulatory challenges in the United States.</p>
-                    <p class="text-gray-500 text-sm label-text uppercase tracking-wider mb-3" data-i18n="clients_include">Our clients include:</p>
-                    <div class="space-y-4">
-                        <div class="flex items-center gap-4 p-4 bg-sky-light rounded-lg">
-                            <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
-                            <span class="text-gray-700 body-text" data-i18n="client_1">International companies entering or expanding in the U.S. market</span>
-                        </div>
-                        <div class="flex items-center gap-4 p-4 bg-sky-light rounded-lg">
-                            <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
-                            <span class="text-gray-700 body-text" data-i18n="client_2">Growth-stage and multinational enterprises with cross-border operations</span>
-                        </div>
-                        <div class="flex items-center gap-4 p-4 bg-sky-light rounded-lg">
-                            <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
-                            <span class="text-gray-700 body-text" data-i18n="client_3">Private equity and investment funds executing U.S.-related transactions</span>
-                        </div>
-                        <div class="flex items-center gap-4 p-4 bg-sky-light rounded-lg">
-                            <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
-                            <span class="text-gray-700 body-text" data-i18n="client_4">U.S. companies engaged in international business and cross-border disputes</span>
-                        </div>
-                    </div>
+                    <p class="text-gray-600 body-text mb-4" data-i18n="clients_desc">We advise companies, investors, and institutions navigating complex legal and regulatory challenges in the United States.</p>
+                    <p class="text-gray-500 text-sm label-text uppercase tracking-wider" data-i18n="clients_include">Our clients include:</p>
                 </div>
-                <!-- Right: Industries -->
-                <div>
+                <div class="mb-6">
                     <p class="section-label" data-i18n="sectors_label">FOCUS AREAS</p>
                     <h2 class="heading-section text-4xl text-primary mb-4" data-i18n="industries_title">Industries</h2>
-                    <p class="text-gray-600 body-text mb-6" data-i18n="industries_desc">We focus on industries where cross-border regulatory, transactional, and dispute risks are most significant:</p>
-                    <div class="space-y-4">
-                        <div class="flex items-start gap-4 p-4 bg-sky-light rounded-lg">
-                            <div class="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                            <div>
-                                <span class="text-gray-800 body-text font-medium" data-i18n="industry_1_title">Technology &amp; Innovation</span><br>
-                                <span class="text-gray-500 body-text text-sm" data-i18n="industry_1_desc">(AI, software, semiconductors, cross-border data)</span>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4 p-4 bg-sky-light rounded-lg">
-                            <div class="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                            <div>
-                                <span class="text-gray-800 body-text font-medium" data-i18n="industry_2_title">Advanced Manufacturing &amp; Industrial</span><br>
-                                <span class="text-gray-500 body-text text-sm" data-i18n="industry_2_desc">(equipment, automotive, supply chain)</span>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4 p-4 bg-sky-light rounded-lg">
-                            <div class="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                            <div>
-                                <span class="text-gray-800 body-text font-medium" data-i18n="industry_3_title">Energy &amp; Infrastructure</span><br>
-                                <span class="text-gray-500 body-text text-sm" data-i18n="industry_3_desc">(renewables, EPC projects, global investments)</span>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4 p-4 bg-sky-light rounded-lg">
-                            <div class="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                            <div>
-                                <span class="text-gray-800 body-text font-medium" data-i18n="industry_4_title">International Trade &amp; Supply Chain</span><br>
-                                <span class="text-gray-500 body-text text-sm" data-i18n="industry_4_desc">(export controls, sanctions, trade remedies)</span>
-                            </div>
-                        </div>
+                    <p class="text-gray-600 body-text" data-i18n="industries_desc">We focus on industries where cross-border regulatory, transactional, and dispute risks are most significant:</p>
+                </div>
+
+                <!-- Row 1 -->
+                <div class="flex items-center gap-4 p-4 glass-card rounded-lg">
+                    <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                    <span class="text-gray-700 body-text" data-i18n="client_1">International companies entering or expanding in the U.S. market</span>
+                </div>
+                <div class="flex items-center gap-4 p-4 glass-card rounded-lg">
+                    <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                    <div>
+                        <span class="text-gray-800 body-text font-medium" data-i18n="industry_1_title">Technology &amp; Innovation</span><br>
+                        <span class="text-gray-500 body-text text-sm" data-i18n="industry_1_desc">(AI, software, semiconductors, cross-border data)</span>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="flex items-center gap-4 p-4 glass-card rounded-lg">
+                    <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                    <span class="text-gray-700 body-text" data-i18n="client_2">Growth-stage and multinational enterprises with cross-border operations</span>
+                </div>
+                <div class="flex items-center gap-4 p-4 glass-card rounded-lg">
+                    <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                    <div>
+                        <span class="text-gray-800 body-text font-medium" data-i18n="industry_2_title">Advanced Manufacturing &amp; Industrial</span><br>
+                        <span class="text-gray-500 body-text text-sm" data-i18n="industry_2_desc">(equipment, automotive, supply chain)</span>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="flex items-center gap-4 p-4 glass-card rounded-lg">
+                    <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                    <span class="text-gray-700 body-text" data-i18n="client_3">Private equity and investment funds executing U.S.-related transactions</span>
+                </div>
+                <div class="flex items-center gap-4 p-4 glass-card rounded-lg">
+                    <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                    <div>
+                        <span class="text-gray-800 body-text font-medium" data-i18n="industry_3_title">Energy &amp; Infrastructure</span><br>
+                        <span class="text-gray-500 body-text text-sm" data-i18n="industry_3_desc">(renewables, EPC projects, global investments)</span>
+                    </div>
+                </div>
+
+                <!-- Row 4 -->
+                <div class="flex items-center gap-4 p-4 glass-card rounded-lg">
+                    <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                    <span class="text-gray-700 body-text" data-i18n="client_4">U.S. companies engaged in international business and cross-border disputes</span>
+                </div>
+                <div class="flex items-center gap-4 p-4 glass-card rounded-lg">
+                    <div class="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                    <div>
+                        <span class="text-gray-800 body-text font-medium" data-i18n="industry_4_title">International Trade &amp; Supply Chain</span><br>
+                        <span class="text-gray-500 body-text text-sm" data-i18n="industry_4_desc">(export controls, sanctions, trade remedies)</span>
                     </div>
                 </div>
             </div>
@@ -524,35 +561,35 @@
     </section>
 
     <!-- News Section (Cards on Homepage) -->
-    <section id="news" class="section bg-sky-gradient">
+    <section id="news" class="section">
         <div class="container">
-            <div class="text-center mb-12">
+            <div class="text-center mb-12 reveal">
                 <p class="section-label" data-i18n="updates">Updates</p>
                 <h2 class="heading-section text-4xl md:text-5xl text-primary" data-i18n="nav_news">News</h2>
             </div>
-            <div class="grid lg:grid-cols-2 gap-8" id="news-preview-container">
+            <div class="grid lg:grid-cols-2 gap-8 reveal" id="news-preview-container">
                 <!-- News content will be loaded dynamically -->
             </div>
         </div>
     </section>
 
     <!-- Insights Section (Cards on Homepage) -->
-    <section id="insights" class="section bg-white">
+    <section id="insights" class="section">
         <div class="container">
-            <div class="text-center mb-12">
+            <div class="text-center mb-12 reveal">
                 <p class="section-label" data-i18n="latest">Latest</p>
                 <h2 class="heading-section text-5xl text-primary italic" data-i18n="nav_insights">Insights</h2>
             </div>
-            <div class="grid md:grid-cols-3 gap-6" id="insights-preview-container">
+            <div class="grid md:grid-cols-3 gap-6 reveal" id="insights-preview-container">
                 <!-- Insights content will be loaded dynamically -->
             </div>
         </div>
     </section>
 
     <!-- Team Section with Modal -->
-    <section id="team" class="section bg-sky-gradient">
+    <section id="team" class="section">
         <div class="container">
-            <div class="text-center mb-16">
+            <div class="text-center mb-16 reveal">
                 <p class="section-label" data-i18n="our_people">Our People</p>
                 <h2 class="heading-section text-4xl text-primary mb-4" data-i18n="nav_team">Team</h2>
                 <div class="w-20 h-0.5 bg-accent mx-auto"></div>
@@ -560,7 +597,7 @@
                     Team members have experience across international law firms and institutional environments
                 </p>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8" id="team-container">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 reveal" id="team-container">
                 <!-- Team members will be loaded dynamically -->
             </div>
         </div>
@@ -569,9 +606,9 @@
 
 
     <!-- Contact -->
-    <section id="contact" class="section bg-white">
+    <section id="contact" class="section">
         <div class="container">
-            <div class="grid lg:grid-cols-2 gap-16">
+            <div class="grid lg:grid-cols-2 gap-16 reveal">
                 <div>
                     <p class="section-label" data-i18n="get_in_touch">Get in Touch</p>
                     <h2 class="heading-section text-4xl text-primary mb-6" data-i18n="nav_contact">Contact</h2>
@@ -615,32 +652,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-sky-gradient p-8 md:p-10 shadow-sm border border-gray-100">
+                <div class="glass-interactive p-8 md:p-10">
                     <h3 class="heading-card text-xl mb-6 text-primary" data-i18n="form_schedule">Schedule a Consultation</h3>
                     <form class="space-y-5" id="contact-form" onsubmit="handleFormSubmit(event)">
                         <div class="grid md:grid-cols-2 gap-5">
                             <div>
                                 <label class="block text-sm font-medium text-gray-700 mb-2 body-text" data-i18n="form_name">Name</label>
-                                <input type="text" name="name" id="form-name" class="w-full px-4 py-3 border border-gray-200 focus:border-accent focus:outline-none transition body-text" required>
+                                <input type="text" name="name" id="form-name" class="w-full px-4 py-3 glass-input body-text" required>
                             </div>
                             <div>
                                 <label class="block text-sm font-medium text-gray-700 mb-2 body-text" data-i18n="form_email">Email</label>
-                                <input type="email" name="email" id="form-email" class="w-full px-4 py-3 border border-gray-200 focus:border-accent focus:outline-none transition body-text" required>
+                                <input type="email" name="email" id="form-email" class="w-full px-4 py-3 glass-input body-text" required>
                             </div>
                         </div>
                         <div class="grid md:grid-cols-2 gap-5">
                             <div>
                                 <label class="block text-sm font-medium text-gray-700 mb-2 body-text" data-i18n="form_phone">Phone</label>
-                                <input type="tel" name="phone" id="form-phone" class="w-full px-4 py-3 border border-gray-200 focus:border-accent focus:outline-none transition body-text">
+                                <input type="tel" name="phone" id="form-phone" class="w-full px-4 py-3 glass-input body-text">
                             </div>
                             <div>
                                 <label class="block text-sm font-medium text-gray-700 mb-2 body-text" data-i18n="form_company">Company</label>
-                                <input type="text" name="company" id="form-company" class="w-full px-4 py-3 border border-gray-200 focus:border-accent focus:outline-none transition body-text">
+                                <input type="text" name="company" id="form-company" class="w-full px-4 py-3 glass-input body-text">
                             </div>
                         </div>
                         <div>
                             <label class="block text-sm font-medium text-gray-700 mb-2 body-text" data-i18n="form_service_type">Service Type</label>
-                            <select name="service" id="form-service" class="w-full px-4 py-3 border border-gray-200 focus:border-accent focus:outline-none transition body-text bg-white">
+                            <select name="service" id="form-service" class="w-full px-4 py-3 glass-input transition body-text">
                                 <option value="" data-i18n="form_service_placeholder">Select Service Type</option>
                                 <option value="cross-border" data-i18n="form_service_cross_border">Cross-Border Transactions</option>
                                 <option value="regulatory" data-i18n="form_service_regulatory">Regulatory & Compliance</option>
@@ -651,7 +688,7 @@
                         </div>
                         <div>
                             <label class="block text-sm font-medium text-gray-700 mb-2 body-text" data-i18n="form_inquiry">Inquiry</label>
-                            <textarea name="message" id="form-inquiry" rows="4" class="w-full px-4 py-3 border border-gray-200 focus:border-accent focus:outline-none transition body-text" required></textarea>
+                            <textarea name="message" id="form-inquiry" rows="4" class="w-full px-4 py-3 glass-input body-text" required></textarea>
                         </div>
                         <div class="privacy-checkbox">
                             <input type="checkbox" id="privacy-consent" required>
@@ -661,7 +698,7 @@
                                 <span data-i18n="privacy_consent_suffix">. I understand that submitting this form does not create an attorney-client relationship.</span>
                             </label>
                         </div>
-                        <div class="bg-sky-light border border-gray-200 p-4 text-sm text-gray-600 space-y-2">
+                        <div class="glass-card p-4 text-sm text-gray-600 space-y-2">
                             <p><strong data-i18n="form_warning_title">IMPORTANT NOTICE:</strong></p>
                             <p data-i18n="form_warning_1">Please do not include confidential or sensitive information in this form.</p>
                             <p data-i18n="form_warning_2">Submission of this form does not establish an attorney-client relationship. An attorney-client relationship is established only after we reach an agreement to represent you and you have signed an engagement letter.</p>
@@ -1046,7 +1083,7 @@
                 const privacyPolicyContent = {
             en: `
                 <p class="mb-4"><strong>Last Updated:</strong> April 2026</p>
-<div class="bg-sky-light border border-gray-200 p-6 mb-6 text-sm text-gray-700">
+<div class="glass-card p-6 mb-6 text-sm text-gray-700">
     <p class="font-semibold text-primary mb-2">IMPORTANT DISCLAIMERS</p>
     <ol class="list-decimal pl-5 space-y-2">
         <li>This website does not constitute legal advice. Information obtained through this site is for general reference only and does not constitute legal advice regarding your specific situation.</li>
@@ -1076,7 +1113,7 @@
 <h3 class="text-lg font-semibold text-primary mt-6 mb-3">3. Data Retention</h3>
 <p class="mb-4">We retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable law and professional ethical rules:</p>
 <table class="w-full text-sm mb-4 border border-gray-200">
-    <thead><tr class="bg-sky-light"><th class="text-left p-3 border-b border-gray-200">Category of Information</th><th class="text-left p-3 border-b border-gray-200">Retention Period</th></tr></thead>
+    <thead><tr class="bg-primary/5"><th class="text-left p-3 border-b border-gray-200">Category of Information</th><th class="text-left p-3 border-b border-gray-200">Retention Period</th></tr></thead>
     <tbody>
         <tr><td class="p-3 border-b border-gray-100">Contact form inquiries</td><td class="p-3 border-b border-gray-100">2 years from the date of last communication</td></tr>
         <tr><td class="p-3 border-b border-gray-100">Newsletter subscriptions</td><td class="p-3 border-b border-gray-100">Until you unsubscribe or 2 years of inactivity</td></tr>
@@ -1144,7 +1181,7 @@
             `,
             zh: `
                 <p class="mb-4"><strong>最后更新：</strong>2026年4月</p>
-<div class="bg-sky-light border border-gray-200 p-6 mb-6 text-sm text-gray-700">
+<div class="glass-card p-6 mb-6 text-sm text-gray-700">
     <p class="font-semibold text-primary mb-2">重要免责声明</p>
     <ol class="list-decimal pl-5 space-y-2">
         <li>本网站不构成法律建议。通过本网站获得的信息仅供一般性参考，不构成针对您具体情况的法律建议。</li>
@@ -1174,7 +1211,7 @@
 <h3 class="text-lg font-semibold text-primary mt-6 mb-3">3. 数据保留期限</h3>
 <p class="mb-4">我们仅在为实现处理目的所必要的最短时间内保留您的个人信息，或根据适用法律及职业道德规则要求的期限保留：</p>
 <table class="w-full text-sm mb-4 border border-gray-200">
-    <thead><tr class="bg-sky-light"><th class="text-left p-3 border-b border-gray-200">信息类别</th><th class="text-left p-3 border-b border-gray-200">保留期限</th></tr></thead>
+    <thead><tr class="bg-primary/5"><th class="text-left p-3 border-b border-gray-200">信息类别</th><th class="text-left p-3 border-b border-gray-200">保留期限</th></tr></thead>
     <tbody>
         <tr><td class="p-3 border-b border-gray-100">联系表单咨询信息</td><td class="p-3 border-b border-gray-100">自最后一次通信起2年</td></tr>
         <tr><td class="p-3 border-b border-gray-100">新闻通讯订阅信息</td><td class="p-3 border-b border-gray-100">直至您取消订阅或2年内无活动</td></tr>
@@ -1329,10 +1366,10 @@ function showPrivacyPolicy() {
             const lang = LanguageModule.getCurrent();
             
             let html = `
-                <a href="news-detail.html?id=${featured.id}" class="group block bg-white overflow-hidden card-shadow hover-lift">
+                <a href="news-detail.html?id=${featured.id}" class="group block glass-card overflow-hidden hover-lift">
                     <div class="relative overflow-hidden aspect-[16/10]">
                         <img src="${featured.image || 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop'}" alt="Featured News" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                        <div class="absolute top-4 left-4 bg-accent text-white text-xs px-3 py-1 rounded-full label-text">
+                        <div class="absolute top-4 left-4 bg-accent/85 backdrop-blur text-white text-xs px-3 py-1 rounded-full label-text">
                             ${ContentHelpers.getCategoryLabel(featured.category, 'news', lang)}
                         </div>
                     </div>
@@ -1342,7 +1379,7 @@ function showPrivacyPolicy() {
                         <p class="text-gray-600 text-sm line-clamp-2 body-text">${ContentHelpers.getExcerpt(featured, lang)}</p>
                     </div>
                 </a>
-                <div class="flex flex-col justify-between space-y-0 bg-white p-8 card-shadow">
+                <div class="flex flex-col justify-between space-y-0 glass-card p-8">
             `;
             
             others.forEach((item, index) => {
@@ -1370,7 +1407,7 @@ function showPrivacyPolicy() {
             items.forEach((item, index) => {
                 const isHighlight = index === 0;
                 html += `
-                    <a href="insight-detail.html?id=${item.id}" class="${isHighlight ? 'bg-primary text-white' : 'bg-sky-light border border-gray-200'} p-8 min-h-[400px] flex flex-col justify-between hover-lift group">
+                    <a href="insight-detail.html?id=${item.id}" class="${isHighlight ? 'glass-card bg-primary/90 text-white' : 'glass-card'} p-8 min-h-[400px] flex flex-col justify-between hover-lift group">
                         <div>
                             <div class="text-xs font-bold uppercase tracking-widest mb-4 ${isHighlight ? 'opacity-80' : 'text-accent'} label-text">
                                 ${ContentHelpers.getCategoryLabel(item.category, 'insights', lang)}
@@ -1431,6 +1468,18 @@ function showPrivacyPolicy() {
             } catch (e) {
                 console.error('Team members error:', e);
             }
+
+            // Scroll Reveal Animation
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+            document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
             // Update on language change
             document.addEventListener('languageChanged', () => {
