@@ -435,12 +435,12 @@ const newsData = [
             zh: '全球一揽子和解成功达成：Cathay Praxis Law周争平律师代理中国科技企业应对美荷跨境知识产权与执行纠纷'
         },
         excerpt: {
-            en: 'Cathay Praxis Law LLP successfully represented Shenzhen Foscam Technology Co., Ltd. in a complex cross-border intellectual property and enforcement dispute across the U.S., the Netherlands, and China, achieving a comprehensive global settlement.',
-            zh: 'Cathay Praxis Law LLP 成功代理深圳福斯康姆科技有限公司处理一起涉及美国、荷兰及中国三地的复杂跨境知识产权与执行纠纷案件，并最终实现全球范围内的一揽子和解。'
+            en: 'Cathay Praxis Law PC successfully represented Shenzhen Foscam Technology Co., Ltd. in a complex cross-border intellectual property and enforcement dispute across the U.S., the Netherlands, and China, achieving a comprehensive global settlement.',
+            zh: 'Cathay Praxis Law PC 成功代理深圳福斯康姆科技有限公司处理一起涉及美国、荷兰及中国三地的复杂跨境知识产权与执行纠纷案件，并最终实现全球范围内的一揽子和解。'
         },
         content: {
             en: `
-                <p class="lead">Cathay Praxis Law LLP recently successfully represented Shenzhen Foscam Technology Co., Ltd. in a complex cross-border intellectual property and enforcement dispute involving proceedings in the United States, the Netherlands, and China, ultimately achieving a comprehensive global settlement resolving all related disputes and enforcement actions.</p>
+                <p class="lead">Cathay Praxis Law PC recently successfully represented Shenzhen Foscam Technology Co., Ltd. in a complex cross-border intellectual property and enforcement dispute involving proceedings in the United States, the Netherlands, and China, ultimately achieving a comprehensive global settlement resolving all related disputes and enforcement actions.</p>
                 
                 <h2>Case Overview</h2>
                 <p>The matter involved complex issues arising from U.S. federal court litigation, Dutch enforcement proceedings, and overseas asset protection strategies for a Chinese enterprise. Due to the multi-jurisdictional nature of the dispute, the case presented significant challenges concerning procedural defenses, cross-border enforcement risks, and coordination across multiple legal systems.</p>
@@ -468,10 +468,10 @@ const newsData = [
                 <h2>Strategic Significance</h2>
                 <p>This matter further demonstrates the critical importance of strategic leadership by internationally experienced Chinese cross-border counsel in complex overseas disputes involving Chinese enterprises. International disputes are not merely legal proceedings; they also require sophisticated commercial judgment, coordinated asset protection strategies, and effective management across multiple jurisdictions.</p>
                 
-                <p>As an international law firm focusing on cross-border investment, international dispute resolution, and global compliance matters, Cathay Praxis Law LLP remains committed to providing practical, sophisticated, and business-oriented legal solutions for Chinese companies operating globally.</p>
+                <p>As an international law firm focusing on cross-border investment, international dispute resolution, and global compliance matters, Cathay Praxis Law PC remains committed to providing practical, sophisticated, and business-oriented legal solutions for Chinese companies operating globally.</p>
             `,
             zh: `
-                <p class="lead">近日，Cathay Praxis Law LLP 成功代理中国科技企业深圳福斯康姆科技有限公司处理一起涉及美国、荷兰及中国三地的复杂跨境知识产权与执行纠纷案件，并最终实现全球范围内的一揽子和解。</p>
+                <p class="lead">近日，Cathay Praxis Law PC 成功代理中国科技企业深圳福斯康姆科技有限公司处理一起涉及美国、荷兰及中国三地的复杂跨境知识产权与执行纠纷案件，并最终实现全球范围内的一揽子和解。</p>
                 
                 <h2>案件背景</h2>
                 <p>本案系一起典型的跨境知识产权与判决执行争议，核心涉及美国联邦法院诉讼程序、荷兰法院执行程序以及中国企业海外资产风险防控等多重法律问题。案件横跨多个法域，法律关系复杂，执行风险高，对律师团队的跨境争议解决能力及多法域统筹能力提出了极高要求。</p>
@@ -499,7 +499,7 @@ const newsData = [
                 <h2>案件意义</h2>
                 <p>本案的成功解决，再次体现了中国企业在海外经营过程中，面对复杂国际争议与跨境执行风险时，由兼具国际视野、多法域协调能力及中国企业实务经验的中国涉外律师主导整体战略的重要性。跨境争议不仅是法律问题，更涉及商业判断、全球资产风险管理以及不同法域之间的系统协调。</p>
                 
-                <p>作为一家专注于跨境投资、国际争议解决及全球合规业务的国际化律师事务所，Cathay Praxis Law LLP 将持续为中国企业全球化经营提供专业、务实且可落地的法律服务与风险解决方案。</p>
+                <p>作为一家专注于跨境投资、国际争议解决及全球合规业务的国际化律师事务所，Cathay Praxis Law PC 将持续为中国企业全球化经营提供专业、务实且可落地的法律服务与风险解决方案。</p>
             `
         },
         featured: true,

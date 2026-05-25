@@ -32,7 +32,7 @@ const LanguageModule = (function() {
             'hero_title_2_prefix': 'Meets U.S.',
             'hero_title_2_suffix': 'Execution',
             'hero_subtitle': 'We provide strategic counsel for complex U.S. matters, including transactions, compliance, and dispute resolution.',
-            'hero_desc': 'Cathay Praxis Law LLP is a U.S.-based law firm focused on helping businesses operate confidently across borders.',
+            'hero_desc': 'Cathay Praxis Law PC is a U.S.-based law firm focused on helping businesses operate confidently across borders.',
             'contact_us': 'Contact Us',
             'our_services': 'Our Services',
             'scroll': 'Scroll',
