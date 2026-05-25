@@ -121,6 +121,7 @@ const LanguageModule = (function() {
             'category_regulation': 'Regulation',
             'category_case': 'Case Study',
             'category_industry': 'Industry',
+            'category_achievement': 'Achievement',
             
             // Insight Topics
             'topic_export': 'Export Controls',
@@ -160,6 +161,11 @@ const LanguageModule = (function() {
             'form_service_ip': 'IP Litigation',
             'form_service_general': 'General Inquiry',
             'form_inquiry': 'Inquiry',
+            'placeholder_name': 'Enter your name',
+            'placeholder_email': 'your@email.com',
+            'placeholder_phone': '+1 (555) 000-0000',
+            'placeholder_company': 'Company name',
+            'placeholder_inquiry': 'Please describe your inquiry...',
             'form_submit': 'Submit Inquiry',
             'form_schedule': 'Schedule a Consultation',
             'privacy_consent_prefix': 'I have read and agree to the ',
@@ -191,7 +197,7 @@ const LanguageModule = (function() {
             'hero_title_1': '跨境有道',
             'hero_title_2_prefix': '',
             'hero_title_2_suffix': '判断有衡',
-            'hero_subtitle': '我们专注于复杂的美国法律事务，为跨境交易、监管合规及争议解决提供战略性法律咨询。',
+            'hero_subtitle': '我们专注于处理复杂的美国法律事务，为跨境交易、监管合规及争议解决提供战略性法律咨询与解决之道。',
             'hero_desc': '博衡律师事务所是一家美国律师事务所，致力于协助企业在跨境经营中稳健发展。',
             'contact_us': '联系我们',
             'our_services': '业务领域',
@@ -199,7 +205,7 @@ const LanguageModule = (function() {
             
             // About Section
             'about_title': '跨境有道，判断有衡',
-            'about_desc': '我们为在多个司法管辖区运营的企业提供法律服务，涵盖涉美交易、监管合规及争议解决。我们的执业重点是将跨境复杂性转化为清晰、可执行的法律策略。',
+            'about_desc': '我们为在多个司法管辖区运营的企业提供法律服务，涵盖涉美交易、监管合规及争议解决。我们的执业重点是化繁为简，将跨境事务中的复杂问题转化为清晰可执行的法律策略。',
             'value_1_title': '务实判断',
             'value_1_desc': '立足商业现实，提供切实可行的法律解决方案。',
             'value_2_title': '跨境精准',
@@ -214,18 +220,18 @@ const LanguageModule = (function() {
             'practice_1_title': '跨境交易及美国市场准入',
             'practice_1_desc': '为国际企业提供在美战略投资、收购及市场准入的法律服务。我们在交易全流程提供支持，涵盖交易架构设计、尽职调查、谈判及交割后整合，重点关注跨境法律与监管风险。',
             'practice_2_title': '监管合规与风险管理',
-            'practice_2_desc': '就美国监管框架与全球合规义务为客户提供法律咨询，涵盖出口管制、经济制裁及供应链风险。我们协助企业建立并执行符合美国执法标准、顺应国际法规演变的合规体系。',
+            'practice_2_desc': '就美国监管框架与全球合规义务为客户提供法律咨询，涵盖出口管制、经济制裁及供应链风险。我们协助企业建立并执行符合美国执法标准、能够适应国际法规变化的合规体系。',
             'practice_3_title': '争议解决与跨境执行',
-            'practice_3_desc': '代表客户处理跨司法管辖区的复杂商事争议，涵盖美国诉讼、国际仲裁及跨境执行。我们专注于处理由交易、股东冲突及国际业务运营引发的高风险争议。',
+            'practice_3_desc': '代表客户处理跨司法管辖区的复杂商事争议，涵盖美国诉讼、国际仲裁及跨境执行。我们专注于处理交易纠纷、股东冲突及国际业务运营所引发的高风险争议。',
             'practice_4_title': '美国本地法律顾问与跨境协调',
-            'practice_4_desc': '在多司法管辖区事务中，我们为外国客户担任美国法律顾问，或协调本地律师协同工作。我们打通法律、文化与程序壁垒，确保客户在美国诉讼及交易中获得有效代理。',
+            'practice_4_desc': '在处理跨司法管辖区事务时，我们为外国客户担任美国法律顾问，或协调本地律师开展工作。我们打通法律、文化与程序壁垒，确保客户在美国诉讼及交易中获得有效代理。',
             'practice_5_title': '知识产权与技术争议',
-            'practice_5_desc': '我们为知识产权争议提供法律服务，涵盖专利诉讼、商业秘密保护及美国国际贸易委员会（ITC）第337条调查，协助客户在高度竞争及受监管的市场中有效管理知识产权风险。',
+            'practice_5_desc': '我们在知识产权争议解决领域提供全面法律服务，涵盖专利诉讼、商业秘密纠纷及美国国际贸易委员会（ITC）337调查，协助客户应对复杂技术争议及跨境竞争风险。',
             
             // Clients Section
             'who_we_serve': '服务对象',
             'clients': '客户',
-            'clients_desc': '我们为面临复杂美国法律与监管挑战的企业、投资者及机构提供法律服务。',
+            'clients_desc': '我们为应对复杂美国法律与监管挑战的企业、投资者及机构提供法律服务。',
             'clients_include': '我们的客户包括：',
             'client_1': '进入或拓展美国市场的国际企业',
             'client_2': '拥有跨境业务的成长型及跨国企业',
@@ -259,7 +265,7 @@ const LanguageModule = (function() {
             
             // Contact Section
             'get_in_touch': '联系我们',
-            'contact_desc': '无论您正面临复杂的监管调查，还是筹划跨境交易，我们的团队随时准备为您提供战略性法律支持。',
+            'contact_desc': '无论您正在应对复杂的监管调查，还是筹划跨境交易，我们的团队都随时准备为您提供战略性法律支持。',
             'office_ca': '邮寄地址',
             'office_phone': '电话',
             'office_email': '电子邮件',
@@ -281,6 +287,7 @@ const LanguageModule = (function() {
             'category_regulation': '法规更新',
             'category_case': '案例研究',
             'category_industry': '行业动态',
+            'category_achievement': '业绩展示',
             
             // Insight Topics
             'topic_export': '出口管制',
@@ -293,13 +300,13 @@ const LanguageModule = (function() {
             // Footer
             'privacy_policy': '隐私政策',
             'disclaimer': '免责声明',
-            'footer_tagline': '以务实判断，连接法律制度',
+            'footer_tagline': '以务实判断，弥合法域差异',
             'attorney_advertising_label': '律师广告',
-            'attorney_advertising_text': '根据适用法律，本网站可能被视为律师广告。过往结果不保证类似成果。本网站信息不构成法律意见。联系我们不当然形成律师-客户关系。',
+            'attorney_advertising_text': '根据适用法律，本网站可能被视为律师广告。过往结果不保证类似成果。本网站信息不构成法律意见。联系我们并不当然构成律师-客户关系。',
             
             // Page Titles
             'page_news_title': '热点聚焦',
-            'page_news_subtitle': '法规政策与行业动态的最新更新',
+            'page_news_subtitle': '法规政策与行业动态',
             'page_insights_title': '法律评析',
             'page_insights_subtitle': '深度法律分析与战略指导',
             
@@ -320,6 +327,11 @@ const LanguageModule = (function() {
             'form_service_ip': '知识产权诉讼',
             'form_service_general': '一般咨询',
             'form_inquiry': '咨询内容',
+            'placeholder_name': '请输入姓名',
+            'placeholder_email': '请输入邮箱',
+            'placeholder_phone': '请输入联系电话',
+            'placeholder_company': '请输入公司名称',
+            'placeholder_inquiry': '请描述您的咨询内容...',
             'form_submit': '提交咨询',
             'form_schedule': '预约咨询',
             'privacy_consent_prefix': '我已阅读并同意',
@@ -327,7 +339,7 @@ const LanguageModule = (function() {
             'privacy_consent_suffix': '。我理解提交此表单不形成律师-客户关系。',
             'form_warning_title': '重要声明：',
             'form_warning_1': '请勿在此表单中包含机密或敏感信息。',
-            'form_warning_2': '提交此表单不建立律师-客户关系。律师-客户关系仅在我们达成代理协议且您已签署聘用函后建立。',
+            'form_warning_2': '提交此表单不建立律师-客户关系。律师-客户关系仅在我们达成代理协议、且您已签署聘用函之后方能建立。',
             
             // Privacy Policy Modal
             'privacy_policy_title': '隐私政策',

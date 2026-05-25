@@ -92,7 +92,7 @@ const newsData = [
                 <p>如需实体清单合规或移除申请方面的协助，请联系我们的监管团队。</p>
             `
         },
-        featured: true,
+        featured: false,
         author: 'Jennifer Li',
         tags: ['Entity List', 'BIS', 'Export Controls', 'International Trade']
     },
@@ -420,9 +420,91 @@ const newsData = [
                 <p>随着技术进步，预计会有更多限制。积极的合规规划对于保持市场准入至关重要。</p>
             `
         },
-        featured: true,
+        featured: false,
         author: 'Michael Zhang',
         tags: ['Semiconductor', 'Export Controls', 'Technology']
+    },
+    {
+        id: 'news-006',
+        slug: 'global-resolution-cross-border-ip-enforcement',
+        date: '2026-05-25',
+        category: 'achievement',
+        image: 'images/news-banner-global-resolution.png',
+        title: {
+            en: 'Global Resolution Achieved in Cross-Border IP and Enforcement Dispute Involving U.S. and Dutch Proceedings',
+            zh: '全球一揽子和解成功达成：Cathay Praxis Law周争平律师代理中国科技企业应对美荷跨境知识产权与执行纠纷'
+        },
+        excerpt: {
+            en: 'Cathay Praxis Law LLP successfully represented Shenzhen Foscam Technology Co., Ltd. in a complex cross-border intellectual property and enforcement dispute across the U.S., the Netherlands, and China, achieving a comprehensive global settlement.',
+            zh: 'Cathay Praxis Law LLP 成功代理深圳福斯康姆科技有限公司处理一起涉及美国、荷兰及中国三地的复杂跨境知识产权与执行纠纷案件，并最终实现全球范围内的一揽子和解。'
+        },
+        content: {
+            en: `
+                <p class="lead">Cathay Praxis Law LLP recently successfully represented Shenzhen Foscam Technology Co., Ltd. in a complex cross-border intellectual property and enforcement dispute involving proceedings in the United States, the Netherlands, and China, ultimately achieving a comprehensive global settlement resolving all related disputes and enforcement actions.</p>
+                
+                <h2>Case Overview</h2>
+                <p>The matter involved complex issues arising from U.S. federal court litigation, Dutch enforcement proceedings, and overseas asset protection strategies for a Chinese enterprise. Due to the multi-jurisdictional nature of the dispute, the case presented significant challenges concerning procedural defenses, cross-border enforcement risks, and coordination across multiple legal systems.</p>
+                
+                <h2>Early-Stage Challenges</h2>
+                <p>At the initial stage of representation, the client had already been subjected to a default judgment in U.S. federal court proceedings. The opposing party subsequently initiated cross-border enforcement actions and sought attachment and control measures against the client's overseas assets through Dutch court procedures. These enforcement measures created substantial pressure on the client's international business operations and commercial activities.</p>
+                
+                <h2>Strategic Response</h2>
+                <p>Following engagement, Attorney Zhengping (David) Zhou, a dual-licensed attorney in both China and California, quickly organized and led a coordinated international legal team to manage the matter across the United States, the Netherlands, and China. Drawing upon extensive experience in cross-border disputes and international enforcement matters, the team developed a unified legal and strategic approach to address the parallel proceedings.</p>
+                
+                <h2>Coordinated Legal Efforts</h2>
+                <p>Throughout the matter, the legal team conducted extensive analysis concerning due process principles under U.S. federal procedure, defenses relating to the judgment process, limitations on cross-border enforcement, and potential global settlement pathways. At the same time, the team coordinated closely with Dutch local counsel regarding objections and defenses against the attachment and enforcement proceedings in the Netherlands.</p>
+                
+                <h2>Global Settlement Achieved</h2>
+                <p>Following multiple rounds of negotiations and coordinated legal efforts across jurisdictions, the parties ultimately reached a comprehensive global settlement. Pursuant to the settlement arrangements, enforcement proceedings arising from the U.S. judgment were terminated, all Dutch attachment measures were lifted, and the client's overseas business operations resumed normal activities.</p>
+                
+                <h2>Outcome Exceeds Expectations</h2>
+                <p>Importantly, the final settlement structure significantly exceeded the client's initial expectations in terms of risk control, implementation arrangements, and overall cost management. The resolution effectively avoided substantial future litigation expenses, continuing enforcement risks, and operational uncertainties associated with prolonged international disputes.</p>
+                
+                <div class="my-8">
+                    <img src="images/news-pennant-foscam.jpg" alt="Pennant from Shenzhen Foscam Technology" class="w-full max-w-md mx-auto rounded-lg shadow-lg">
+                    <p class="text-center text-sm text-gray-500 mt-2 italic">Pennant presented by Shenzhen Foscam Technology Co., Ltd.</p>
+                </div>
+                
+                <h2>Strategic Significance</h2>
+                <p>This matter further demonstrates the critical importance of strategic leadership by internationally experienced Chinese cross-border counsel in complex overseas disputes involving Chinese enterprises. International disputes are not merely legal proceedings; they also require sophisticated commercial judgment, coordinated asset protection strategies, and effective management across multiple jurisdictions.</p>
+                
+                <p>As an international law firm focusing on cross-border investment, international dispute resolution, and global compliance matters, Cathay Praxis Law LLP remains committed to providing practical, sophisticated, and business-oriented legal solutions for Chinese companies operating globally.</p>
+            `,
+            zh: `
+                <p class="lead">近日，Cathay Praxis Law LLP 成功代理中国科技企业深圳福斯康姆科技有限公司处理一起涉及美国、荷兰及中国三地的复杂跨境知识产权与执行纠纷案件，并最终实现全球范围内的一揽子和解。</p>
+                
+                <h2>案件背景</h2>
+                <p>本案系一起典型的跨境知识产权与判决执行争议，核心涉及美国联邦法院诉讼程序、荷兰法院执行程序以及中国企业海外资产风险防控等多重法律问题。案件横跨多个法域，法律关系复杂，执行风险高，对律师团队的跨境争议解决能力及多法域统筹能力提出了极高要求。</p>
+                
+                <h2>案件初期</h2>
+                <p>案件办理初期，客户已在美国联邦法院相关程序中遭遇缺席判决，对方随后启动跨境执行程序，并在荷兰法院申请对客户海外资产采取扣押及控制措施。相关执行措施一度对客户海外业务运营及国际商业合作造成重大影响，客户面临严峻的跨境法律与商业风险。</p>
+                
+                <h2>团队组建与策略制定</h2>
+                <p>接受委托后，周争平律师凭借其中美两地执业资格以及长期深耕跨境争议解决领域的实务经验，迅速牵头组建专项法律服务团队，全面统筹美国、荷兰及中国三地律师资源，统一整体法律立场与争议解决策略。</p>
+                
+                <h2>多法域协同应对</h2>
+                <p>案件处理过程中，周争平律师团队重点围绕美国联邦程序中的正当程序原则、判决程序抗辩、跨境执行限制以及全球和解路径展开系统分析与应对，并同步指导荷兰当地律师团队针对资产执行及扣押程序提出异议与抗辩意见。同时，团队持续统筹多法域律师协同工作，确保跨境法律服务的一致性与策略执行效率。</p>
+                
+                <h2>全球和解达成</h2>
+                <p>在多轮跨境谈判与法律程序推进后，案件最终实现全球范围内的一揽子和解。根据相关和解安排，美国法院判决项下的执行程序终止，荷兰法院采取的全部资产扣押措施予以解除，客户海外业务恢复正常运营，相关跨境执行风险亦得到全面化解。</p>
+                
+                <h2>超预期成果</h2>
+                <p>尤其值得肯定的是，本次全球和解方案在风险控制、履行安排及整体成本管理等方面，均显著优于客户初始预期，有效避免了后续可能产生的大规模诉讼成本、持续执行风险及海外商业运营不确定性，最大程度维护了中国企业的合法权益与商业利益。</p>
+                
+                <div class="my-8">
+                    <img src="images/news-pennant-foscam.jpg" alt="深圳福斯康姆科技有限公司赠送锦旗" class="w-full max-w-md mx-auto rounded-lg shadow-lg">
+                    <p class="text-center text-sm text-gray-500 mt-2 italic">深圳市福斯康姆智能科技有限公司敬赠</p>
+                </div>
+                
+                <h2>案件意义</h2>
+                <p>本案的成功解决，再次体现了中国企业在海外经营过程中，面对复杂国际争议与跨境执行风险时，由兼具国际视野、多法域协调能力及中国企业实务经验的中国涉外律师主导整体战略的重要性。跨境争议不仅是法律问题，更涉及商业判断、全球资产风险管理以及不同法域之间的系统协调。</p>
+                
+                <p>作为一家专注于跨境投资、国际争议解决及全球合规业务的国际化律师事务所，Cathay Praxis Law LLP 将持续为中国企业全球化经营提供专业、务实且可落地的法律服务与风险解决方案。</p>
+            `
+        },
+        featured: true,
+        author: 'Zhengping (David) Zhou',
+        tags: ['Cross-Border Dispute', 'IP Litigation', 'Enforcement', 'Global Settlement']
     }
 ];
 
@@ -856,7 +938,8 @@ const categoryDefinitions = {
         policy: { en: 'Policy Alert', zh: '政策预警' },
         regulation: { en: 'Regulation', zh: '法规更新' },
         case: { en: 'Case Study', zh: '案例研究' },
-        industry: { en: 'Industry', zh: '行业动态' }
+        industry: { en: 'Industry', zh: '行业动态' },
+        achievement: { en: 'Achievement', zh: '业绩展示' }
     },
     insights: {
         export: { en: 'Export Controls', zh: '出口管制' },
