@@ -332,7 +332,7 @@
                     <a href="#about" class="nav-link" data-i18n="nav_about">About</a>
                     <a href="#practice" class="nav-link" data-i18n="nav_practices">Practices</a>
                     <a href="#clients" class="nav-link" data-i18n="nav_clients">Clients</a>
-                    <a href="#news" class="nav-link" data-i18n="nav_news">News</a>
+                    <a href="#news" class="nav-link" data-i18n="nav_news">News &amp; Achievements</a>
                     <a href="#insights" class="nav-link" data-i18n="nav_insights">Insights</a>
                     <a href="#team" class="nav-link" data-i18n="nav_team">Team</a>
                     <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
@@ -353,7 +353,7 @@
         <a href="#about" class="nav-link" data-i18n="nav_about" onclick="closeMobileMenu()">About</a>
         <a href="#practice" class="nav-link" data-i18n="nav_practices" onclick="closeMobileMenu()">Practices</a>
         <a href="#clients" class="nav-link" data-i18n="nav_clients" onclick="closeMobileMenu()">Clients</a>
-        <a href="#news" class="nav-link" data-i18n="nav_news" onclick="closeMobileMenu()">News</a>
+        <a href="#news" class="nav-link" data-i18n="nav_news" onclick="closeMobileMenu()">News &amp; Achievements</a>
         <a href="#insights" class="nav-link" data-i18n="nav_insights" onclick="closeMobileMenu()">Insights</a>
         <a href="#team" class="nav-link" data-i18n="nav_team" onclick="closeMobileMenu()">Team</a>
         <a href="#contact" class="nav-link" data-i18n="nav_contact" onclick="closeMobileMenu()">Contact</a>
@@ -578,7 +578,7 @@
         <div class="container">
             <div class="text-center mb-12 reveal">
                 <p class="section-label" data-i18n="updates">Updates</p>
-                <h2 class="heading-section text-4xl md:text-5xl text-primary" data-i18n="nav_news">News</h2>
+                <h2 class="heading-section text-4xl md:text-5xl text-primary" data-i18n="nav_news">News &amp; Achievements</h2>
             </div>
             <div class="grid lg:grid-cols-2 gap-8 reveal" id="news-preview-container">
                 <!-- News content will be loaded dynamically -->
@@ -1390,18 +1390,24 @@ function showPrivacyPolicy() {
                         <div class="text-sm text-gray-500 mb-3 font-serif italic">${Utils.formatDate(featured.date, lang)}</div>
                         <h3 class="heading-card text-2xl text-primary mb-3 group-hover:text-accent transition leading-tight">${ContentHelpers.getTitle(featured, lang)}</h3>
                         <p class="text-gray-600 text-sm line-clamp-2 body-text">${ContentHelpers.getExcerpt(featured, lang)}</p>
+                        ${featured.pennantImage ? `
+                        <div class="mt-6 pt-6 border-t border-gray-200/50">
+                            <img src="${featured.pennantImage}" alt="${lang === 'zh' ? '客户赠送锦旗' : 'Pennant from Client'}" class="w-full max-w-[240px] mx-auto rounded-lg shadow-md object-contain">
+                            <p class="text-center text-xs text-gray-500 mt-2 italic">${lang === 'zh' ? '深圳市福斯康姆智能科技有限公司敬赠' : 'Pennant presented by Shenzhen Foscam Technology Co., Ltd.'}</p>
+                        </div>
+                        ` : ''}
                     </div>
                 </a>
-                <div class="flex flex-col justify-between space-y-0 glass-card p-8">
+                <div class="flex flex-col justify-start gap-6 glass-card p-8">
             `;
             
             others.forEach((item, index) => {
                 html += `
-                    <a href="news-detail.html?id=${item.id}" class="news-item flex gap-4 group cursor-pointer py-6 ${index === 0 ? 'first:pt-0' : ''} ${index === others.length - 1 ? 'last:pb-0 last:border-b-0' : ''}">
-                        <div class="text-sm text-gray-400 w-24 flex-shrink-0 font-serif italic">${new Date(item.date).toLocaleDateString(lang === 'zh' ? 'zh-CN' : 'en-US', { month: 'short', day: 'numeric' })}</div>
-                        <div>
+                    <a href="news-detail.html?id=${item.id}" class="news-item flex items-center gap-4 group cursor-pointer py-6 ${index === 0 ? 'first:pt-0' : ''} ${index === others.length - 1 ? 'last:pb-0 last:border-b-0' : ''}">
+                        <div class="text-sm text-gray-400 w-24 flex-shrink-0 font-serif italic text-center">${new Date(item.date).toLocaleDateString(lang === 'zh' ? 'zh-CN' : 'en-US', { month: 'short', day: 'numeric' })}</div>
+                        <div class="text-center flex-1">
                             <h4 class="heading-card text-lg text-primary group-hover:text-accent transition mb-1">${ContentHelpers.getTitle(item, lang)}</h4>
-                            <p class="text-gray-500 text-sm body-text">${ContentHelpers.getExcerpt(item, lang)}</p>
+                            <p class="text-gray-500 text-sm body-text line-clamp-2">${ContentHelpers.getExcerpt(item, lang)}</p>
                         </div>
                     </a>
                 `;

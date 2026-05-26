@@ -21,7 +21,7 @@ const LanguageModule = (function() {
             'nav_about': 'About',
             'nav_practices': 'Practices',
             'nav_clients': 'Clients',
-            'nav_news': 'News',
+            'nav_news': 'News & Achievements',
             'nav_insights': 'Insights',
             'nav_team': 'Team',
             'nav_contact': 'Contact',
@@ -139,7 +139,7 @@ const LanguageModule = (function() {
             'attorney_advertising_text': 'ATTORNEY ADVERTISING. Prior results do not guarantee a similar outcome. This website may be considered attorney advertising under applicable state laws. Information does not constitute legal advice. Contacting us does not create an attorney-client relationship.',
             
             // Page Titles
-            'page_news_title': 'News',
+            'page_news_title': 'News & Achievements',
             'page_news_subtitle': 'Latest updates on regulations, policies, and industry developments',
             'page_insights_title': 'Insights',
             'page_insights_subtitle': 'In-depth legal analysis and strategic guidance',
@@ -187,7 +187,7 @@ const LanguageModule = (function() {
             'nav_about': '关于我们',
             'nav_practices': '业务领域',
             'nav_clients': '客户',
-            'nav_news': '热点聚焦',
+            'nav_news': '新闻与业绩',
             'nav_insights': '法律评析',
             'nav_team': '专业团队',
             'nav_contact': '联系我们',
@@ -305,7 +305,7 @@ const LanguageModule = (function() {
             'attorney_advertising_text': '根据适用法律，本网站可能被视为律师广告。过往结果不保证类似成果。本网站信息不构成法律意见。联系我们并不当然构成律师-客户关系。',
             
             // Page Titles
-            'page_news_title': '热点聚焦',
+            'page_news_title': '新闻与业绩',
             'page_news_subtitle': '法规政策与行业动态',
             'page_insights_title': '法律评析',
             'page_insights_subtitle': '深度法律分析与战略指导',

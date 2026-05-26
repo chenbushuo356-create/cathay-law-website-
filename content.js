@@ -503,6 +503,7 @@ const newsData = [
             `
         },
         featured: true,
+        pennantImage: 'images/news-pennant-foscam.jpg',
         author: 'Zhengping (David) Zhou',
         tags: ['Cross-Border Dispute', 'IP Litigation', 'Enforcement', 'Global Settlement']
     }
