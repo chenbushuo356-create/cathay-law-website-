@@ -280,6 +280,12 @@
             background: rgba(255, 255, 255, 0.6);
         }
 
+        /* Always show article main content — don't rely on IntersectionObserver */
+        #article-main .reveal {
+            opacity: 1;
+            transform: none;
+        }
+
         /* Mobile nav panel — override Tailwind hidden when active */
         @media (max-width: 767px) {
             #nav-links.active {
