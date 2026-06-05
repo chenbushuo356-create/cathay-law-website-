@@ -86,7 +86,7 @@ const newsData = [
                     <li>实施自动筛查系统，每日更新</li>
                     <li>定期进行供应链审计</li>
                     <li>建立处理潜在匹配的明确协议</li>
-                    <li>对相关人员进进行红旗指标培训</li>
+                    <li>对相关人员进行红旗指标培训</li>
                 </ul>
                 
                 <p>如需实体清单合规或移除申请方面的协助，请联系我们的监管团队。</p>
@@ -231,7 +231,7 @@ const newsData = [
                 </ul>
                 
                 <h2>下降因素分析</h2>
-                <p>以下因素可能解释了案件数量的减少：</p>
+                <p>以下因素可能有助于解释案件数量的减少：</p>
                 <ol>
                     <li>中国企业知识产权合规计划的加强</li>
                     <li>更多采用规避设计策略</li>
@@ -310,7 +310,7 @@ const newsData = [
                 <ul>
                     <li>8家位于不同司法管辖区的航运公司</li>
                     <li>23艘被认定参与规避价格上限的船舶</li>
-                    <li>3家促成 prohibited 交易的石油贸易公司</li>
+                    <li>3家参与被禁止交易的石油贸易公司</li>
                 </ul>
                 
                 <h2>价格上限执法</h2>
@@ -514,108 +514,6 @@ const newsData = [
 // ============================================
 const insightsData = [
     {
-        id: 'insight-004',
-        slug: 'ofac-introduction-fti-consulting-enforcement-signals',
-        date: '2026-06-01',
-        category: 'compliance',
-        image: '',
-        title: {
-            en: 'From OFAC\'s "Introduction to OFAC" to the FTI Consulting Enforcement Action: New Signals from U.S. Sanctions Enforcement and Compliance Implications for Export-Oriented Businesses',
-            zh: '从《OFAC简介》到FTI Consulting执法案例：美国制裁执法体系的最新信号与出口企业的合规启示'
-        },
-        excerpt: {
-            en: 'On June 1, 2026, OFAC simultaneously released its "Introduction to OFAC" guidance and the FTI Consulting enforcement settlement. The former explains the rules; the latter demonstrates the consequences. Together, they signal a regulatory shift from reactive enforcement toward proactive risk management.',
-            zh: '2026年6月1日，OFAC同步发布《OFAC简介》与FTI Consulting执法和解案件。前者解释规则，后者展示后果。两项文件同时发布，标志着美国制裁执法正从被动应对转向主动预防，从事后调查转向事前合规体系建设。'
-        },
-        content: {
-            en: `
-                <p class="lead">On June 1, 2026, the U.S. Department of the Treasury's Office of Foreign Assets Control ("OFAC") released <em>Introduction to the Office of Foreign Assets Control</em>, a concise twelve-page publication designed to explain the structure and operation of the U.S. economic sanctions regime. Although the document does not introduce new sanctions programs, amend existing regulations, or create additional compliance obligations, its significance should not be underestimated. For companies engaged in international trade, cross-border investment, export controls, and sanctions compliance, the publication provides a rare and comprehensive overview of how OFAC views its role, authority, enforcement priorities, and compliance expectations.</p>
-
-                <h2>A Comprehensive Institutional Guide</h2>
-                <p>Over the past several years, OFAC has issued numerous guidance documents addressing specific sanctions programs involving Russia, Iran, Cuba, North Korea, and other jurisdictions, while also using enforcement actions to clarify its regulatory positions. Most of those publications focused on particular industries, jurisdictions, or compliance issues. By contrast, <em>Introduction to OFAC</em> serves as a broader institutional guide, systematically explaining the legal foundations of U.S. sanctions, the principal sanctions tools available to OFAC, the scope of sanctions jurisdiction, enforcement mechanisms, and the core elements of an effective sanctions compliance framework. In many respects, it represents one of the most comprehensive introductions to the U.S. sanctions system published by OFAC in recent years.</p>
-
-                <h2>Coordinated Regulatory Messaging</h2>
-                <p>The timing of the publication is equally noteworthy. On the same day, OFAC announced a settlement with FTI Consulting, a globally recognized consulting firm. While the guidance explains how the sanctions system operates, the enforcement action illustrates the practical consequences of non-compliance. Together, the two announcements convey a clear regulatory message: OFAC is not only explaining the rules to the market but also demonstrating its willingness to enforce them.</p>
-
-                <h2>OFAC's Central Role in the Sanctions Framework</h2>
-                <p>The publication reaffirms OFAC's position as the central enforcement authority within the U.S. economic sanctions framework. Although many companies involved in international trade are more familiar with the Bureau of Industry and Security ("BIS") and its role in export controls, OFAC exercises a broader influence in matters involving financial sanctions, asset blocking, and prohibited transactions. Indeed, the modern sanctions regime has evolved into a system that relies heavily on the central role of the U.S. financial system and the U.S. dollar, with OFAC serving as one of its principal gatekeepers.</p>
-
-                <h2>IEEPA: The Legal Foundation</h2>
-                <p>OFAC further confirms that the vast majority of current sanctions programs are grounded in the International Emergency Economic Powers Act ("IEEPA"). Once a national emergency is declared and the President issues the relevant Executive Orders, OFAC is responsible for implementing regulations, maintaining sanctions lists, reviewing license applications, and conducting enforcement actions. As a result, U.S. sanctions should not be viewed merely as foreign policy statements. They constitute a comprehensive regulatory regime supported by statutory authority, administrative procedures, and civil and criminal enforcement mechanisms. For companies that continue to regard sanctions solely as a geopolitical or political issue, this distinction remains critically important.</p>
-
-                <h2>Beyond List Screening: The Shift Toward Penetrating Review</h2>
-                <p>Among OFAC's various sanctions tools, the Specially Designated Nationals and Blocked Persons List ("SDN List") remains the most widely recognized. Historically, many companies have treated sanctions compliance as little more than a screening exercise: if a counterparty does not appear on the SDN List, the transaction is presumed permissible. The new OFAC publication implicitly challenges that assumption. According to the guidance, sanctions compliance increasingly requires a deeper examination of ownership structures, control relationships, beneficial ownership, and the actual flow of funds and economic benefits. Enforcement priorities are gradually shifting from simple list screening toward a more substantive, risk-based review of transactional realities.</p>
-
-                <h2>The Fifty Percent Rule and Beneficial Ownership Diligence</h2>
-                <p>The publication's discussion of the "50 Percent Rule" exemplifies this evolution. Under OFAC guidance, an entity may be treated as a blocked person even if it does not appear on any sanctions list, provided that one or more sanctioned parties collectively own, directly or indirectly, 50 percent or more of its interests. In practice, many sanctions violations arise not because a company knowingly transacts with a listed party, but because it fails to identify sanctioned ownership hidden within complex corporate structures. Consequently, sanctions screening alone is no longer sufficient. Due diligence concerning ultimate beneficial ownership (UBO), control structures, and indirect ownership has become an essential component of modern trade compliance.</p>
-
-                <h2>Extraterritorial Reach: "Causing a Violation" and "Facilitation"</h2>
-                <p>Another significant trend reflected in the publication is OFAC's continued emphasis on the conduct of non-U.S. persons. Although the guidance does not establish new jurisdictional theories, it reiterates longstanding concepts such as "causing a violation" and "facilitation." Many non-U.S. companies continue to assume that U.S. sanctions are irrelevant so long as transactions do not involve U.S. entities, U.S. persons, or U.S. dollars. In reality, OFAC has repeatedly demonstrated its willingness to scrutinize conduct involving indirect participation in prohibited transactions, efforts to conceal end users, the use of intermediary structures to disguise the true nature of a transaction, or actions that enable U.S. persons to violate sanctions requirements. For export-oriented businesses, compliance inquiries are increasingly focused not on who the immediate customer is, but on the broader commercial reality of the transaction.</p>
-
-                <h2>The FTI Consulting Case: Expanding the Scope of Enforcement</h2>
-                <p>The FTI Consulting settlement provides a particularly instructive illustration of current enforcement trends. The most significant aspect of the case is not the monetary penalty itself but rather the identity of the enforcement target. FTI is neither a financial institution nor a traditional exporter. It is a professional consulting firm. The enforcement action therefore demonstrates that sanctions risk is no longer confined to banks, exporters, or energy companies. Law firms, consulting firms, accounting firms, logistics providers, supply chain managers, and technology service providers may all face sanctions exposure if their activities become intertwined with prohibited transactions. For export-oriented enterprises, the implications extend beyond the movement of goods: increasingly, sanctions compliance requires scrutiny of the entire commercial ecosystem surrounding a transaction.</p>
-
-                <h2>The Risk-Based Compliance Framework</h2>
-                <p>The publication also devotes considerable attention to OFAC's long-standing risk-based compliance framework. From an enforcement perspective, OFAC is increasingly concerned with whether a company has implemented and maintained an effective compliance program rather than merely whether a violation occurred. Core elements such as management commitment, risk assessment, internal controls, independent testing, auditing, and employee training are not new concepts. However, enforcement history consistently demonstrates that these factors often influence the severity of penalties and, in some cases, whether enforcement action is pursued at all. Companies capable of demonstrating a well-designed and effectively implemented compliance framework are often treated differently from those that lack meaningful controls.</p>
-
-                <h2>Strategic Implications for Chinese Export-Oriented Enterprises</h2>
-                <p>Viewed more broadly, the most important message conveyed by <em>Introduction to OFAC</em> is not any particular legal requirement. Rather, it reflects OFAC's ongoing effort to embed sanctions compliance more deeply into global commerce. What was once perceived primarily as a concern for financial institutions has evolved into a fundamental governance issue affecting manufacturers, technology companies, consulting firms, and participants throughout global supply chains. For Chinese exporters and multinational businesses alike, this development means that future competitiveness will increasingly depend not only on product quality, pricing, or market access, but also on compliance capabilities.</p>
-
-                <h2>Conclusion</h2>
-                <p>Taken together, <em>Introduction to OFAC</em> and the FTI Consulting enforcement action send a clear message to the international business community. Sanctions compliance is moving from reactive enforcement toward proactive risk management; from simple list screening toward ownership and control analysis; and from a narrow legal function toward a broader component of corporate governance. For companies seeking long-term participation in international markets, that may be the most important lesson contained within this seemingly modest twelve-page publication.</p>
-
-                <p style="margin-top:2.5rem;padding:1rem 1.25rem;background:rgba(37,99,235,0.06);border-left:3px solid #2563EB;border-radius:8px;font-size:0.95rem;">
-                    <strong>Download:</strong> <a href="https://ofac.treasury.gov/media/935656/download?inline" target="_blank" rel="noopener noreferrer" style="color:#2563EB;text-decoration:underline;">Introduction to the Office of Foreign Assets Control (PDF)</a> — OFAC, U.S. Department of the Treasury
-                </p>
-            `,
-            zh: `
-                <p class="lead">2026年6月1日，美国财政部外国资产控制办公室（Office of Foreign Assets Control，简称"OFAC"）发布<em>《Introduction to the Office of Foreign Assets Control》</em>（《海外资产控制办公室简介》）。这份仅十二页的文件并未新增任何制裁项目，也没有修改现行法律框架下的具体义务，因此从严格意义上说，它并不是一份新的监管文件。然而，对于长期从事国际贸易、跨境投资以及出口管制与经济制裁合规工作的企业和法律从业者而言，这份文件的重要性或许并不亚于一次新的执法行动。</p>
-
-                <h2>一份面向市场的官方说明书</h2>
-                <p>过去数年间，OFAC陆续发布过大量与俄罗斯、伊朗、古巴、朝鲜等制裁项目相关的指引文件，也不断通过执法案例阐释其监管立场。但这些文件大多聚焦于某一特定领域或具体问题。此次发布的<em>《OFAC简介》</em>则有所不同，其更像是一份面向市场主体的官方说明书，系统梳理了美国经济制裁体系的法律基础、制裁工具、适用范围、执法机制以及企业合规要求。从某种意义上说，这是近年来美国财政部对其制裁体系进行的一次较为完整的"自我介绍"。</p>
-
-                <h2>规则解释与执法展示的同步释放</h2>
-                <p>更值得关注的是，就在同一天，OFAC同步公布了针对FTI Consulting的执法和解案件。前者解释规则，后者展示后果；前者告诉市场"美国希望企业如何理解制裁制度"，后者则说明"美国将如何对待违反这些规则的市场主体"。两项文件同时发布，并非巧合，而是一次具有明显政策宣示意味的监管表达。</p>
-
-                <h2>OFAC在美国制裁体系中的核心地位</h2>
-                <p>从文件内容来看，OFAC再次强调其作为美国经济制裁体系核心执行机构的地位。虽然企业更熟悉美国商务部工业与安全局（BIS）在出口管制领域的作用，但对于涉及金融制裁、资产冻结和交易限制的问题而言，OFAC无疑拥有更广泛、更直接的全球影响力。事实上，现代国际经济制裁体系在很大程度上已经演变为围绕美元体系和美国金融市场展开的制度安排，而OFAC正是这一体系最重要的执行机关之一。</p>
-
-                <h2>IEEPA：制裁体系的法律基石</h2>
-                <p>文件再次确认，当前绝大多数制裁项目均建立在《国际紧急经济权力法》（International Emergency Economic Powers Act，IEEPA）的法律基础之上。在总统宣布国家紧急状态并签发相关行政命令后，OFAC负责具体规则制定、名单管理、许可审批以及调查执法。换言之，美国经济制裁并非单纯的外交政策表态，而是一套具有明确法律授权、行政程序和处罚机制的监管体系。这一点对于许多仍然将制裁问题视为"政治风险"而非"法律风险"的企业而言，尤其值得重视。</p>
-
-                <h2>从名单筛查到穿透审查</h2>
-                <p>在各种制裁工具之中，市场最熟悉的仍然是SDN（Specially Designated Nationals and Blocked Persons）名单。长期以来，不少企业将制裁合规简单理解为名单筛查，只要交易对象不在SDN名单之上，便认为不存在制裁风险。然而，<em>《OFAC简介》</em>再次提醒市场，这种理解已经难以满足当前的监管要求。近年来美国制裁执法的重点正在逐步从名单识别转向穿透审查。监管机构关注的不再只是客户名称是否出现在名单之中，而是交易背后的实际控制关系、资金流向以及最终受益人情况。</p>
-
-                <h2>百分之五十规则与受益所有人尽职调查</h2>
-                <p>文件再次强调的"50%规则"正是这一趋势最直接的体现。根据该规则，一家企业即使没有出现在任何制裁名单上，只要其被一个或多个受制裁主体直接或间接持有50%以上权益，仍然会被视为受制裁主体。实践中，大量违规风险并非来源于企业主动与名单主体开展交易，而是由于未能识别复杂股权结构背后的实际控制关系。因此，对于出口企业而言，传统意义上的名单筛查已经无法满足合规要求。围绕最终受益人（UBO）、实际控制人以及股权穿透结构开展尽职调查，正在成为国际贸易合规审查中的基础工作。</p>
-
-                <h2>域外管辖："导致违规"与"促成违规"</h2>
-                <p>与过去相比，另一个明显变化在于美国越来越倾向于将制裁责任扩展至非美国主体。<em>《OFAC简介》</em>虽然没有提出新的规则，但再次重申了"导致违规（Cause a Violation）"和"促成违规（Facilitation）"的执法理念。许多中国企业习惯于认为，只要交易不经过美国、不使用美元、不涉及美国公司，就不会受到美国制裁体系影响。但现实情况显然并非如此。无论是通过第三方掩盖最终用户、利用复杂交易结构隐藏真实交易背景，还是协助美国主体规避制裁要求，都可能成为OFAC执法调查的对象。对于中国出口企业而言，合规审查的重点已经从"客户是谁"逐步转向"交易本质是什么"。</p>
-
-                <h2>FTI Consulting案件：执法对象的扩展</h2>
-                <p>FTI Consulting案件恰恰说明了这一趋势。该案最值得关注之处，并不在于处罚金额本身，而在于执法对象的身份。FTI并非银行，也不是传统意义上的出口商或能源企业，而是一家全球知名咨询机构。这意味着美国制裁执法已经远远超出金融行业的范围。律师事务所、咨询机构、会计师事务所、物流服务商、供应链管理企业乃至技术服务提供商，都可能因参与特定交易安排而面临制裁风险。对于出口企业而言，这也意味着未来的供应链合规将不再局限于产品本身，而是需要覆盖整个交易链条中的各类服务提供者。</p>
-
-                <h2>"风险为本"的合规理念</h2>
-                <p>值得注意的是，<em>《OFAC简介》</em>用了相当篇幅介绍其长期倡导的"风险为本"（Risk-Based）合规理念。从监管实践来看，OFAC越来越关注企业是否建立了能够持续运行的合规体系，而不仅仅关注是否发生了违规行为。管理层承诺、风险评估、内部控制、测试审计以及员工培训等内容并非新概念，但在执法实践中，这些因素往往直接决定处罚幅度甚至是否启动执法程序。一个能够证明自己已经建立合理合规体系并持续运行的企业，与一个完全缺乏内部控制机制的企业，即便发生同样的违规行为，其法律后果也可能截然不同。</p>
-
-                <h2>对中国出口企业的战略启示</h2>
-                <p>从更宏观的角度来看，<em>《OFAC简介》</em>释放出的真正信号并不在于某一项具体规则，而在于美国财政部正在试图将制裁合规进一步嵌入全球商业活动之中。过去，经济制裁更多被视为金融机构需要关注的问题；如今，制造企业、科技企业、咨询机构以及跨境供应链参与者都已被纳入同一监管框架之下。企业是否建立有效的制裁合规体系，正逐渐成为国际贸易和跨境投资活动中的基础治理要求。对于中国出口企业而言，这意味着未来的竞争不仅体现在产品质量、成本控制和市场开拓能力上，也体现在合规治理能力上。</p>
-
-                <h2>结语</h2>
-                <p>从<em>《OFAC简介》</em>到FTI Consulting执法案例，美国财政部已经向市场传递出一个十分明确的信息：制裁合规正在从事后调查逐步转向事前预防，从名单筛查逐步转向穿透审查，从法律部门的专项工作逐步演变为企业整体治理能力的一部分。对于希望长期参与国际市场竞争的中国出口企业而言，这或许才是这份十二页文件最值得重视的地方。</p>
-
-                <p style="margin-top:2.5rem;padding:1rem 1.25rem;background:rgba(37,99,235,0.06);border-left:3px solid #2563EB;border-radius:8px;font-size:0.95rem;">
-                    <strong>全文下载：</strong><a href="https://ofac.treasury.gov/media/935656/download?inline" target="_blank" rel="noopener noreferrer" style="color:#2563EB;text-decoration:underline;">《Introduction to the Office of Foreign Assets Control》（PDF）</a> — 美国财政部外国资产控制办公室（OFAC）
-                </p>
-            `
-        },
-        featured: true,
-        highlight: true,
-        author: 'David Zhou, Founder & Managing Partner, Cathay Praxis Law P.C.',
-        tags: ['OFAC', 'Sanctions', 'Enforcement', 'Compliance', 'Export Controls', 'FTI Consulting', 'IEEPA', 'SDN', '50 Percent Rule'],
-        readTime: 18
-    },
-    {
         id: 'insight-001',
         slug: 'ear-entity-list-removal-strategy',
         date: '2026-03-15',
@@ -689,8 +587,8 @@ const insightsData = [
                 <p>For assistance with Entity List removal requests, our team has successfully guided multiple clients through this complex process.</p>
             `,
             zh: `
-                <p class="lead">从BIS实体清单中获得移除是出口管制实践中最具挑战性的任务之一。成功需要对程序框架的全面理解、战略性证据开发和有效的辩护。</p>
-                
+                <p class="lead">在出口管制实务中，申请从BIS实体清单中移除是最具挑战性的工作之一。成功移除需要对程序框架的全面理解、策略性的证据准备以及富有说服力的法律论证。</p>
+
                 <h2>移除框架</h2>
                 <p>根据EAR第744.16节，实体可以通过证明列入的原始依据不再适用或列入有误来申请从实体清单中移除。该过程涉及几个不同的阶段：</p>
                 
@@ -712,7 +610,7 @@ const insightsData = [
                     <li>适当的第三方验证</li>
                 </ul>
                 
-                <h2>证据开发</h2>
+                <h2>证据准备</h2>
                 <p>移除程序中的举证责任很重。成功的申请通常包括：</p>
                 
                 <h3>文件证据</h3>
@@ -741,7 +639,7 @@ const insightsData = [
                     <li>关于法规解释的有力法律论证</li>
                 </ol>
                 
-                <h2>时间考虑</h2>
+                <h2>时间考量</h2>
                 <p>移除程序通常从初始提交到最终决定需要12-18个月。公司应相应规划，并考虑临时措施以减轻业务影响。</p>
                 
                 <p>如需实体清单移除申请方面的协助，我们的团队已成功指导多个客户完成这一复杂程序。</p>
@@ -1021,7 +919,7 @@ const insightsData = [
                     <li>基于ITC程序的暂停动议</li>
                     <li>权利要求解释一致性</li>
                     <li>取证协调</li>
-                    <li>跨论坛的和解筹码</li>
+                    <li>不同程序之间的和解谈判筹码</li>
                 </ul>
             `
         },
@@ -1030,6 +928,104 @@ const insightsData = [
         author: 'David Wang',
         tags: ['ITC', 'Section 337', 'IP Litigation', 'Patent'],
         readTime: 8
+    },
+    {
+        id: 'insight-004',
+        slug: 'ofac-introduction-fti-consulting-enforcement-2026',
+        date: '2026-06-01',
+        category: 'compliance',
+        image: '',
+        title: {
+            en: "From OFAC's 'Introduction to OFAC' to the FTI Consulting Enforcement Action: New Signals from U.S. Sanctions Enforcement and Compliance Implications for Export-Oriented Businesses",
+            zh: '从《OFAC简介》到FTI Consulting执法案例：美国制裁执法体系的最新信号与出口企业的合规启示'
+        },
+        excerpt: {
+            en: "OFAC's new Introduction to the Office of Foreign Assets Control and its simultaneous FTI Consulting enforcement action together signal evolving priorities in U.S. sanctions enforcement. Export-oriented businesses should reassess their compliance frameworks in light of these developments.",
+            zh: 'OFAC发布《Introduction to the Office of Foreign Assets Control》并同步公布FTI Consulting执法案例，两项文件共同释放了美国制裁执法体系的最新信号，出口企业应据此重新审视自身合规体系。'
+        },
+        content: {
+            en: `
+                <p class="lead">On June 1, 2026, the U.S. Department of the Treasury's Office of Foreign Assets Control ("OFAC") released <em>Introduction to the Office of Foreign Assets Control</em>, a concise twelve-page publication designed to explain the structure and operation of the U.S. economic sanctions regime. Although the document does not introduce new sanctions programs, amend existing regulations, or create additional compliance obligations, its significance should not be underestimated. For companies engaged in international trade, cross-border investment, export controls, and sanctions compliance, the publication provides a rare and comprehensive overview of how OFAC views its role, authority, enforcement priorities, and compliance expectations.</p>
+
+                <h2>A Comprehensive Institutional Guide</h2>
+                <p>Over the past several years, OFAC has issued numerous guidance documents addressing specific sanctions programs involving Russia, Iran, Cuba, North Korea, and other jurisdictions, while also using enforcement actions to clarify its regulatory positions. Most of those publications focused on particular industries, jurisdictions, or compliance issues. By contrast, <em>Introduction to OFAC</em> serves as a broader institutional guide, systematically explaining the legal foundations of U.S. sanctions, the principal sanctions tools available to OFAC, the scope of sanctions jurisdiction, enforcement mechanisms, and the core elements of an effective sanctions compliance framework. In many respects, it represents one of the most comprehensive introductions to the U.S. sanctions system published by OFAC in recent years.</p>
+
+                <h2>Coordinated Regulatory Messaging</h2>
+                <p>The timing of the publication is equally noteworthy. On the same day, OFAC announced a settlement with FTI Consulting, a globally recognized consulting firm. While the guidance explains how the sanctions system operates, the enforcement action illustrates the practical consequences of non-compliance. Together, the two announcements convey a clear regulatory message: OFAC is not only explaining the rules to the market but also demonstrating its willingness to enforce them.</p>
+
+                <h2>OFAC's Central Role in the Sanctions Framework</h2>
+                <p>The publication reaffirms OFAC's position as the central enforcement authority within the U.S. economic sanctions framework. Although many companies involved in international trade are more familiar with the Bureau of Industry and Security ("BIS") and its role in export controls, OFAC exercises a broader influence in matters involving financial sanctions, asset blocking, and prohibited transactions. Indeed, the modern sanctions regime has evolved into a system that relies heavily on the central role of the U.S. financial system and the U.S. dollar, with OFAC serving as one of its principal gatekeepers.</p>
+
+                <h2>IEEPA: The Legal Foundation</h2>
+                <p>OFAC further confirms that the vast majority of current sanctions programs are grounded in the International Emergency Economic Powers Act ("IEEPA"). Once a national emergency is declared and the President issues the relevant Executive Orders, OFAC is responsible for implementing regulations, maintaining sanctions lists, reviewing license applications, and conducting enforcement actions. As a result, U.S. sanctions should not be viewed merely as foreign policy statements. They constitute a comprehensive regulatory regime supported by statutory authority, administrative procedures, and civil and criminal enforcement mechanisms. For companies that continue to regard sanctions solely as a geopolitical or political issue, this distinction remains critically important.</p>
+
+                <h2>Beyond List Screening: The Shift Toward Penetrating Review</h2>
+                <p>Among OFAC's various sanctions tools, the Specially Designated Nationals and Blocked Persons List ("SDN List") remains the most widely recognized. Historically, many companies have treated sanctions compliance as little more than a screening exercise: if a counterparty does not appear on the SDN List, the transaction is presumed permissible. The new OFAC publication implicitly challenges that assumption. According to the guidance, sanctions compliance increasingly requires a deeper examination of ownership structures, control relationships, beneficial ownership, and the actual flow of funds and economic benefits. Enforcement priorities are gradually shifting from simple list screening toward a more substantive, risk-based review of transactional realities.</p>
+
+                <h2>The Fifty Percent Rule and Beneficial Ownership Diligence</h2>
+                <p>The publication's discussion of the "50 Percent Rule" exemplifies this evolution. Under OFAC guidance, an entity may be treated as a blocked person even if it does not appear on any sanctions list, provided that one or more sanctioned parties collectively own, directly or indirectly, 50 percent or more of its interests. In practice, many sanctions violations arise not because a company knowingly transacts with a listed party, but because it fails to identify sanctioned ownership hidden within complex corporate structures. Consequently, sanctions screening alone is no longer sufficient. Due diligence concerning ultimate beneficial ownership (UBO), control structures, and indirect ownership has become an essential component of modern trade compliance.</p>
+
+                <h2>Extraterritorial Reach: "Causing a Violation" and "Facilitation"</h2>
+                <p>Another significant trend reflected in the publication is OFAC's continued emphasis on the conduct of non-U.S. persons. Although the guidance does not establish new jurisdictional theories, it reiterates longstanding concepts such as "causing a violation" and "facilitation." Many non-U.S. companies continue to assume that U.S. sanctions are irrelevant so long as transactions do not involve U.S. entities, U.S. persons, or U.S. dollars. In reality, OFAC has repeatedly demonstrated its willingness to scrutinize conduct involving indirect participation in prohibited transactions, efforts to conceal end users, the use of intermediary structures to disguise the true nature of a transaction, or actions that enable U.S. persons to violate sanctions requirements. For export-oriented businesses, compliance inquiries are increasingly focused not on who the immediate customer is, but on the broader commercial reality of the transaction.</p>
+
+                <h2>The FTI Consulting Case: Expanding the Scope of Enforcement</h2>
+                <p>The FTI Consulting settlement provides a particularly instructive illustration of current enforcement trends. The most significant aspect of the case is not the monetary penalty itself but rather the identity of the enforcement target. FTI is neither a financial institution nor a traditional exporter. It is a professional consulting firm. The enforcement action therefore demonstrates that sanctions risk is no longer confined to banks, exporters, or energy companies. Law firms, consulting firms, accounting firms, logistics providers, supply chain managers, and technology service providers may all face sanctions exposure if their activities become intertwined with prohibited transactions. For export-oriented enterprises, the implications extend beyond the movement of goods: increasingly, sanctions compliance requires scrutiny of the entire commercial ecosystem surrounding a transaction.</p>
+
+                <h2>The Risk-Based Compliance Framework</h2>
+                <p>The publication also devotes considerable attention to OFAC's long-standing risk-based compliance framework. From an enforcement perspective, OFAC is increasingly concerned with whether a company has implemented and maintained an effective compliance program rather than merely whether a violation occurred. Core elements such as management commitment, risk assessment, internal controls, independent testing, auditing, and employee training are not new concepts. However, enforcement history consistently demonstrates that these factors often influence the severity of penalties and, in some cases, whether enforcement action is pursued at all. Companies capable of demonstrating a well-designed and effectively implemented compliance framework are often treated differently from those that lack meaningful controls.</p>
+
+                <h2>Strategic Implications for Chinese Export-Oriented Enterprises</h2>
+                <p>Viewed more broadly, the most important message conveyed by <em>Introduction to OFAC</em> is not any particular legal requirement. Rather, it reflects OFAC's ongoing effort to embed sanctions compliance more deeply into global commerce. What was once perceived primarily as a concern for financial institutions has evolved into a fundamental governance issue affecting manufacturers, technology companies, consulting firms, and participants throughout global supply chains. For Chinese exporters and multinational businesses alike, this development means that future competitiveness will increasingly depend not only on product quality, pricing, or market access, but also on compliance capabilities.</p>
+
+                <h2>Conclusion</h2>
+                <p>Taken together, <em>Introduction to OFAC</em> and the FTI Consulting enforcement action send a clear message to the international business community. Sanctions compliance is moving from reactive enforcement toward proactive risk management; from simple list screening toward ownership and control analysis; and from a narrow legal function toward a broader component of corporate governance. For companies seeking long-term participation in international markets, that may be the most important lesson contained within this seemingly modest twelve-page publication.</p>
+
+                <p class="text-sm text-gray-500 mt-6">Download: <a href="https://ofac.treasury.gov/media/935656/download?inline" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">Introduction to the Office of Foreign Assets Control (PDF)</a> — OFAC, U.S. Department of the Treasury</p>
+            `,
+            zh: `
+                <p class="lead">2026年6月1日，美国财政部外国资产控制办公室（Office of Foreign Assets Control，简称"OFAC"）发布《Introduction to the Office of Foreign Assets Control》（《海外资产控制办公室简介》）。这份仅十二页的文件并未新增任何制裁项目，也没有修改现行法律框架下的具体义务，因此从严格意义上说，它并不是一份新的监管文件。然而，对于长期从事国际贸易、跨境投资以及出口管制与经济制裁合规工作的企业和法律从业者而言，这份文件的重要性或许并不亚于一次新的执法行动。</p>
+
+                <h2>一份面向市场的体系化介绍</h2>
+                <p>过去数年间，OFAC陆续发布过大量与俄罗斯、伊朗、古巴、朝鲜等制裁项目相关的指引文件，也不断通过执法案例阐释其监管立场。但这些文件大多聚焦于某一特定领域或具体问题。此次发布的《OFAC简介》则有所不同，其更像是一份面向市场主体的体系化介绍，系统梳理了美国经济制裁体系的法律基础、制裁工具、适用范围、执法机制以及企业合规要求。从某种意义上说，这是近年来美国财政部对其制裁体系进行的一次较为完整的"自我介绍"。</p>
+
+                <h2>规则解读与执法行动的同步发布</h2>
+                <p>更值得关注的是，就在同一天，OFAC同步公布了针对FTI Consulting的执法和解案件。前者解释规则，后者展示后果；前者告诉市场"美国希望企业如何理解制裁制度"，后者则说明"美国将如何对待违反这些规则的市场主体"。两项文件同日发布并非巧合，而是一次带有明显政策宣示意味的监管表态。</p>
+
+                <h2>OFAC在美国制裁体系中的核心地位</h2>
+                <p>从文件内容来看，OFAC再次强调其作为美国经济制裁体系核心执行机构的地位。虽然企业更熟悉美国商务部工业与安全局（BIS）在出口管制领域的作用，但对于涉及金融制裁、资产冻结和交易限制的问题而言，OFAC无疑拥有更广泛、更直接的全球影响力。事实上，现代国际经济制裁体系在很大程度上已经演变为围绕美元体系和美国金融市场展开的制度安排，而OFAC正是这一体系最重要的执行机关之一。</p>
+
+                <h2>IEEPA：制裁体系的法律基石</h2>
+                <p>文件再次确认，当前绝大多数制裁项目均建立在《国际紧急经济权力法》（International Emergency Economic Powers Act，IEEPA）的法律基础之上。在总统宣布国家紧急状态并签发相关行政命令后，OFAC负责具体规则制定、名单管理、许可审批以及调查执法。换言之，美国经济制裁并非单纯的外交政策表态，而是一套具有明确法律授权、行政程序和处罚机制的监管体系。这一点对于许多仍然将制裁问题视为"政治风险"而非"法律风险"的企业而言，尤其值得重视。</p>
+
+                <h2>从名单筛查到穿透审查</h2>
+                <p>在各种制裁工具之中，市场最熟悉的仍然是SDN（Specially Designated Nationals and Blocked Persons）名单。长期以来，不少企业将制裁合规简单理解为名单筛查，只要交易对象不在SDN名单之上，便认为不存在制裁风险。然而，《OFAC简介》再次提醒市场，这种理解已经难以满足当前的监管要求。近年来美国制裁执法的重点正在逐步从名单识别转向穿透审查。监管机构关注的不再只是客户名称是否出现在名单之中，而是交易背后的实际控制关系、资金流向以及最终受益人情况。</p>
+
+                <h2>百分之五十规则与受益所有人尽职调查</h2>
+                <p>文件再次强调的"50%规则"正是这一趋势最直接的体现。根据该规则，一家企业即使没有出现在任何制裁名单上，只要其被一个或多个受制裁主体直接或间接持有50%以上权益，仍然会被视为受制裁主体。实践中，大量违规风险并非来源于企业主动与名单主体开展交易，而是由于未能识别复杂股权结构背后的实际控制关系。因此，对于出口企业而言，传统意义上的名单筛查已经无法满足合规要求。围绕最终受益人（UBO）、实际控制人以及股权穿透结构开展尽职调查，正在成为国际贸易合规审查中的基础工作。</p>
+
+                <h2>域外管辖："导致违规"与"促成违规"</h2>
+                <p>与过去相比，另一个明显变化在于美国越来越倾向于将制裁责任扩展至非美国主体。《OFAC简介》虽然没有提出新的规则，但再次重申了"导致违规（Cause a Violation）"和"促成违规（Facilitation）"的执法理念。许多中国企业习惯于认为，只要交易不经过美国、不使用美元、不涉及美国公司，就不会受到美国制裁体系影响。但现实情况显然并非如此。无论是通过第三方掩盖最终用户、利用复杂交易结构隐藏真实交易背景，还是协助美国主体规避制裁要求，都可能成为OFAC执法调查的对象。对于中国出口企业而言，合规审查的重点已经从"客户是谁"逐步转向"交易本质是什么"。</p>
+
+                <h2>FTI Consulting案件：执法对象的扩展</h2>
+                <p>FTI Consulting案件恰恰说明了这一趋势。该案最值得关注之处，并不在于处罚金额本身，而在于执法对象的身份。FTI并非银行，也不是传统意义上的出口商或能源企业，而是一家全球知名咨询机构。这意味着美国制裁执法已经远远超出金融行业的范围。律师事务所、咨询机构、会计师事务所、物流服务商、供应链管理企业乃至技术服务提供商，都可能因参与特定交易安排而面临制裁风险。对于出口企业而言，这也意味着未来的供应链合规将不再局限于产品本身，而是需要覆盖整个交易链条中的各类服务提供者。</p>
+
+                <h2>"风险为本"的合规理念</h2>
+                <p>值得注意的是，《OFAC简介》用了相当篇幅介绍其长期倡导的"风险为本"（Risk-Based）合规理念。从监管实践来看，OFAC越来越关注企业是否建立了能够持续运行的合规体系，而不仅仅关注是否发生了违规行为。管理层承诺、风险评估、内部控制、测试审计以及员工培训等内容并非新概念，但在执法实践中，这些因素往往直接决定处罚幅度甚至是否启动执法程序。一个能够证明自己已经建立合理合规体系并持续运行的企业，与一个完全缺乏内部控制机制的企业，即便发生同样的违规行为，其法律后果也可能截然不同。</p>
+
+                <h2>对中国出口企业的战略启示</h2>
+                <p>从更宏观的角度来看，《OFAC简介》释放出的真正信号并不在于某一项具体规则，而在于美国财政部正在试图将制裁合规进一步嵌入全球商业活动之中。过去，经济制裁更多被视为金融机构需要关注的问题；如今，制造企业、科技企业、咨询机构以及跨境供应链参与者都已被纳入同一监管框架之下。企业是否建立有效的制裁合规体系，正逐渐成为国际贸易和跨境投资活动中的基础治理要求。对于中国出口企业而言，这意味着未来的竞争不仅体现在产品质量、成本控制和市场开拓能力上，也体现在合规治理能力上。</p>
+
+                <h2>结语</h2>
+                <p>从《OFAC简介》到FTI Consulting执法案例，美国财政部已经向市场传递出一个十分明确的信息：制裁合规正在从事后调查逐步转向事前预防，从名单筛查逐步转向穿透审查，从法律部门的专项工作逐步演变为企业整体治理能力的一部分。对于希望长期参与国际市场竞争的中国出口企业而言，这或许才是这份十二页文件最值得重视的地方。</p>
+
+                <p class="text-sm text-gray-500 mt-6">全文下载：<a href="https://ofac.treasury.gov/media/935656/download?inline" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">《Introduction to the Office of Foreign Assets Control》（PDF）</a> — 美国财政部外国资产控制办公室（OFAC）</p>
+            `
+        },
+        featured: false,
+        highlight: false,
+        author: 'David Zhou, Founder & Managing Partner, Cathay Praxis Law P.C.',
+        tags: ['OFAC', 'Sanctions', 'Enforcement', 'Compliance', 'Export Controls', 'FTI Consulting', 'IEEPA', 'SDN', '50 Percent Rule'],
+        readTime: 18
     }
 ];
 

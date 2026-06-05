@@ -406,28 +406,18 @@
     <!-- About Us Section -->
     <section id="about" class="section">
         <div class="container">
-            <div class="grid lg:grid-cols-2 gap-16 items-center reveal">
+            <div class="grid lg:grid-cols-2 gap-16 items-start reveal">
                 <div>
                     <p class="section-label" data-i18n="nav_about">About Us</p>
-                    <h2 class="heading-section text-4xl md:text-5xl text-primary mb-6" data-i18n="about_title">
-                        Where Cross-Border Strategy Meets U.S. Execution
+                    <h2 class="heading-section text-4xl md:text-5xl text-primary mb-8" data-i18n="about_title">
+                        About Cathay Praxis Law
                     </h2>
-                    <p class="text-gray-600 text-lg leading-relaxed mb-8 body-text" data-i18n="about_desc">
-                        We advise companies operating across jurisdictions on complex U.S.-related transactions, regulatory compliance, and dispute matters. Our practice focuses on translating cross-border complexity into clear, executable legal strategies.
-                    </p>
-                    <div class="space-y-6 mt-12">
-                        <div class="value-card">
-                            <h3 class="heading-card text-xl text-primary mb-2" data-i18n="value_1_title">Practical Judgment</h3>
-                            <p class="text-gray-600 text-sm body-text" data-i18n="value_1_desc">Legal solutions that work in real-world business contexts.</p>
-                        </div>
-                        <div class="value-card">
-                            <h3 class="heading-card text-xl text-primary mb-2" data-i18n="value_2_title">Cross-Border Precision</h3>
-                            <p class="text-gray-600 text-sm body-text" data-i18n="value_2_desc">Translating complex regulatory frameworks into executable strategies.</p>
-                        </div>
-                        <div class="value-card">
-                            <h3 class="heading-card text-xl text-primary mb-2" data-i18n="value_3_title">Integrity in Execution</h3>
-                            <p class="text-gray-600 text-sm body-text" data-i18n="value_3_desc">Clear counsel, honest assessment, and sound strategic judgment.</p>
-                        </div>
+                    <div class="space-y-5 text-gray-600 leading-relaxed body-text">
+                        <p data-i18n="about_p1">Cathay Praxis Law is a U.S.-based law firm focused on cross-border transactions, regulatory compliance, international dispute resolution, and U.S.-related legal matters.</p>
+                        <p data-i18n="about_p2">In our team, some attorneys are admitted in the United States and China, many of whom have graduated from leading U.S. law schools and possess substantial experience advising multinational corporations, investors, entrepreneurs, and emerging businesses on complex cross-border matters.</p>
+                        <p data-i18n="about_p3">We regularly assist clients in navigating legal and commercial issues arising from foreign direct investment, mergers and acquisitions, international trade, export controls and economic sanctions, U.S. market entry, corporate governance, regulatory compliance, and international arbitration.</p>
+                        <p data-i18n="about_p4">Drawing upon experience across multiple jurisdictions, we help clients manage legal risks, structure transactions, resolve disputes, and develop practical solutions in increasingly complex global business environments.</p>
+                        <p data-i18n="about_p5">Our approach combines international legal knowledge with commercial judgment. We believe effective legal counsel should not only identify legal risks, but also provide clear, practical, and business-oriented solutions that support our clients' long-term objectives.</p>
                     </div>
                 </div>
                 <div class="relative">
@@ -945,7 +935,7 @@
                 focus: { en: 'Cross-Border Transactions / U.S. Export Controls / Dispute Resolution', zh: '跨境交易 / 美国出口管制 / 争议解决' },
                 location: { en: 'Changsha, China', zh: '长沙，中国' },
                 email: 'zhengping.zhou@cathaypraxislaw.com',
-                image: 'images/david-zhou-new.jpg',
+                image: 'images/david-zhou.png',
                 bio: {
                     en: 'David Zhou is a dual-qualified attorney admitted to practice in California and the People\'s Republic of China. He has spent nearly two decades advising companies, investors, and institutions on complex legal and regulatory matters spanning the United States and Asia. His work focuses on helping clients solve concrete problems—whether structuring a cross-border transaction, managing U.S. regulatory exposure, or resolving a high-stakes dispute. David is known for combining rigorous legal analysis with a practical understanding of business and political dynamics across jurisdictions. He is the founder of Cathay Praxis Law, a firm built around the idea that legal counsel should be clear, responsive, and directly tied to the client\'s commercial objectives.',
                     zh: '周争平律师拥有美国加州及中华人民共和国律师执业资格。近二十年来，他为跨中美及亚洲地区运营的企业、投资者及机构提供复杂的法律与监管事务咨询。其执业重点在于帮助客户解决实际问题——无论是架构跨境交易、管理美国监管风险，还是处理高风险争议。周律师以将严谨的法律分析与对商业及政治动态的务实理解相结合而著称。他是博衡律师事务所（Cathay Praxis Law）的创始人，该事务所的核心理念是：法律顾问应当清晰、及时响应，并直接服务于客户的商业目标。'
@@ -1419,7 +1409,7 @@ function showPrivacyPolicy() {
         
         function loadInsightsPreview() {
             const container = document.getElementById('insights-preview-container');
-            const items = insightsData.slice(0, 3);
+            const items = ContentHelpers.sortByDate(insightsData).slice(0, 3);
             const lang = LanguageModule.getCurrent();
             
             let html = '';

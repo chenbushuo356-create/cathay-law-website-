@@ -18,7 +18,7 @@ const LanguageModule = (function() {
         en: {
             // Navigation
             'nav_home': 'Home',
-            'nav_about': 'About',
+            'nav_about': 'About Us',
             'nav_practices': 'Practices',
             'nav_clients': 'Clients',
             'nav_news': 'News & Achievements',
@@ -38,14 +38,12 @@ const LanguageModule = (function() {
             'scroll': 'Scroll',
             
             // About Section
-            'about_title': 'Where Cross-Border Strategy Meets U.S. Execution',
-            'about_desc': 'We advise companies operating across jurisdictions on complex U.S.-related transactions, regulatory compliance, and dispute matters. Our practice focuses on translating cross-border complexity into clear, executable legal strategies.',
-            'value_1_title': 'Practical Judgment',
-            'value_1_desc': 'Legal solutions that work in real-world business contexts.',
-            'value_2_title': 'Cross-Border Precision',
-            'value_2_desc': 'Translating complex regulatory frameworks into executable strategies.',
-            'value_3_title': 'Integrity in Execution',
-            'value_3_desc': 'Clear counsel, honest assessment, and sound strategic judgment.',
+            'about_title': 'About Cathay Praxis Law',
+            'about_p1': 'Cathay Praxis Law is a U.S.-based law firm focused on cross-border transactions, regulatory compliance, international dispute resolution, and U.S.-related legal matters.',
+            'about_p2': 'In our team, some attorneys are admitted in the United States and China, many of whom have graduated from leading U.S. law schools and possess substantial experience advising multinational corporations, investors, entrepreneurs, and emerging businesses on complex cross-border matters.',
+            'about_p3': 'We regularly assist clients in navigating legal and commercial issues arising from foreign direct investment, mergers and acquisitions, international trade, export controls and economic sanctions, U.S. market entry, corporate governance, regulatory compliance, and international arbitration.',
+            'about_p4': 'Drawing upon experience across multiple jurisdictions, we help clients manage legal risks, structure transactions, resolve disputes, and develop practical solutions in increasingly complex global business environments.',
+            'about_p5': 'Our approach combines international legal knowledge with commercial judgment. We believe effective legal counsel should not only identify legal risks, but also provide clear, practical, and business-oriented solutions that support our clients\' long-term objectives.',
             'about_quote': 'Bridging Legal Systems with Practical Judgment.',
             
             // Practice Areas
@@ -204,14 +202,12 @@ const LanguageModule = (function() {
             'scroll': '向下滚动',
             
             // About Section
-            'about_title': '跨境有道，判断有衡',
-            'about_desc': '我们为在多个司法管辖区运营的企业提供法律服务，涵盖涉美交易、监管合规及争议解决。我们的执业重点是化繁为简，将跨境事务中的复杂问题转化为清晰可执行的法律策略。',
-            'value_1_title': '务实判断',
-            'value_1_desc': '立足商业现实，提供切实可行的法律解决方案。',
-            'value_2_title': '跨境精准',
-            'value_2_desc': '化繁为简，将复杂的监管要求转化为可落地的执行策略。',
-            'value_3_title': '恪守诚信',
-            'value_3_desc': '提供清晰建议、诚实评估与审慎的战略判断。',
+            'about_title': '关于博衡',
+            'about_p1': '博衡律师事务所（Cathay Praxis Law）是一家立足美国、专注于跨境法律服务的律师事务所，业务涵盖跨境投资并购、美国市场准入与监管合规、出口管制与经济制裁、国际争议解决以及其他涉美法律事务。',
+            'about_p2': '本所律师团队多位成员拥有中国与美国双法域执业背景，多位律师毕业于美国知名法学院，并长期为跨国企业、投资机构、科技企业及企业家提供跨境法律服务。',
+            'about_p3': '我们经常协助客户处理跨境投资与并购、国际贸易、出口管制与经济制裁、公司治理、美国市场准入、监管合规以及国际仲裁等复杂法律事务。',
+            'about_p4': '依托多法域执业经验与国际化视野，我们致力于帮助客户识别和管理法律风险、优化交易架构、解决跨境争议，并在复杂国际商业环境中实现商业目标。',
+            'about_p5': '我们相信，优秀的法律服务不仅在于准确理解法律规则，更在于将法律判断转化为切实可行的商业解决方案。',
             'about_quote': '以务实判断，连接法律制度。',
             
             // Practice Areas
