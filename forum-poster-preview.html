@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对美跨境业务合规与知识产权保护实务研讨会</title>
+    <style>
+        :root {
+            --ink: #ffffff;
+            --ink-soft: rgba(255, 255, 255, 0.78);
+            --ink-muted: rgba(255, 255, 255, 0.54);
+            --line: rgba(191, 219, 254, 0.34);
+            --line-strong: rgba(219, 234, 254, 0.62);
+            --blue-light: #a5d8ff;
+            --panel: rgba(5, 29, 55, 0.52);
+            --panel-soft: rgba(13, 55, 94, 0.42);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            padding: 28px;
+            background: #e5edf6;
+            font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+        }
+
+        .poster-shell {
+            width: 800px;
+            height: 2000px;
+            overflow: hidden;
+            background: #0d1f36;
+            box-shadow: 0 28px 80px rgba(7, 21, 40, 0.28);
+        }
+
+        .poster {
+            position: relative;
+            width: 800px;
+            height: 2000px;
+            overflow: hidden;
+            transform-origin: top left;
+            color: var(--ink);
+            background:
+                linear-gradient(142deg, rgba(49, 112, 172, 0.42) 0%, rgba(25, 82, 139, 0.24) 25%, rgba(7, 21, 40, 0) 48%),
+                linear-gradient(168deg, #5f98c9 0%, #25669f 22%, #123967 50%, #071528 100%);
+        }
+
+        .poster::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 22% 15%, rgba(255, 255, 255, 0.16), transparent 28%),
+                linear-gradient(122deg, transparent 0 53%, rgba(125, 190, 242, 0.18) 53% 66%, transparent 66%),
+                linear-gradient(158deg, transparent 0 68%, rgba(255, 255, 255, 0.12) 68% 72%, transparent 72%);
+            pointer-events: none;
+        }
+
+        .poster::after {
+            content: "";
+            position: absolute;
+            inset: 54px;
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            pointer-events: none;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            padding: 76px 58px 60px;
+        }
+
+        .header-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 218px;
+            gap: 34px;
+            align-items: start;
+        }
+
+        .title-panel {
+            border: 1px solid var(--line);
+            background: rgba(11, 48, 85, 0.3);
+            padding: 25px 27px 27px;
+        }
+
+        .eyebrow {
+            margin-bottom: 13px;
+            font-size: 18px;
+            line-height: 1.35;
+            font-weight: 540;
+            letter-spacing: 0.04em;
+            color: rgba(255, 255, 255, 0.88);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 37px;
+            line-height: 1.18;
+            font-weight: 660;
+            letter-spacing: 0;
+        }
+
+        .series-strip {
+            display: inline-grid;
+            gap: 7px;
+            margin-top: 13px;
+            padding: 12px 18px 13px;
+            border-left: 4px solid var(--blue-light);
+            background: rgba(18, 73, 121, 0.58);
+        }
+
+        .series-name {
+            font-size: 16px;
+            line-height: 1.3;
+            font-weight: 580;
+            letter-spacing: 0.04em;
+        }
+
+        .organizer-name {
+            font-size: 13px;
+            line-height: 1.35;
+            color: var(--ink-soft);
+        }
+
+        .corner-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 218px;
+            height: 218px;
+            border: 1px solid var(--line);
+            background: rgba(5, 29, 55, 0.22);
+        }
+
+        .corner-logo img {
+            display: block;
+            width: 195px;
+            height: 195px;
+            object-fit: contain;
+            filter: brightness(0) invert(1);
+            opacity: 0.94;
+        }
+
+        .intro-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 282px;
+            gap: 30px;
+            margin-top: 28px;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            margin: 0 0 14px;
+            font-size: 23px;
+            line-height: 1;
+            font-weight: 620;
+            letter-spacing: 0.04em;
+        }
+
+        .section-title::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: var(--line);
+        }
+
+        .meeting-copy {
+            min-height: 190px;
+            margin: 0;
+            border: 1px solid var(--line);
+            background: var(--panel-soft);
+            padding: 22px 24px;
+            font-size: 17px;
+            line-height: 1.65;
+            color: rgba(255, 255, 255, 0.84);
+            text-align: justify;
+        }
+
+        .meta-card {
+            border-top: 1px solid var(--line-strong);
+            border-bottom: 1px solid var(--line);
+            padding: 22px 0 34px;
+        }
+
+        .meta-row + .meta-row {
+            margin-top: 23px;
+        }
+
+        .meta-label {
+            margin-bottom: 8px;
+            font-size: 15px;
+            letter-spacing: 0.1em;
+            color: var(--blue-light);
+        }
+
+        .meta-value {
+            font-size: 20px;
+            line-height: 1.46;
+            font-weight: 640;
+        }
+
+        .meta-row:first-child .meta-value {
+            font-size: 23px;
+            line-height: 1.38;
+        }
+
+        .meta-row.address .meta-value {
+            font-size: 16px;
+            line-height: 1.55;
+            font-weight: 520;
+            color: var(--ink-soft);
+        }
+
+        .opening-card {
+            display: grid;
+            grid-template-columns: 152px minmax(0, 1fr);
+            align-items: center;
+            gap: 22px;
+            min-height: 104px;
+            margin-top: 15px;
+            border: 1px solid var(--line);
+            background: var(--panel);
+            padding: 16px 20px;
+        }
+
+        .time-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 132px;
+            height: 31px;
+            border: 1px solid rgba(165, 216, 255, 0.52);
+            padding: 0 12px;
+            font-size: 15px;
+            line-height: 1;
+            font-weight: 650;
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+            color: #ffffff;
+        }
+
+        .opening-label {
+            margin-top: 0;
+            font-size: 13px;
+            letter-spacing: 0.08em;
+            color: var(--ink-soft);
+        }
+
+        .opening-name {
+            margin-top: 5px;
+            font-size: 24px;
+            line-height: 1.2;
+            font-weight: 640;
+        }
+
+        .opening-role {
+            margin-top: 5px;
+            font-size: 13px;
+            line-height: 1.4;
+            color: var(--blue-light);
+        }
+
+        .guests-heading {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 282px;
+            gap: 30px;
+            align-items: end;
+            margin-top: 31px;
+        }
+
+        .guests-heading .section-title {
+            margin-bottom: 0;
+        }
+
+        .guest-label {
+            font-size: 27px;
+            line-height: 1;
+            font-weight: 620;
+            text-align: center;
+        }
+
+        .speaker-row {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 282px;
+            gap: 30px;
+            height: 332px;
+            margin-top: 18px;
+        }
+
+        .topic-card {
+            position: relative;
+            height: 100%;
+            overflow: hidden;
+            border: 1px solid var(--line);
+            background: var(--panel);
+            padding: 24px 25px;
+        }
+
+        .topic-card::after {
+            content: "";
+            position: absolute;
+            right: -62px;
+            bottom: -92px;
+            width: 180px;
+            height: 240px;
+            transform: rotate(32deg);
+            background: rgba(104, 173, 229, 0.08);
+        }
+
+        .topic-header {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(219, 234, 254, 0.2);
+        }
+
+        .topic-label {
+            font-size: 13px;
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+            color: var(--ink-soft);
+        }
+
+        .topic-title {
+            position: relative;
+            z-index: 1;
+            margin: 0;
+            font-size: 24px;
+            line-height: 1.42;
+            font-weight: 600;
+        }
+
+        .topic-summary {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: 76px 1fr;
+            gap: 15px;
+            margin-top: 22px;
+            font-size: 16px;
+            line-height: 1.58;
+        }
+
+        .summary-label {
+            color: var(--ink-soft);
+        }
+
+        .summary-copy {
+            color: rgba(255, 255, 255, 0.82);
+        }
+
+        .portrait-stage {
+            position: relative;
+            height: 100%;
+        }
+
+        .portrait-frame {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 218px;
+            height: 290px;
+            overflow: hidden;
+            transform: translateX(-50%);
+            border: 1px solid var(--line);
+            background: linear-gradient(160deg, rgba(65, 133, 192, 0.5), rgba(5, 29, 55, 0.54));
+        }
+
+        .portrait {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center bottom;
+            filter: saturate(0.94) contrast(1.03);
+        }
+
+        .portrait-frame.ye .portrait {
+            width: 106%;
+            margin-left: -3%;
+        }
+
+        .name-band {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: auto minmax(0, 1fr);
+            align-items: center;
+            gap: 13px;
+            width: 290px;
+            min-height: 78px;
+            transform: translateX(-50%);
+            border: 1px solid rgba(191, 219, 254, 0.26);
+            background: rgba(6, 38, 71, 0.94);
+            padding: 13px 15px;
+        }
+
+        .speaker-name {
+            font-size: 23px;
+            line-height: 1.12;
+            font-weight: 640;
+            white-space: nowrap;
+        }
+
+        .speaker-role {
+            font-size: 11.5px;
+            line-height: 1.42;
+            text-align: right;
+            color: var(--blue-light);
+        }
+
+        .intermission {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 282px;
+            gap: 30px;
+            height: 60px;
+            align-items: center;
+        }
+
+        .intermission-line {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            height: 100%;
+            border-left: 1px solid var(--line-strong);
+            padding-left: 20px;
+            font-size: 14px;
+            color: var(--ink-soft);
+        }
+
+        .intermission-line strong {
+            color: #ffffff;
+            font-size: 15px;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .intermission-line::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: var(--line);
+        }
+
+        .footer {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 194px;
+            gap: 30px;
+            align-items: end;
+            margin-top: 36px;
+            border-top: 1px solid var(--line);
+            padding-top: 24px;
+        }
+
+        .footer-copy {
+            margin: 0;
+            font-size: 16px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.78);
+            text-align: justify;
+        }
+
+        .qr-wrap {
+            display: grid;
+            gap: 10px;
+            justify-items: center;
+        }
+
+        .qr-label {
+            font-size: 16px;
+            letter-spacing: 0.1em;
+            color: var(--ink-soft);
+        }
+
+        .qr {
+            width: 194px;
+            height: 194px;
+            border: 1px solid rgba(255, 255, 255, 0.78);
+            background: #ffffff;
+            padding: 9px;
+        }
+
+        .qr img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        @page {
+            size: 800px 2000px;
+            margin: 0;
+        }
+
+        @media print {
+            html,
+            body {
+                width: 800px;
+                height: 2000px;
+                margin: 0;
+                padding: 0;
+                display: block;
+                background: #ffffff;
+            }
+
+            .poster-shell {
+                width: 800px !important;
+                height: 2000px !important;
+                box-shadow: none;
+            }
+
+            .poster {
+                transform: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="poster-shell" aria-label="论坛活动海报">
+        <section class="poster">
+            <div class="content">
+                <header class="header-grid">
+                    <div>
+                        <div class="title-panel">
+                            <div class="eyebrow">南山区企业“扬帆出海”系列互动</div>
+                            <h1>对美跨境业务合规与知识产权保护实务研讨会</h1>
+                        </div>
+                        <div class="series-strip">
+                            <div class="series-name">CATHAY PRAXIS LAW</div>
+                            <div class="organizer-name">美国博衡律师事务所 · 主办</div>
+                        </div>
+                    </div>
+
+                    <div class="corner-logo" aria-label="律所标识">
+                        <img src="images/logo.png" alt="Cathay Praxis Law 美国博衡律师事务所">
+                    </div>
+                </header>
+
+                <section class="intro-grid" aria-label="会议介绍与活动信息">
+                    <div>
+                        <h2 class="section-title">会议介绍</h2>
+                        <p class="meeting-copy">中国企业在美无论是投资还是贸易，动辄面临出口管制与经济制裁的合规风险如何提前布局？面临越来越频发的知识产权保护与争议解决如何应对？两位深耕中美两地跨境业务合规与知识产权保护同时具有中美两地执业律师资格的专家邀您一起探讨。</p>
+
+                        <article class="opening-card">
+                            <div class="time-badge">14:00-14:15</div>
+                            <div>
+                                <div class="opening-label">主持人发言</div>
+                                <div class="opening-name">邓睿州</div>
+                                <div class="opening-role">德国联邦中小企业联合会驻中国区会长</div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div>
+                        <div class="meta-card">
+                            <div class="meta-row">
+                                <div class="meta-label">时间</div>
+                                <div class="meta-value">6月29日<br>14:00-17:30</div>
+                            </div>
+                            <div class="meta-row">
+                                <div class="meta-label">地点</div>
+                                <div class="meta-value">南山区知识产权保护中心<br>C4多功能会议厅</div>
+                            </div>
+                            <div class="meta-row address">
+                                <div class="meta-label">详细地址</div>
+                                <div class="meta-value">南山区沙河西路1819号<br>深圳湾科技生态园<br>7栋B座3楼</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <div class="guests-heading">
+                    <h2 class="section-title">演讲主题</h2>
+                    <div class="guest-label">主讲嘉宾</div>
+                </div>
+
+                <section class="speaker-row" aria-label="周争平律师演讲">
+                    <article class="topic-card">
+                        <div class="topic-header">
+                            <span class="topic-label">SESSION 01</span>
+                            <span class="time-badge">14:15-15:30</span>
+                        </div>
+                        <p class="topic-title">《美国出口管制与制裁的新规分析以及应对》</p>
+                        <div class="topic-summary">
+                            <span class="summary-label">内容概要</span>
+                            <span class="summary-copy">解读OFAC制裁、BIS出口管制最新趋势及企业合规体系建设。</span>
+                        </div>
+                    </article>
+
+                    <div class="portrait-stage">
+                        <div class="portrait-frame">
+                            <img class="portrait" src="images/david-zhou-rembg-cropped.png" alt="周争平律师">
+                        </div>
+                        <div class="name-band">
+                            <div class="speaker-name">周争平律师</div>
+                            <div class="speaker-role">中国及美国加州执业律师</div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="intermission" aria-label="中场交流">
+                    <div class="intermission-line"><strong>15:30-16:00</strong><span>中场交流</span></div>
+                    <div></div>
+                </div>
+
+                <section class="speaker-row" aria-label="叶明博律师演讲">
+                    <article class="topic-card">
+                        <div class="topic-header">
+                            <span class="topic-label">SESSION 02</span>
+                            <span class="time-badge">16:00-17:30</span>
+                        </div>
+                        <p class="topic-title">《从防守到反击：美国知识产权体系下的品牌保护与平台维权》</p>
+                        <div class="topic-summary">
+                            <span class="summary-label">内容概要</span>
+                            <span class="summary-copy">分享美国商标、专利布局及品牌维权实务经验。</span>
+                        </div>
+                    </article>
+
+                    <div class="portrait-stage">
+                        <div class="portrait-frame ye">
+                            <img class="portrait" src="images/mingbo-ye-rembg-cropped.png" alt="叶明博律师">
+                        </div>
+                        <div class="name-band">
+                            <div class="speaker-name">叶明博律师</div>
+                            <div class="speaker-role">美国加州及德州执业律师</div>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="footer">
+                    <p class="footer-copy">本次活动由 Cathay Praxis Law（美国博衡律师事务所）主办，聚焦美国市场准入、跨境合规与知识产权保护，为企业出海提供专业法律支持与实战经验分享。活动地点：南山区沙河西路1819号深圳湾科技生态园7栋B座3楼。欢迎企业管理层、法务负责人及国际业务负责人参加。</p>
+                    <div class="qr-wrap">
+                        <div class="qr-label">参会报名</div>
+                        <div class="qr" aria-label="个人信息收集表二维码">
+                            <img src="images/personal-info-qr.png" alt="个人信息收集表二维码">
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function fitPoster() {
+            const shell = document.querySelector('.poster-shell');
+            const poster = document.querySelector('.poster');
+            const scale = Math.min((window.innerWidth - 56) / 800, (window.innerHeight - 56) / 2000, 1);
+
+            shell.style.width = `${800 * scale}px`;
+            shell.style.height = `${2000 * scale}px`;
+            poster.style.transform = `scale(${scale})`;
+        }
+
+        window.addEventListener('resize', fitPoster);
+        fitPoster();
+    </script>
+</body>
+</html>

@@ -13,6 +13,82 @@
 // ============================================
 const newsData = [
     {
+        id: 'news-007',
+        slug: 'us-cross-border-compliance-ip-seminar-shenzhen-2026',
+        date: '2026-06-29',
+        category: 'industry',
+        image: 'images/news-seminar-us-compliance-ip-session.jpg',
+        title: {
+            en: 'Cathay Praxis Law Hosts Seminar on U.S.-Related Cross-Border Compliance and IP Protection',
+            zh: '博衡律师事务所举办对美跨境业务合规与知识产权保护实务研讨会'
+        },
+        excerpt: {
+            en: 'Cathay Praxis Law hosted a practical seminar in Shenzhen on U.S. export controls, economic sanctions, and intellectual property protection for Chinese companies expanding internationally.',
+            zh: '博衡律师事务所在深圳举办实务研讨会，围绕美国出口管制、经济制裁及知识产权保护，为中国企业出海提供合规与风险管理指引。'
+        },
+        content: {
+            en: `
+                <p class="lead"><strong>Shenzhen, June 29, 2026</strong> — With the support of the Shenzhen Nanshan Science and Technology Innovation Bureau and the Nanshan Intellectual Property Protection Center, Cathay Praxis Law hosted a seminar titled “U.S.-Related Cross-Border Compliance and Intellectual Property Protection” at the Nanshan Intellectual Property Protection Center. The seminar formed part of Nanshan's “Going Global” engagement series for local enterprises.</p>
+
+                <p>The program focused on key legal issues facing Chinese companies conducting U.S.-related investment, trade, market-entry, and brand-protection activities, including U.S. export controls, economic sanctions, and intellectual property enforcement.</p>
+
+                <div class="my-8 max-w-md mx-auto overflow-hidden rounded-lg shadow-lg" style="aspect-ratio: 860 / 1800;">
+                    <img src="images/news-seminar-us-compliance-ip-poster.jpg" alt="Poster for the U.S.-Related Cross-Border Compliance and Intellectual Property Protection seminar" class="w-full h-auto">
+                </div>
+                <div class="max-w-md mx-auto">
+                    <p class="text-center text-sm text-gray-500 mt-2 italic">Seminar program and speaker information.</p>
+                </div>
+
+                <h2>U.S. Export Controls and Economic Sanctions</h2>
+                <p>During the session, attorney Zhengping “David” Zhou provided a practical overview of U.S. export control regulations, the Bureau of Industry and Security (BIS) regulatory framework, Office of Foreign Assets Control (OFAC) sanctions compliance, and recent enforcement trends. Drawing on common risk scenarios encountered by companies expanding overseas, he discussed risk-based approaches to customer screening, end-user and end-use review, contractual safeguards, and internal compliance program development.</p>
+
+                <div class="my-8">
+                    <img src="images/news-seminar-us-compliance-ip-session.jpg" alt="Attorney Zhengping Zhou speaking at the U.S.-related cross-border compliance seminar" class="w-full rounded-lg shadow-lg">
+                    <p class="text-center text-sm text-gray-500 mt-2 italic">Attorney Zhengping “David” Zhou presents practical approaches to export control and sanctions compliance.</p>
+                </div>
+
+                <h2>Intellectual Property and Brand Protection</h2>
+                <p>Attorney Mingbo Ye addressed U.S. intellectual property protection strategies, including trademark and patent planning, brand protection, and platform-based enforcement. She encouraged companies to move beyond a reactive approach to disputes and instead adopt proactive prevention and systematic IP planning.</p>
+
+                <h2>Practical Guidance for Companies Going Global</h2>
+                <p>Participating companies noted that the seminar was highly practical and responsive to the real challenges encountered in U.S.-related business operations. The training helped companies better understand cross-border compliance risks, strengthen internal governance, and improve their intellectual property protection strategies.</p>
+
+                <p>Cathay Praxis Law extends its appreciation to the Shenzhen Nanshan Science and Technology Innovation Bureau, the Nanshan Intellectual Property Protection Center, and all participating enterprises. The firm remains committed to leveraging its legal capabilities in both China and the United States to deliver professional, high-quality, and efficient cross-border legal services to Chinese companies expanding internationally.</p>
+            `,
+            zh: `
+                <p class="lead"><strong>深圳，2026年6月29日</strong>——在深圳市南山区科技创新局与南山区知识产权服务中心的支持下，美国博衡律师事务所（Cathay Praxis Law）于南山区知识产权保护中心举办“对美跨境业务合规与知识产权保护实务研讨会”。本次活动系南山区企业“扬帆出海”系列互动之一。</p>
+
+                <p>本次研讨会聚焦中国企业在美国投资、贸易、市场进入及品牌运营过程中面临的关键法律问题，涵盖美国出口管制、经济制裁与知识产权保护等重点领域，旨在帮助企业提升跨境风险识别与合规管理能力。</p>
+
+                <div class="my-8 max-w-md mx-auto overflow-hidden rounded-lg shadow-lg" style="aspect-ratio: 860 / 1800;">
+                    <img src="images/news-seminar-us-compliance-ip-poster.jpg" alt="对美跨境业务合规与知识产权保护实务研讨会海报" class="w-full h-auto">
+                </div>
+                <div class="max-w-md mx-auto">
+                    <p class="text-center text-sm text-gray-500 mt-2 italic">研讨会议程及主讲嘉宾信息。</p>
+                </div>
+
+                <h2>美国出口管制与经济制裁</h2>
+                <p>会议中，周争平律师围绕美国出口管制、美国商务部工业与安全局（BIS）监管框架、美国财政部外国资产控制办公室（OFAC）经济制裁及近期执法趋势展开讲解，并结合企业出海常见风险场景，系统分析了客户筛查、最终用户与最终用途审查、合同条款设置以及内部合规机制建设等方面的应对路径。</p>
+
+                <div class="my-8">
+                    <img src="images/news-seminar-us-compliance-ip-session.jpg" alt="周争平律师在对美跨境业务合规研讨会上发言" class="w-full rounded-lg shadow-lg">
+                    <p class="text-center text-sm text-gray-500 mt-2 italic">周争平律师分享出口管制与经济制裁合规的实务应对路径。</p>
+                </div>
+
+                <h2>知识产权与品牌保护</h2>
+                <p>叶明博律师则从美国知识产权保护体系出发，分享了商标和专利布局、品牌保护及平台维权等方面的实务经验，并提示企业应从“被动应诉”转向“主动预防与系统布局”，将知识产权保护融入海外市场拓展的全过程。</p>
+
+                <h2>助力企业稳健出海</h2>
+                <p>参会企业代表普遍表示，本次培训内容紧扣对美业务实践，兼具政策前瞻性与操作指导性，对于企业识别跨境合规风险、完善内部治理和提升知识产权保护能力具有积极意义。</p>
+
+                <p>博衡律师事务所感谢深圳市南山区科技创新局、南山区知识产权服务中心及各参会企业的支持。未来，博衡律师事务所将继续依托中美两地法律服务能力，致力于为中国企业出海提供专业、优质、高效的跨境法律服务。</p>
+            `
+        },
+        featured: true,
+        author: 'Cathay Praxis Law',
+        tags: ['Cross-Border Compliance', 'Export Controls', 'Economic Sanctions', 'Intellectual Property', 'Going Global']
+    },
+    {
         id: 'news-001',
         slug: 'bis-entity-list-update-april-2026',
         date: '2026-04-10',

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Cathay Praxis Law sample seal</title>
+  <desc id="desc">A red circular sample seal for Cathay Praxis Law with prominent sample text.</desc>
+  <defs>
+    <path id="outer-top" d="M 270 800 A 530 530 0 0 1 1330 800" />
+    <path id="outer-bottom" d="M 270 800 A 530 530 0 0 0 1330 800" />
+    <filter id="soft-ink" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" seed="18" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.1" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+    <style>
+      .seal-red { fill: none; stroke: #b90808; }
+      .seal-fill { fill: #b90808; }
+      .ring-text {
+        fill: #b90808;
+        font-family: "Noto Serif SC", "Songti SC", "SimSun", serif;
+        font-size: 92px;
+        font-weight: 700;
+        letter-spacing: 9px;
+      }
+      .latin-text {
+        fill: #b90808;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 58px;
+        font-weight: 700;
+        letter-spacing: 6px;
+      }
+      .sample-cn {
+        fill: #b90808;
+        font-family: "Noto Serif SC", "Songti SC", "SimSun", serif;
+        font-size: 190px;
+        font-weight: 800;
+        letter-spacing: 18px;
+      }
+      .sample-en {
+        fill: #b90808;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 86px;
+        font-weight: 800;
+        letter-spacing: 13px;
+      }
+      .small {
+        fill: #b90808;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        font-weight: 700;
+        letter-spacing: 5px;
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1600" fill="transparent" />
+
+  <g filter="url(#soft-ink)" opacity="0.96">
+    <circle cx="800" cy="800" r="655" class="seal-red" stroke-width="34" />
+    <circle cx="800" cy="800" r="590" class="seal-red" stroke-width="10" />
+    <circle cx="800" cy="800" r="402" class="seal-red" stroke-width="8" stroke-dasharray="28 22" opacity="0.78" />
+
+    <text class="ring-text">
+      <textPath href="#outer-top" startOffset="50%" text-anchor="middle">美国博衡律师事务所</textPath>
+    </text>
+    <text class="latin-text">
+      <textPath href="#outer-bottom" startOffset="50%" text-anchor="middle">CATHAY PRAXIS LAW, PC</textPath>
+    </text>
+
+    <path class="seal-fill" d="M800 434l48 147h154l-124 90 47 147-125-91-125 91 47-147-124-90h154z" />
+
+    <text x="800" y="805" text-anchor="middle" class="sample-cn">样章</text>
+    <text x="800" y="935" text-anchor="middle" class="sample-en">SAMPLE</text>
+
+    <line x1="505" y1="1018" x2="1095" y2="1018" class="seal-red" stroke-width="8" stroke-linecap="round" opacity="0.82" />
+    <text x="800" y="1098" text-anchor="middle" class="small">FOR DESIGN REVIEW ONLY</text>
+  </g>
+</svg>

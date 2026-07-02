@@ -1,0 +1,911 @@
+{"kind":"deck","id":"pr/82yuee","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"subtitle","type":"subtitle","textPreview":"Click to edit Master subtitle style"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Title and Content","type":"obj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Section Header","type":"secHead","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Two Content","type":"twoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Comparison","type":"twoTxTwoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 5","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"Title Only","type":"titleOnly","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"Blank","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"Content with Caption","type":"objTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout9.xml","name":"Picture with Caption","type":"picTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"picture","type":"picture"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout10.xml","name":"Title and Vertical Text","type":"vertTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout11.xml","name":"Vertical Title and Text","type":"vertTitleAndTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/27/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"slide","id":"sl/2x4nap4r","slide":1,"title":"从防守到反击：美国知识产权战略保护","textShapes":4}
+{"kind":"shape","id":"sh/5gbq1ory","slide":1,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"shape","id":"sh/cj6tovah","slide":1,"name":"AutoShape 6","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/54zidony","slide":1,"name":"TextBox 7","text":"从防守到反击：美国知识产权战略保护","textPreview":"从防守到反击：美国知识产权战略保护","textChars":17,"textLines":1,"bbox":[91.92,214.22,688.74,235.2]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":1,"name":"TextBox 8","text":"超越制造卓越，掌握全球知识产权规则，在跨境竞争格局中保护品牌价值","textPreview":"超越制造卓越，掌握全球知识产权规则，在跨境竞争格局中保护品牌价值","textChars":32,"textLines":1,"bbox":[92.59,479.18,668.17,78.4]}
+{"kind":"textbox","id":"sh/judg7ads","slide":1,"name":"TextBox 9","text":"叶明博","textPreview":"叶明博","textChars":3,"textLines":1,"bbox":[92.59,587.34,668.17,49]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":1,"name":"TextBox 10","text":"2026年6月29日","textPreview":"2026年6月29日","textChars":10,"textLines":1,"bbox":[91.92,636.34,668.17,31.03]}
+{"kind":"image","id":"im/1032lszq","slide":1,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/u9knih4b","slide":1,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/judg7ads","slide":1,"name":"Picture 5","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/c7u54zid","slide":1,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/2x4nap4r","slide":1,"text":""}
+{"kind":"slide","id":"sl/wetuyq","slide":2,"title":"主讲人简介","textShapes":9}
+{"kind":"shape","id":"sh/loj2t83i","slide":2,"name":"white background","bbox":[0,0,1706.67,960]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":2,"name":"gold left rail","bbox":[0,0,12,960]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":2,"name":"intro title","text":"主讲人简介","textPreview":"主讲人简介","textChars":5,"textLines":1,"bbox":[70,60,380,58]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":2,"name":"gold title rule","bbox":[70,132,170,0]}
+{"kind":"textbox","id":"sh/lwval87e","slide":2,"name":"intro subtitle","text":"专利审查、知识产权诉讼与品牌保护的跨境实务视角","textPreview":"专利审查、知识产权诉讼与品牌保护的跨境实务视角","textChars":23,"textLines":1,"bbox":[270,126,810,40]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":2,"name":"speaker name","text":"Mingbo Ye, Esq. | 叶明博律师","textPreview":"Mingbo Ye, Esq. | 叶明博律师","textChars":23,"textLines":1,"bbox":[72,220,900,70]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":2,"name":"speaker role","text":"Of Counsel / 顾问律师\nCathay Praxis Law, A Professional Corporation","textPreview":"Of Counsel / 顾问律师 | Cathay Praxis Law, A Professional Corporation","textChars":63,"textLines":2,"bbox":[74,298,850,76]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":2,"name":"speaker bullet 1","text":"• 美国德州、加州执业律师 / 中国专利代理人资格","textPreview":"• 美国德州、加州执业律师 / 中国专利代理人资格","textChars":25,"textLines":1,"bbox":[72,430,930,56]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":2,"name":"speaker bullet 2","text":"• UCLA 法学院 / 北京大学 / 华东政法大学","textPreview":"• UCLA 法学院 / 北京大学 / 华东政法大学","textChars":26,"textLines":1,"bbox":[72,505,930,56]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":2,"name":"speaker bullet 3","text":"• 前中国国家知识产权局专利审查员七年；\n  曾任职于 Kilpatrick Townsend & Stockton LLP 三年","textPreview":"• 前中国国家知识产权局专利审查员七年； |   曾任职于 Kilpatrick Townsend & Stockton LLP 三年","textChars":65,"textLines":2,"bbox":[72,580,930,80]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":2,"name":"speaker bullet 4","text":"• 重点服务：知识产权诉讼、商标申请与组合管理、跨境知识产权战略与争议解决","textPreview":"• 重点服务：知识产权诉讼、商标申请与组合管理、跨境知识产权战略与争议解决","textChars":37,"textLines":1,"bbox":[72,680,930,56]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":2,"name":"intro footer","text":"Cathay Praxis Law P.C. | Attorney Advertising / General Information Only","textPreview":"Cathay Praxis Law P.C. | Attorney Advertising / General Information Only","textChars":72,"textLines":1,"bbox":[1030,918,610,20]}
+{"kind":"image","id":"im/wb2hwfyx","slide":2,"name":"","alt":"叶明博律师肖像","bbox":[1110,210,390,585]}
+{"kind":"image","id":"im/ex0nuxc3","slide":2,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/wetuyq","slide":2,"text":""}
+{"kind":"slide","id":"sl/pg3ex0nu","slide":3,"title":"目录","textShapes":13}
+{"kind":"shape","id":"sh/g3ex0nux","slide":3,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":3,"name":"TextBox 5","text":"目录","textPreview":"目录","textChars":2,"textLines":1,"bbox":[92.59,453.84,737.97,52.27]}
+{"kind":"shape","id":"sh/9cvixcze","slide":3,"name":"AutoShape 6","bbox":[877.72,125.21,737.97,709.56]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":3,"name":"AutoShape 7","bbox":[877.72,125.21,737.97,84.93]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":3,"name":"TextBox 8","text":"01. 惊醒时刻","textPreview":"01. 惊醒时刻","textChars":8,"textLines":1,"bbox":[877.72,125.21,737.97,39.2]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":3,"name":"TextBox 9","text":"知识产权侵权的真实案例及其影响","textPreview":"知识产权侵权的真实案例及其影响","textChars":15,"textLines":1,"bbox":[877.72,177.47,737.97,32.67]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":3,"name":"AutoShape 10","bbox":[877.72,250.13,737.97,84.93]}
+{"kind":"textbox","id":"sh/lwval87e","slide":3,"name":"TextBox 11","text":"02. 实力悖论","textPreview":"02. 实力悖论","textChars":8,"textLines":1,"bbox":[877.72,250.13,737.97,39.2]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":3,"name":"TextBox 12","text":"为什么全球领先制造商在法律战场上依然脆弱","textPreview":"为什么全球领先制造商在法律战场上依然脆弱","textChars":20,"textLines":1,"bbox":[877.72,302.4,737.97,32.67]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":3,"name":"AutoShape 13","bbox":[877.72,375.06,737.97,84.93]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":3,"name":"TextBox 14","text":"03. 美国知识产权框架","textPreview":"03. 美国知识产权框架","textChars":12,"textLines":1,"bbox":[877.72,375.06,737.97,39.2]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":3,"name":"TextBox 15","text":"了解四大支柱：商标、专利、版权和商业秘密","textPreview":"了解四大支柱：商标、专利、版权和商业秘密","textChars":20,"textLines":1,"bbox":[877.72,427.32,737.97,32.67]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":3,"name":"AutoShape 16","bbox":[877.72,499.98,737.97,84.93]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":3,"name":"TextBox 17","text":"04. 战术防御","textPreview":"04. 战术防御","textChars":8,"textLines":1,"bbox":[877.72,499.98,737.97,39.2]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":3,"name":"TextBox 18","text":"源头控制、早期布局和平台级防御","textPreview":"源头控制、早期布局和平台级防御","textChars":15,"textLines":1,"bbox":[877.72,552.25,737.97,32.67]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":3,"name":"AutoShape 19","bbox":[877.72,624.91,737.97,84.93]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":3,"name":"TextBox 20","text":"05. 反击的艺术","textPreview":"05. 反击的艺术","textChars":9,"textLines":1,"bbox":[877.72,624.91,737.97,39.2]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":3,"name":"TextBox 21","text":"利用法律\"重武器\"扭转不利局面","textPreview":"利用法律\"重武器\"扭转不利局面","textChars":15,"textLines":1,"bbox":[877.72,677.18,737.97,32.67]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":3,"name":"AutoShape 22","bbox":[877.72,749.83,737.97,84.93]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":3,"name":"TextBox 23","text":"06. 战略演进","textPreview":"06. 战略演进","textChars":8,"textLines":1,"bbox":[877.72,749.83,737.97,39.2]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":3,"name":"TextBox 24","text":"为全球化\"下半场\"构建系统性保护墙","textPreview":"为全球化\"下半场\"构建系统性保护墙","textChars":17,"textLines":1,"bbox":[877.72,802.1,737.97,32.67]}
+{"kind":"image","id":"im/3ylc7u54","slide":3,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/sji5snel","slide":3,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/h4byhgn2","slide":3,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/pg3ex0nu","slide":3,"text":""}
+{"kind":"slide","id":"sl/s72x4nap","slide":4,"title":"真实警示：如何让'伪客户'将你的创新武器化","textShapes":9}
+{"kind":"shape","id":"sh/dsji5sne","slide":4,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":4,"name":"TextBox 6","text":"真实警示：如何让'伪客户'将你的创新武器化","textPreview":"真实警示：如何让'伪客户'将你的创新武器化","textChars":21,"textLines":1,"bbox":[638.71,121.74,975.34,124.13]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":4,"name":"AutoShape 7","bbox":[638.71,275.63,975.34,562.64]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":4,"name":"AutoShape 8","bbox":[638.71,275.63,307.48,346.5]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":4,"name":"TextBox 10","text":"案例","textPreview":"案例","textChars":2,"textLines":1,"bbox":[665.15,302.07,254.6,47.37]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":4,"name":"TextBox 11","text":"一家领先的中国工厂向一位看似专业的买家分享了样品、参数和技术细节","textPreview":"一家领先的中国工厂向一位看似专业的买家分享了样品、参数和技术细节","textChars":32,"textLines":1,"bbox":[665.15,367.94,254.6,156.8]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":4,"name":"AutoShape 12","bbox":[972.63,275.63,307.48,346.5]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":4,"name":"TextBox 14","text":"复杂化","textPreview":"复杂化","textChars":3,"textLines":1,"bbox":[999.07,302.07,254.6,47.37]}
+{"kind":"textbox","id":"sh/61032lsz","slide":4,"name":"TextBox 15","text":"\"买家\"消失后，将工厂的技术注册为美国专利，随后在亚马逊上起诉工厂的分销商侵权","textPreview":"\"买家\"消失后，将工厂的技术注册为美国专利，随后在亚马逊上起诉工厂的分销商侵权","textChars":39,"textLines":1,"bbox":[999.07,367.94,254.6,196]}
+{"kind":"shape","id":"sh/dsji5sne","slide":4,"name":"AutoShape 16","bbox":[1306.55,275.63,307.48,346.5]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":4,"name":"TextBox 18","text":"后果","textPreview":"后果","textChars":2,"textLines":1,"bbox":[1332.99,302.07,254.6,47.37]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":4,"name":"TextBox 19","text":"分销商面临账户冻结和法律威胁，反过来向工厂施压","textPreview":"分销商面临账户冻结和法律威胁，反过来向工厂施压","textChars":23,"textLines":1,"bbox":[1332.99,367.94,254.6,117.6]}
+{"kind":"shape","id":"sh/epkzupwb","slide":4,"name":"AutoShape 20","bbox":[638.71,648.57,975.31,189.7]}
+{"kind":"textbox","id":"sh/wval87ed","slide":4,"name":"TextBox 22","text":"教训","textPreview":"教训","textChars":2,"textLines":1,"bbox":[665.15,675.01,922.43,47.37]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":4,"name":"TextBox 23","text":"没有提前在美国申请专利，工厂面临昂贵且耗时的专利无效和确认不侵权诉讼","textPreview":"没有提前在美国申请专利，工厂面临昂贵且耗时的专利无效和确认不侵权诉讼","textChars":34,"textLines":1,"bbox":[665.15,740.88,922.43,39.2]}
+{"kind":"image","id":"im/hwfyxobm","slide":4,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/obm58z25","slide":4,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/zqtcj6to","slide":4,"name":"Picture 5","bbox":[0,0,546.12,960]}
+{"kind":"image","id":"im/65wjudg7","slide":4,"name":"Picture 9","bbox":[638.82,275.63,307.27,346.5]}
+{"kind":"image","id":"im/h0fepkzu","slide":4,"name":"Picture 13","bbox":[972.73,275.63,307.27,346.5]}
+{"kind":"image","id":"im/sfil0rqd","slide":4,"name":"Picture 17","bbox":[1306.65,275.63,307.27,346.5]}
+{"kind":"image","id":"im/ixczed8v","slide":4,"name":"Picture 21","bbox":[639.04,648.57,974.66,189.7]}
+{"kind":"image","id":"im/bi9s36hc","slide":4,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/s72x4nap","slide":4,"text":""}
+{"kind":"slide","id":"sl/val87ed8","slide":5,"title":"全球悖论：中国制造领先但知识产权保护落后","textShapes":10}
+{"kind":"shape","id":"sh/je9cvixc","slide":5,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":5,"name":"TextBox 5","text":"全球悖论：中国制造领先但知识产权保护落后","textPreview":"全球悖论：中国制造领先但知识产权保护落后","textChars":20,"textLines":1,"bbox":[92.59,142.71,1521.46,62.07]}
+{"kind":"shape","id":"sh/q1orytsv","slide":5,"name":"AutoShape 6","bbox":[92.59,266.8,728.47,488.47]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":5,"name":"TextBox 7","text":"中国在全球制造业中的份额","textPreview":"中国在全球制造业中的份额","textChars":12,"textLines":1,"bbox":[258.37,293.24,396.9,52.27]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":5,"name":"TextBox 9","text":"核心要点","textPreview":"核心要点","textChars":4,"textLines":1,"bbox":[887.21,352.93,728.47,47.37]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":5,"name":"TextBox 10","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[871.33,437.99,26.46,26.46]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":5,"name":"TextBox 11","text":"中国是世界第一制造强国，但在国际知识产权领域仍然脆弱","textPreview":"中国是世界第一制造强国，但在国际知识产权领域仍然脆弱","textChars":26,"textLines":1,"bbox":[911.02,430.06,704.66,40.83]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":5,"name":"TextBox 12","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[871.33,502.64,26.46,26.46]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":5,"name":"TextBox 13","text":"我们擅长制造产品，但在跨境法律保护方面常常失败","textPreview":"我们擅长制造产品，但在跨境法律保护方面常常失败","textChars":23,"textLines":1,"bbox":[911.02,494.7,704.66,40.83]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":5,"name":"TextBox 14","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[871.33,567.28,26.46,26.46]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":5,"name":"TextBox 15","text":"核心冲突：\"制造巨头\"与\"知识产权保护弱者\"","textPreview":"核心冲突：\"制造巨头\"与\"知识产权保护弱者\"","textChars":22,"textLines":1,"bbox":[911.02,559.34,704.66,40.83]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":5,"name":"TextBox 16","text":"注意：尽管专利数量领先，中国在全球创新指数中排名第11位","textPreview":"注意：尽管专利数量领先，中国在全球创新指数中排名第11位","textChars":28,"textLines":1,"bbox":[887.21,629.94,728.47,39.2]}
+{"kind":"image","id":"im/5wjudg7a","slide":5,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/u54zidon","slide":5,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/nqxs72x4","slide":5,"name":"Picture 8","bbox":[92.59,345.78,728.47,409.43]}
+{"kind":"image","id":"im/je9cvixc","slide":5,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/val87ed8","slide":5,"text":""}
+{"kind":"slide","id":"sl/mlkjm1cf","slide":6,"title":"四大支柱：解析美国知识产权体系的特殊性","textShapes":13}
+{"kind":"shape","id":"sh/dg7adsji","slide":6,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":6,"name":"TextBox 6","text":"四大支柱：解析美国知识产权体系的特殊性","textPreview":"四大支柱：解析美国知识产权体系的特殊性","textChars":19,"textLines":1,"bbox":[92.59,82.36,975.34,124.13]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":6,"name":"AutoShape 7","bbox":[92.59,235.07,975.34,642.57]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":6,"name":"AutoShape 8","bbox":[92.59,273.97,307.81,344.56]}
+{"kind":"shape","id":"sh/vy90je9c","slide":6,"name":"AutoShape 9","bbox":[92.46,271.39,302.91,10.36]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":6,"name":"AutoShape 10","bbox":[207.69,235.07,77.79,77.79]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":6,"name":"TextBox 11","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[240.31,255.18,32.41,37.57]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":6,"name":"TextBox 12","text":"商标","textPreview":"商标","textChars":2,"textLines":1,"bbox":[120.97,338.79,251.05,45.73]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":6,"name":"TextBox 13","text":"侧重\"实际使用\"；美国专利商标局联邦注册是亚马逊品牌备案和全国保护的黄金标准","textPreview":"侧重\"实际使用\"；美国专利商标局联邦注册是亚马逊品牌备案和全国保护的黄金标准","textChars":38,"textLines":1,"bbox":[120.97,402.31,251.05,150.27]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":6,"name":"AutoShape 14","bbox":[426.33,273.97,307.83,344.56]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":6,"name":"AutoShape 15","bbox":[426.2,271.39,302.93,10.36]}
+{"kind":"shape","id":"sh/58z25kb6","slide":6,"name":"AutoShape 16","bbox":[541.45,235.07,77.79,77.79]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":6,"name":"TextBox 17","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[571.11,255.18,32.41,37.57]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":6,"name":"TextBox 18","text":"专利","textPreview":"专利","textChars":2,"textLines":1,"bbox":[454.71,338.79,251.08,45.73]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":6,"name":"TextBox 19","text":"美国没有实用新型；必须在发明专利（功能性）或外观设计专利（美学性）之间选择","textPreview":"美国没有实用新型；必须在发明专利（功能性）或外观设计专利（美学性）之间选择","textChars":37,"textLines":1,"bbox":[454.71,402.31,251.08,187.83]}
+{"kind":"shape","id":"sh/2x4nap4r","slide":6,"name":"AutoShape 20","bbox":[760.09,273.97,307.81,344.56]}
+{"kind":"shape","id":"sh/vixczed8","slide":6,"name":"AutoShape 21","bbox":[759.96,271.39,302.91,10.36]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":6,"name":"AutoShape 22","bbox":[875.19,235.07,77.79,77.79]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":6,"name":"TextBox 23","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[904.18,255.18,32.41,37.57]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":6,"name":"TextBox 24","text":"版权","textPreview":"版权","textChars":2,"textLines":1,"bbox":[788.47,338.79,251.05,45.73]}
+{"kind":"textbox","id":"sh/val87ed8","slide":6,"name":"TextBox 25","text":"权利自动产生，但在美国版权局登记是诉讼和法定赔偿的必要条件","textPreview":"权利自动产生，但在美国版权局登记是诉讼和法定赔偿的必要条件","textChars":29,"textLines":1,"bbox":[788.47,402.31,251.05,150.27]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":6,"name":"AutoShape 26","bbox":[92.59,683.35,975.31,194.29]}
+{"kind":"shape","id":"sh/dcbulwva","slide":6,"name":"AutoShape 27","bbox":[92.46,680.77,970.41,10.36]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":6,"name":"AutoShape 28","bbox":[541.45,644.46,77.79,77.79]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":6,"name":"TextBox 29","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[569.14,664.57,32.41,37.57]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":6,"name":"TextBox 30","text":"商业秘密","textPreview":"商业秘密","textChars":4,"textLines":1,"bbox":[120.97,748.18,918.55,45.73]}
+{"kind":"textbox","id":"sh/sji5snel","slide":6,"name":"TextBox 31","text":"保护配方和工艺，但需要保密协议和访问控制才能强制执行","textPreview":"保护配方和工艺，但需要保密协议和访问控制才能强制执行","textChars":26,"textLines":1,"bbox":[120.97,811.7,918.55,37.57]}
+{"kind":"image","id":"im/w7mp0bi9","slide":6,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/psfil0rq","slide":6,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/epkzupwb","slide":6,"name":"Picture 5","bbox":[1160.52,0,546.12,960]}
+{"kind":"image","id":"im/7adsji5s","slide":6,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/mlkjm1cf","slide":6,"text":""}
+{"kind":"slide","id":"sl/58z25kb6","slide":7,"title":"弥合认知差距：扼杀海外发展的五大误区","textShapes":29}
+{"kind":"shape","id":"sh/r65wjudg","slide":7,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":7,"name":"TextBox 5","text":"弥合认知差距：扼杀海外发展的五大误区","textPreview":"弥合认知差距：扼杀海外发展的五大误区","textChars":18,"textLines":1,"bbox":[92.59,83.38,1521.46,40.83]}
+{"kind":"shape","id":"sh/yxobm58z","slide":7,"name":"AutoShape 6","bbox":[92.59,136.77,1521.46,739.83]}
+{"kind":"shape","id":"sh/nih4byhg","slide":7,"name":"AutoShape 7","bbox":[92.59,136.77,912.89,160.76]}
+{"kind":"shape","id":"sh/g7adsji5","slide":7,"name":"AutoShape 8","bbox":[94.22,138.4,103.18,157.49]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":7,"name":"TextBox 9","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[141.64,204.88,21.5,24.5]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":7,"name":"TextBox 11","text":"差距1 - 地域性","textPreview":"差距1 - 地域性","textChars":9,"textLines":1,"bbox":[242.5,155.58,378.4,24.5]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":7,"name":"TextBox 12","text":"国内专利在美国没有法律效力；保护必须跟随市场","textPreview":"国内专利在美国没有法律效力；保护必须跟随市场","textChars":22,"textLines":1,"bbox":[242.5,187.89,378.4,24.5]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":7,"name":"TextBox 13","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[222.95,225.36,17.2,17.2]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":7,"name":"TextBox 14","text":"需要在美国USPTO重新申请才能获得保护","textPreview":"需要在美国USPTO重新申请才能获得保护","textChars":20,"textLines":1,"bbox":[248.75,220.2,372.15,26.13]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":7,"name":"TextBox 15","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[222.95,257.74,17.2,17.2]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":7,"name":"TextBox 16","text":"跨境销售前务必完成目标市场的专利布局","textPreview":"跨境销售前务必完成目标市场的专利布局","textChars":18,"textLines":1,"bbox":[248.75,252.58,372.15,26.13]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":7,"name":"TextBox 17","text":"五大关键差距","textPreview":"五大关键差距","textChars":6,"textLines":1,"bbox":[1309.76,491.97,319.5,29.4]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":7,"name":"AutoShape 19","bbox":[92.59,314.7,912.89,160.76]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":7,"name":"AutoShape 20","bbox":[94.22,316.33,103.18,157.49]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":7,"name":"TextBox 21","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[139.68,382.82,21.5,24.5]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":7,"name":"TextBox 23","text":"差距2 - 制度漏洞","textPreview":"差距2 - 制度漏洞","textChars":10,"textLines":1,"bbox":[242.5,333.51,447.18,24.5]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":7,"name":"TextBox 24","text":"欺诈者利用美国专利局对外国工厂未公开现有技术的不了解","textPreview":"欺诈者利用美国专利局对外国工厂未公开现有技术的不了解","textChars":26,"textLines":1,"bbox":[242.5,365.82,447.18,24.5]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":7,"name":"TextBox 25","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[222.95,403.29,17.2,17.2]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":7,"name":"TextBox 26","text":"抢注者利用\"在先技术\"审查盲区","textPreview":"抢注者利用\"在先技术\"审查盲区","textChars":15,"textLines":1,"bbox":[248.75,398.13,440.93,26.13]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":7,"name":"TextBox 27","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[222.95,435.67,17.2,17.2]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":7,"name":"TextBox 28","text":"只要技术未公开披露就可能成功获得专利","textPreview":"只要技术未公开披露就可能成功获得专利","textChars":18,"textLines":1,"bbox":[248.75,430.51,440.93,26.13]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":7,"name":"AutoShape 30","bbox":[92.59,492.63,912.89,160.76]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":7,"name":"AutoShape 31","bbox":[94.22,494.27,103.18,157.49]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":7,"name":"TextBox 32","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[139.24,560.75,21.5,24.5]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":7,"name":"TextBox 34","text":"差距3 - 小商品风险","textPreview":"差距3 - 小商品风险","textChars":11,"textLines":1,"bbox":[242.5,511.44,544.29,24.5]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":7,"name":"TextBox 35","text":"厨房工具、手机支架等低成本商品因销量大成为外观专利侵权的\"重灾区\"","textPreview":"厨房工具、手机支架等低成本商品因销量大成为外观专利侵权的\"重灾区\"","textChars":33,"textLines":1,"bbox":[242.5,543.75,544.29,24.5]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":7,"name":"TextBox 36","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[222.95,581.22,17.2,17.2]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":7,"name":"TextBox 37","text":"义乌小商品外观专利纠纷年超1000件","textPreview":"义乌小商品外观专利纠纷年超1000件","textChars":18,"textLines":1,"bbox":[248.75,576.06,538.03,26.13]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":7,"name":"TextBox 38","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[222.95,613.61,17.2,17.2]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":7,"name":"TextBox 39","text":"平台累计授权6000+外观专利","textPreview":"平台累计授权6000+外观专利","textChars":15,"textLines":1,"bbox":[248.75,608.45,538.03,26.13]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":7,"name":"AutoShape 41","bbox":[92.59,670.57,912.89,94.43]}
+{"kind":"shape","id":"sh/obm58z25","slide":7,"name":"AutoShape 42","bbox":[94.22,672.2,103.18,91.16]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":7,"name":"TextBox 43","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[138.37,705.53,21.5,24.5]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":7,"name":"TextBox 45","text":"差距4 - 商标与销售","textPreview":"差距4 - 商标与销售","textChars":11,"textLines":1,"bbox":[242.5,689.37,429.98,24.5]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":7,"name":"TextBox 46","text":"大多数卖家等到产品爆火才注册，往往发现品牌已被抢注","textPreview":"大多数卖家等到产品爆火才注册，往往发现品牌已被抢注","textChars":25,"textLines":1,"bbox":[242.5,721.68,429.98,24.5]}
+{"kind":"shape","id":"sh/al87ed8b","slide":7,"name":"AutoShape 48","bbox":[92.59,782.17,912.89,94.43]}
+{"kind":"shape","id":"sh/z61032ls","slide":7,"name":"AutoShape 49","bbox":[94.22,783.8,103.18,91.16]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":7,"name":"TextBox 50","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[138.76,817.13,21.5,24.5]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":7,"name":"TextBox 52","text":"差距5 - 平台与法庭","textPreview":"差距5 - 平台与法庭","textChars":11,"textLines":1,"bbox":[242.5,800.98,404.1,24.5]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":7,"name":"TextBox 53","text":"亚马逊优先看\"证书\"而非真相——手握证书者掌握权力","textPreview":"亚马逊优先看\"证书\"而非真相——手握证书者掌握权力","textChars":25,"textLines":1,"bbox":[242.5,833.29,404.1,24.5]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":7,"name":"AutoShape 55","bbox":[1309.76,354.54,304.29,304.29]}
+{"kind":"image","id":"im/czed8v6p","slide":7,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/5kb6xkf6","slide":7,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/yhgn29gr","slide":7,"name":"Picture 10","bbox":[197.41,208.56,10.73,17.18]}
+{"kind":"image","id":"im/n29gr2p8","slide":7,"name":"Picture 18","bbox":[1005.48,136.96,608.57,739.45]}
+{"kind":"image","id":"im/fyxobm58","slide":7,"name":"Picture 22","bbox":[197.41,386.49,10.73,17.18]}
+{"kind":"image","id":"im/qd4vmtwr","slide":7,"name":"Picture 29","bbox":[1005.48,136.96,608.57,739.45]}
+{"kind":"image","id":"im/x4nap4r6","slide":7,"name":"Picture 33","bbox":[197.41,564.42,10.73,17.18]}
+{"kind":"image","id":"im/8jqh0fep","slide":7,"name":"Picture 40","bbox":[1005.48,136.96,608.57,739.45]}
+{"kind":"image","id":"im/fa9w3m94","slide":7,"name":"Picture 44","bbox":[197.41,709.18,10.73,17.18]}
+{"kind":"image","id":"im/qpg3ex0n","slide":7,"name":"Picture 47","bbox":[1005.48,136.96,608.57,739.45]}
+{"kind":"image","id":"im/xczed8v6","slide":7,"name":"Picture 51","bbox":[197.41,820.78,10.73,17.18]}
+{"kind":"image","id":"im/8v6psfil","slide":7,"name":"Picture 54","bbox":[1005.48,136.96,608.57,739.45]}
+{"kind":"image","id":"im/je9cvixc","slide":7,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/58z25kb6","slide":7,"text":""}
+{"kind":"slide","id":"sl/0z61032l","slide":8,"title":"防御策略一：保护源头，堵住技术泄露","textShapes":41}
+{"kind":"shape","id":"sh/8jqh0fep","slide":8,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":8,"name":"TextBox 5","text":"防御策略一：保护源头，堵住技术泄露","textPreview":"防御策略一：保护源头，堵住技术泄露","textChars":17,"textLines":1,"bbox":[92.59,82.46,1521.46,47.37]}
+{"kind":"shape","id":"sh/xczed8v6","slide":8,"name":"AutoShape 6","bbox":[92.59,147.46,1521.46,730.08]}
+{"kind":"shape","id":"sh/8v6psfil","slide":8,"name":"AutoShape 7","bbox":[92.59,198.38,748,298.85]}
+{"kind":"shape","id":"sh/je9cvixc","slide":8,"name":"AutoShape 8","bbox":[92.59,198.38,748,298.85]}
+{"kind":"shape","id":"sh/svu9knih","slide":8,"name":"AutoShape 10","bbox":[92.59,198.38,748,20.37]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":8,"name":"TextBox 11","text":"第一步 - 强制保密协议","textPreview":"第一步 - 强制保密协议","textChars":12,"textLines":1,"bbox":[112.96,239.11,707.26,35.93]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":8,"name":"TextBox 12","text":"未签署保密协议前绝不分享技术规格","textPreview":"未签署保密协议前绝不分享技术规格","textChars":16,"textLines":1,"bbox":[112.96,286.01,707.26,29.4]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":8,"name":"TextBox 13","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[91.17,332.5,20.37,20.37]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":8,"name":"TextBox 14","text":"技术规格文档必须纳入NDA保护范围","textPreview":"技术规格文档必须纳入NDA保护范围","textChars":17,"textLines":1,"bbox":[121.74,326.39,698.48,31.03]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":8,"name":"TextBox 15","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[91.17,372.31,20.37,20.37]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":8,"name":"TextBox 16","text":"材料清单（BOM）作为核心机密管控","textPreview":"材料清单（BOM）作为核心机密管控","textChars":17,"textLines":1,"bbox":[121.74,366.2,698.48,31.03]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":8,"name":"TextBox 17","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[91.17,412.13,20.37,20.37]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":8,"name":"TextBox 18","text":"配方工艺参数需单独签署专项保密条款","textPreview":"配方工艺参数需单独签署专项保密条款","textChars":17,"textLines":1,"bbox":[121.74,406.01,698.48,31.03]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":8,"name":"TextBox 19","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[91.17,451.94,20.37,20.37]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":8,"name":"TextBox 20","text":"NDA是后续维权诉讼的关键证据材料","textPreview":"NDA是后续维权诉讼的关键证据材料","textChars":17,"textLines":1,"bbox":[121.74,445.83,698.48,31.03]}
+{"kind":"shape","id":"sh/wval87ed","slide":8,"name":"AutoShape 21","bbox":[866.03,167.83,748.02,329.4]}
+{"kind":"shape","id":"sh/7adsji5s","slide":8,"name":"AutoShape 22","bbox":[866.03,167.83,748.02,329.4]}
+{"kind":"shape","id":"sh/psfil0rq","slide":8,"name":"AutoShape 24","bbox":[866.03,167.83,748.02,20.37]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":8,"name":"TextBox 25","text":"第二步 - 分阶段披露","textPreview":"第二步 - 分阶段披露","textChars":11,"textLines":1,"bbox":[886.4,208.56,707.29,35.93]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":8,"name":"TextBox 26","text":"随着合作深入和定金到位，逐步释放信息","textPreview":"随着合作深入和定金到位，逐步释放信息","textChars":18,"textLines":1,"bbox":[886.4,255.47,707.29,29.4]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":8,"name":"TextBox 27","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[864.61,301.95,20.37,20.37]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":8,"name":"TextBox 28","text":"第一阶段：仅提供产品基本参数和外观尺寸","textPreview":"第一阶段：仅提供产品基本参数和外观尺寸","textChars":19,"textLines":1,"bbox":[895.18,295.84,698.51,31.03]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":8,"name":"TextBox 29","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[864.61,341.77,20.37,20.37]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":8,"name":"TextBox 30","text":"第二阶段：提供完整功能说明和技术原理","textPreview":"第二阶段：提供完整功能说明和技术原理","textChars":18,"textLines":1,"bbox":[895.18,335.65,698.51,31.03]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":8,"name":"TextBox 31","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[864.61,381.58,20.37,20.37]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":8,"name":"TextBox 32","text":"第三阶段：签署正式合同并收取定金后交付核心工艺","textPreview":"第三阶段：签署正式合同并收取定金后交付核心工艺","textChars":23,"textLines":1,"bbox":[895.18,375.47,698.51,31.03]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":8,"name":"TextBox 33","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[864.61,421.39,20.37,20.37]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":8,"name":"TextBox 34","text":"量产后：交付完整技术文件和量产指导书","textPreview":"量产后：交付完整技术文件和量产指导书","textChars":18,"textLines":1,"bbox":[895.18,415.28,698.51,31.03]}
+{"kind":"shape","id":"sh/z61032ls","slide":8,"name":"AutoShape 35","bbox":[92.59,578.69,748,298.85]}
+{"kind":"shape","id":"sh/orytsvu9","slide":8,"name":"AutoShape 36","bbox":[92.59,578.69,748,298.85]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":8,"name":"AutoShape 38","bbox":[92.59,578.69,748,20.37]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":8,"name":"TextBox 39","text":"第三步 - 严格记录保存","textPreview":"第三步 - 严格记录保存","textChars":12,"textLines":1,"bbox":[112.96,619.42,707.26,35.93]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":8,"name":"TextBox 40","text":"保存每封邮件、聊天记录、样品寄送单和报价单","textPreview":"保存每封邮件、聊天记录、样品寄送单和报价单","textChars":21,"textLines":1,"bbox":[112.96,666.33,707.26,29.4]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":8,"name":"TextBox 41","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[91.17,712.82,20.37,20.37]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":8,"name":"TextBox 42","text":"商务邮件往来需完整归档备查","textPreview":"商务邮件往来需完整归档备查","textChars":13,"textLines":1,"bbox":[121.74,706.7,698.48,31.03]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":8,"name":"TextBox 43","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[91.17,752.63,20.37,20.37]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":8,"name":"TextBox 44","text":"微信、钉钉等聊天记录定期备份存储","textPreview":"微信、钉钉等聊天记录定期备份存储","textChars":16,"textLines":1,"bbox":[121.74,746.52,698.48,31.03]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":8,"name":"TextBox 45","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[91.17,792.44,20.37,20.37]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":8,"name":"TextBox 46","text":"报价单、合同文本需保存至少3年以上","textPreview":"报价单、合同文本需保存至少3年以上","textChars":17,"textLines":1,"bbox":[121.74,786.33,698.48,31.03]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":8,"name":"TextBox 47","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[91.17,832.25,20.37,20.37]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":8,"name":"TextBox 48","text":"样品寄送单据需与物流信息关联保存","textPreview":"样品寄送单据需与物流信息关联保存","textChars":16,"textLines":1,"bbox":[121.74,826.14,698.48,31.03]}
+{"kind":"shape","id":"sh/ulwval87","slide":8,"name":"AutoShape 49","bbox":[866.03,548.14,748.02,329.4]}
+{"kind":"shape","id":"sh/4nap4r65","slide":8,"name":"AutoShape 50","bbox":[866.03,548.14,748.02,329.4]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":8,"name":"AutoShape 52","bbox":[866.03,548.14,748.02,20.37]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":8,"name":"TextBox 53","text":"第四步 - 源文件证据","textPreview":"第四步 - 源文件证据","textChars":11,"textLines":1,"bbox":[886.4,588.87,707.29,35.93]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":8,"name":"TextBox 54","text":"维护高分辨率设计文件和产品照片的时间戳","textPreview":"维护高分辨率设计文件和产品照片的时间戳","textChars":19,"textLines":1,"bbox":[886.4,635.78,707.29,29.4]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":8,"name":"TextBox 55","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[864.61,682.27,20.37,20.37]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":8,"name":"TextBox 56","text":"保留PSD/AI设计源文件作为原创证明","textPreview":"保留PSD/AI设计源文件作为原创证明","textChars":19,"textLines":1,"bbox":[895.18,676.15,698.51,31.03]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":8,"name":"TextBox 57","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[864.61,722.08,20.37,20.37]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":8,"name":"TextBox 58","text":"RAW格式原始照片不得进行任何后期处理","textPreview":"RAW格式原始照片不得进行任何后期处理","textChars":19,"textLines":1,"bbox":[895.18,715.97,698.51,31.03]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":8,"name":"TextBox 59","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[864.61,761.89,20.37,20.37]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":8,"name":"TextBox 60","text":"拍摄设备自动生成的时间戳作为法律证据","textPreview":"拍摄设备自动生成的时间戳作为法律证据","textChars":18,"textLines":1,"bbox":[895.18,755.78,698.51,31.03]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":8,"name":"TextBox 61","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[864.61,801.71,20.37,20.37]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":8,"name":"TextBox 62","text":"源文件命名需包含项目代号和版本信息","textPreview":"源文件命名需包含项目代号和版本信息","textChars":17,"textLines":1,"bbox":[895.18,795.59,698.51,31.03]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":8,"name":"AutoShape 63","bbox":[88.53,178.01,61.12,61.12]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":8,"name":"AutoShape 64","bbox":[861.97,147.46,61.12,61.12]}
+{"kind":"shape","id":"sh/4r65wjud","slide":8,"name":"AutoShape 65","bbox":[88.53,558.32,61.12,61.12]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":8,"name":"AutoShape 66","bbox":[861.97,527.78,61.12,61.12]}
+{"kind":"image","id":"im/d0z61032","slide":8,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/2x4nap4r","slide":8,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/vixczed8","slide":8,"name":"Picture 9","bbox":[111.45,200.91,15.29,15.29]}
+{"kind":"image","id":"im/hoza1gvy","slide":8,"name":"Picture 23","bbox":[882.73,168.21,19.6,19.6]}
+{"kind":"image","id":"im/s36hcrmh","slide":8,"name":"Picture 37","bbox":[109.29,579.07,19.6,19.6]}
+{"kind":"image","id":"im/zidonyd0","slide":8,"name":"Picture 51","bbox":[882.73,548.52,19.6,19.6]}
+{"kind":"image","id":"im/a1gvy90j","slide":8,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/0z61032l","slide":8,"text":""}
+{"kind":"slide","id":"sl/fu18jqh0","slide":9,"title":"防御策略二：前瞻性全球布局与平台防御","textShapes":13}
+{"kind":"shape","id":"sh/judg7ads","slide":9,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":9,"name":"TextBox 6","text":"防御策略二：前瞻性全球布局与平台防御","textPreview":"防御策略二：前瞻性全球布局与平台防御","textChars":18,"textLines":1,"bbox":[638.71,76.36,975.34,60.43]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":9,"name":"AutoShape 7","bbox":[638.71,164.79,975.34,718.85]}
+{"kind":"shape","id":"sh/cvixczed","slide":9,"name":"AutoShape 8","bbox":[638.71,164.79,474.84,346.6]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":9,"name":"AutoShape 9","bbox":[641.16,167.24,469.94,77]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":9,"name":"TextBox 10","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[869.91,186.94,32.08,37.57]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":9,"name":"TextBox 11","text":"第一 - 上架前注册","textPreview":"第一 - 上架前注册","textChars":10,"textLines":1,"bbox":[666.81,269.89,418.65,45.73]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":9,"name":"TextBox 12","text":"在第一款产品上架前申请美国商标和外观设计专利｜美国商标注册约8-12个月，外观设计专利12-18个月，需提前布局","textPreview":"在第一款产品上架前申请美国商标和外观设计专利｜美国商标注册约8-12个月，外观设计专利12-18个月，需提前布局","textChars":56,"textLines":1,"bbox":[666.81,333.02,418.65,150.27]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":9,"name":"AutoShape 13","bbox":[1139.21,164.79,474.84,346.6]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":9,"name":"AutoShape 14","bbox":[1141.66,167.24,469.94,77]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":9,"name":"TextBox 15","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1367.49,186.94,32.08,37.57]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":9,"name":"TextBox 16","text":"第二 - 优先权窗口","textPreview":"第二 - 优先权窗口","textChars":10,"textLines":1,"bbox":[1167.31,269.89,418.65,45.73]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":9,"name":"TextBox 17","text":"利用中国申请后的6个月（商标/外观设计）或12个月（发明）优先权窗口｜中国申请后6个月内提交美国申请可享受中国申请日优先权","textPreview":"利用中国申请后的6个月（商标/外观设计）或12个月（发明）优先权窗口｜中国申请后6个月内提交美国申请可享受中国申请日优先权","textChars":61,"textLines":1,"bbox":[1167.31,333.02,418.65,150.27]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":9,"name":"AutoShape 18","bbox":[638.71,537.04,474.84,346.6]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":9,"name":"AutoShape 19","bbox":[641.16,539.49,469.94,77]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":9,"name":"TextBox 20","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[866.34,559.19,32.08,37.57]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":9,"name":"TextBox 21","text":"第三 - 亚马逊品牌备案","textPreview":"第三 - 亚马逊品牌备案","textChars":12,"textLines":1,"bbox":[666.81,642.14,418.65,45.73]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":9,"name":"TextBox 22","text":"锁定listing、更快举报假货、使用高级品牌保护工具｜提供商标注册号、公司信息、产品图册，审核通过后享受透明计划","textPreview":"锁定listing、更快举报假货、使用高级品牌保护工具｜提供商标注册号、公司信息、产品图册，审核通过后享受透明计划","textChars":57,"textLines":1,"bbox":[666.81,705.27,418.65,150.27]}
+{"kind":"shape","id":"sh/z61032ls","slide":9,"name":"AutoShape 23","bbox":[1139.21,537.04,474.84,346.6]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":9,"name":"AutoShape 24","bbox":[1141.66,539.49,469.94,77]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":9,"name":"TextBox 25","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1365.53,559.19,32.08,37.57]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":9,"name":"TextBox 26","text":"第四 - 主动监控","textPreview":"第四 - 主动监控","textChars":9,"textLines":1,"bbox":[1167.31,642.14,418.65,45.73]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":9,"name":"TextBox 27","text":"实施每日关键词和图片追踪，及早发现仿冒者——监控就是你的雷达系统｜使用品牌备案的\"举报违规\"工具，定期搜索相似商标和关键词","textPreview":"实施每日关键词和图片追踪，及早发现仿冒者——监控就是你的雷达系统｜使用品牌备案的\"举报违规\"工具，定期搜索相似商标和关键词","textChars":61,"textLines":1,"bbox":[1167.31,705.27,418.65,150.27]}
+{"kind":"image","id":"im/7mp0bi9s","slide":9,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/e1w7mp0b","slide":9,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/oza1gvy9","slide":9,"name":"Picture 5","bbox":[0,0,546.12,960]}
+{"kind":"image","id":"im/hk3q5o7q","slide":9,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/fu18jqh0","slide":9,"text":""}
+{"kind":"slide","id":"sl/qh0fepkz","slide":10,"title":"战术应对：如何处理侵权投诉和法律函件","textShapes":27}
+{"kind":"shape","id":"sh/dg7adsji","slide":10,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":10,"name":"TextBox 5","text":"战术应对：如何处理侵权投诉和法律函件","textPreview":"战术应对：如何处理侵权投诉和法律函件","textChars":18,"textLines":1,"bbox":[92.59,183.24,1521.46,62.07]}
+{"kind":"shape","id":"sh/onyd0z61","slide":10,"name":"AutoShape 6","bbox":[92.59,275.07,1521.46,501.67]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":10,"name":"AutoShape 7","bbox":[92.59,275.07,380.37,501.67]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":10,"name":"AutoShape 8","bbox":[92.59,275.07,380.37,105.84]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":10,"name":"TextBox 11","text":"第一步 - 冷静诊断","textPreview":"第一步 - 冷静诊断","textChars":10,"textLines":1,"bbox":[119.03,412.65,327.49,47.37]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":10,"name":"TextBox 12","text":"识别投诉类型，核实投诉人身份","textPreview":"识别投诉类型，核实投诉人身份","textChars":14,"textLines":1,"bbox":[119.03,478.52,327.49,78.4]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":10,"name":"TextBox 13","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[94.14,583.36,26.46,26.46]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":10,"name":"TextBox 14","text":"识别投诉类型（商标/专利/版权）","textPreview":"识别投诉类型（商标/专利/版权）","textChars":16,"textLines":1,"bbox":[133.83,575.42,312.68,80.03]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":10,"name":"TextBox 15","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[94.14,678.2,26.46,26.46]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":10,"name":"TextBox 16","text":"核实投诉人是否为\"专利流氓\"或真实竞争对手","textPreview":"核实投诉人是否为\"专利流氓\"或真实竞争对手","textChars":21,"textLines":1,"bbox":[133.83,670.26,312.68,80.03]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":10,"name":"AutoShape 17","bbox":[472.96,275.07,380.37,501.67]}
+{"kind":"shape","id":"sh/neloj2t8","slide":10,"name":"AutoShape 18","bbox":[472.96,275.07,380.37,105.84]}
+{"kind":"textbox","id":"sh/vixczed8","slide":10,"name":"TextBox 21","text":"第二步 - 证据核实","textPreview":"第二步 - 证据核实","textChars":10,"textLines":1,"bbox":[499.4,412.65,327.49,47.37]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":10,"name":"TextBox 22","text":"检查证书有效性及保护范围","textPreview":"检查证书有效性及保护范围","textChars":12,"textLines":1,"bbox":[499.4,478.52,327.49,39.2]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":10,"name":"TextBox 23","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[474.51,544.16,26.46,26.46]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":10,"name":"TextBox 24","text":"检查专利有效期（发明20年，外观15年）","textPreview":"检查专利有效期（发明20年，外观15年）","textChars":20,"textLines":1,"bbox":[514.2,536.22,312.68,80.03]}
+{"kind":"textbox","id":"sh/val87ed8","slide":10,"name":"TextBox 25","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[474.51,639,26.46,26.46]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":10,"name":"TextBox 26","text":"核实产品是否真的落入其保护范围","textPreview":"核实产品是否真的落入其保护范围","textChars":15,"textLines":1,"bbox":[514.2,631.06,312.68,80.03]}
+{"kind":"shape","id":"sh/dcbulwva","slide":10,"name":"AutoShape 27","bbox":[853.32,275.07,380.37,501.67]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":10,"name":"AutoShape 28","bbox":[853.32,275.07,380.37,105.84]}
+{"kind":"textbox","id":"sh/sji5snel","slide":10,"name":"TextBox 31","text":"第三步 - 内部审计","textPreview":"第三步 - 内部审计","textChars":10,"textLines":1,"bbox":[879.76,412.65,327.49,47.37]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":10,"name":"TextBox 32","text":"梳理自身知识产权和证据链","textPreview":"梳理自身知识产权和证据链","textChars":12,"textLines":1,"bbox":[879.76,478.52,327.49,39.2]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":10,"name":"TextBox 33","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[854.87,544.16,26.46,26.46]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":10,"name":"TextBox 34","text":"是否有在先使用证据？","textPreview":"是否有在先使用证据？","textChars":10,"textLines":1,"bbox":[894.56,536.22,312.68,40.83]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":10,"name":"TextBox 35","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[854.87,599.8,26.46,26.46]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":10,"name":"TextBox 36","text":"是否有自己的注册商标或专利？","textPreview":"是否有自己的注册商标或专利？","textChars":14,"textLines":1,"bbox":[894.56,591.86,312.68,80.03]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":10,"name":"TextBox 37","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[854.87,694.63,26.46,26.46]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":10,"name":"TextBox 38","text":"邮件记录是否完整？","textPreview":"邮件记录是否完整？","textChars":9,"textLines":1,"bbox":[894.56,686.7,312.68,40.83]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":10,"name":"AutoShape 39","bbox":[1233.69,275.07,380.37,501.67]}
+{"kind":"shape","id":"sh/wval87ed","slide":10,"name":"AutoShape 40","bbox":[1233.69,275.07,380.37,105.84]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":10,"name":"TextBox 43","text":"第四步 - 正式回应","textPreview":"第四步 - 正式回应","textChars":10,"textLines":1,"bbox":[1260.13,412.65,327.49,47.37]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":10,"name":"TextBox 44","text":"把握时间窗口，避免缺席判决","textPreview":"把握时间窗口，避免缺席判决","textChars":13,"textLines":1,"bbox":[1260.13,478.52,327.49,78.4]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":10,"name":"TextBox 45","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1235.24,583.36,26.46,26.46]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":10,"name":"TextBox 46","text":"平台申诉窗口期通常7-15天","textPreview":"平台申诉窗口期通常7-15天","textChars":14,"textLines":1,"bbox":[1274.93,575.42,312.68,80.03]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":10,"name":"TextBox 47","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1235.24,678.2,26.46,26.46]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":10,"name":"TextBox 48","text":"法律诉讼回应期30天","textPreview":"法律诉讼回应期30天","textChars":10,"textLines":1,"bbox":[1274.93,670.26,312.68,40.83]}
+{"kind":"image","id":"im/at47y1kr","slide":10,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/onyd0z61","slide":10,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/d8v6psfi","slide":10,"name":"Picture 9","bbox":[92.59,275.52,380.37,104.93]}
+{"kind":"image","id":"im/6hcrmhk3","slide":10,"name":"Picture 10","bbox":[269.69,314.9,26.13,26.13]}
+{"kind":"image","id":"im/z25kb6xk","slide":10,"name":"Picture 19","bbox":[472.96,275.52,380.37,104.93]}
+{"kind":"image","id":"im/ovahoza1","slide":10,"name":"Picture 20","bbox":[651.55,316.38,23.17,23.17]}
+{"kind":"image","id":"im/dg7adsji","slide":10,"name":"Picture 29","bbox":[853.32,275.52,380.37,104.93]}
+{"kind":"image","id":"im/6tovahoz","slide":10,"name":"Picture 30","bbox":[1033.58,318.04,19.86,19.86]}
+{"kind":"image","id":"im/vahoza1g","slide":10,"name":"Picture 41","bbox":[1233.69,275.52,380.37,104.93]}
+{"kind":"image","id":"im/o7qpg3ex","slide":10,"name":"Picture 42","bbox":[1410.79,314.9,26.13,26.13]}
+{"kind":"image","id":"im/dsji5sne","slide":10,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/qh0fepkz","slide":10,"text":""}
+{"kind":"slide","id":"sl/29gr2p8n","slide":11,"title":"反击：瓦解欺诈主张，收复市场空间","textShapes":25}
+{"kind":"shape","id":"sh/gvy90je9","slide":11,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":11,"name":"TextBox 9","text":"反击：瓦解欺诈主张，收复市场空间","textPreview":"反击：瓦解欺诈主张，收复市场空间","textChars":16,"textLines":1,"bbox":[92.59,75.52,1521.46,58.8]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":11,"name":"AutoShape 10","bbox":[92.59,160.04,1521.46,724.44]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":11,"name":"AutoShape 11","bbox":[92.59,160.04,586.42,362.22]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":11,"name":"TextBox 13","text":"第一阶段 - 挑战有效性","textPreview":"第一阶段 - 挑战有效性","textChars":12,"textLines":1,"bbox":[117.19,160.04,537.22,44.1]}
+{"kind":"textbox","id":"sh/83itgfml","slide":11,"name":"TextBox 14","text":"利用公开在先使用或技术泄露的证据，通过美国专利商标局无效抢注者的专利","textPreview":"利用公开在先使用或技术泄露的证据，通过美国专利商标局无效抢注者的专利","textChars":34,"textLines":1,"bbox":[117.19,220.14,537.22,71.87]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":11,"name":"TextBox 15","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[93.09,315.4,24.61,24.61]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":11,"name":"TextBox 16","text":"可申请USPTO多方复审(IPR)，成功率约60%","textPreview":"可申请USPTO多方复审(IPR)，成功率约60%","textChars":25,"textLines":1,"bbox":[130,308.01,524.41,39.2]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":11,"name":"TextBox 17","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[93.09,367.41,24.61,24.61]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":11,"name":"TextBox 18","text":"无效成功后可反诉对方故意侵权","textPreview":"无效成功后可反诉对方故意侵权","textChars":14,"textLines":1,"bbox":[130,360.03,524.41,39.2]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":11,"name":"AutoShape 19","bbox":[404.25,522.26,586.45,362.22]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":11,"name":"TextBox 21","text":"第二阶段 - 平台反击","textPreview":"第二阶段 - 平台反击","textChars":11,"textLines":1,"bbox":[428.86,645.3,537.24,44.1]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":11,"name":"TextBox 22","text":"权利确认后，通过测试购买识别假冒者，发起平台投诉","textPreview":"权利确认后，通过测试购买识别假冒者，发起平台投诉","textChars":24,"textLines":1,"bbox":[428.86,705.4,537.24,71.87]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":11,"name":"TextBox 23","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[404.75,800.65,24.61,24.61]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":11,"name":"TextBox 24","text":"测试购买(Test Buy)需保留实物证据","textPreview":"测试购买(Test Buy)需保留实物证据","textChars":21,"textLines":1,"bbox":[441.67,793.27,524.43,39.2]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":11,"name":"TextBox 25","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[404.75,852.67,24.61,24.61]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":11,"name":"TextBox 26","text":"向亚马逊提交反通知需附上原创证据","textPreview":"向亚马逊提交反通知需附上原创证据","textChars":16,"textLines":1,"bbox":[441.67,845.28,524.43,39.2]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":11,"name":"AutoShape 27","bbox":[715.92,160.04,586.45,362.22]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":11,"name":"TextBox 29","text":"第三阶段 - 渠道管理","textPreview":"第三阶段 - 渠道管理","textChars":11,"textLines":1,"bbox":[750.75,195.98,516.78,44.1]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":11,"name":"TextBox 30","text":"通过提供法律赔偿和所有权证明主动稳定分销商","textPreview":"通过提供法律赔偿和所有权证明主动稳定分销商","textChars":21,"textLines":1,"bbox":[750.75,256.08,516.78,35.93]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":11,"name":"TextBox 31","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[726.65,315.4,24.61,24.61]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":11,"name":"TextBox 32","text":"主动告知经销商法律应对方案","textPreview":"主动告知经销商法律应对方案","textChars":13,"textLines":1,"bbox":[763.56,308.01,503.96,39.2]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":11,"name":"TextBox 33","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[726.65,367.41,24.61,24.61]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":11,"name":"TextBox 34","text":"提供法律担保稳定渠道信心","textPreview":"提供法律担保稳定渠道信心","textChars":12,"textLines":1,"bbox":[763.56,360.03,503.96,39.2]}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":11,"name":"AutoShape 35","bbox":[1027.6,522.26,586.42,362.22]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":11,"name":"TextBox 37","text":"第四阶段 - 品牌壁垒","textPreview":"第四阶段 - 品牌壁垒","textChars":11,"textLines":1,"bbox":[1052.21,645.3,537.22,44.1]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":11,"name":"TextBox 38","text":"从销售\"商品\"转型为销售\"品牌\"——知名品牌创造抢注者无法轻易窃取的忠实客户群","textPreview":"从销售\"商品\"转型为销售\"品牌\"——知名品牌创造抢注者无法轻易窃取的忠实客户群","textChars":39,"textLines":1,"bbox":[1052.21,705.4,537.22,71.87]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":11,"name":"TextBox 39","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1028.11,800.65,24.61,24.61]}
+{"kind":"textbox","id":"sh/bulwval8","slide":11,"name":"TextBox 40","text":"建立消费者品牌认知","textPreview":"建立消费者品牌认知","textChars":9,"textLines":1,"bbox":[1065.02,793.27,524.41,39.2]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":11,"name":"TextBox 41","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1028.11,852.67,24.61,24.61]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":11,"name":"TextBox 42","text":"通过独立站和社交媒体建立品牌护城河","textPreview":"通过独立站和社交媒体建立品牌护城河","textChars":17,"textLines":1,"bbox":[1065.02,845.28,524.41,39.2]}
+{"kind":"image","id":"im/fyxobm58","slide":11,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/8v6psfil","slide":11,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/xczed8v6","slide":11,"name":"Picture 5","bbox":[374.58,399.33,22.55,12.3]}
+{"kind":"image","id":"im/qpg3ex0n","slide":11,"name":"Picture 6","bbox":[686.24,626.08,22.55,12.3]}
+{"kind":"image","id":"im/fa9w3m94","slide":11,"name":"Picture 7","bbox":[997.9,399.33,22.55,12.3]}
+{"kind":"image","id":"im/8z25kb6x","slide":11,"name":"Picture 8","bbox":[1309.59,626.08,22.55,12.3]}
+{"kind":"image","id":"im/1gvy90je","slide":11,"name":"Picture 12","bbox":[136.56,419.59,498.45,146.47]}
+{"kind":"image","id":"im/nqxs72x4","slide":11,"name":"Picture 20","bbox":[448.23,476.57,498.48,146.48]}
+{"kind":"image","id":"im/u54zidon","slide":11,"name":"Picture 28","bbox":[759.89,419.58,498.48,146.48]}
+{"kind":"image","id":"im/5sneloj2","slide":11,"name":"Picture 36","bbox":[1071.58,476.58,498.45,146.47]}
+{"kind":"image","id":"im/cbulwval","slide":11,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/29gr2p8n","slide":11,"text":""}
+{"kind":"slide","id":"sl/re1w7mp0","slide":12,"title":"法律重武器：比较高风险执法的战略工具","textShapes":31}
+{"kind":"shape","id":"sh/vahoza1g","slide":12,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":12,"name":"TextBox 5","text":"法律重武器：比较高风险执法的战略工具","textPreview":"法律重武器：比较高风险执法的战略工具","textChars":18,"textLines":1,"bbox":[92.59,165.84,1521.46,62.07]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":12,"name":"TextBox 6","text":"成功需要将\"轻\"平台工具的速度与\"重\"法律工具的系统性优势相结合。","textPreview":"成功需要将\"轻\"平台工具的速度与\"重\"法律工具的系统性优势相结合。","textChars":33,"textLines":1,"bbox":[92.59,257.66,1521.46,39.2]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":12,"name":"AutoShape 7","bbox":[92.59,326.62,1521.46,398.59]}
+{"kind":"shape","id":"sh/oj2t83it","slide":12,"name":"AutoShape 8","bbox":[93.41,327.44,278.31,56.71]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":12,"name":"TextBox 9","text":"工具","textPreview":"工具","textChars":2,"textLines":1,"bbox":[102.16,336.19,260.8,39.2]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":12,"name":"AutoShape 10","bbox":[371.71,327.44,247.2,56.71]}
+{"kind":"textbox","id":"sh/sji5snel","slide":12,"name":"TextBox 11","text":"适用场景","textPreview":"适用场景","textChars":4,"textLines":1,"bbox":[380.47,336.19,229.69,39.2]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":12,"name":"AutoShape 12","bbox":[618.91,327.44,295.56,56.71]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":12,"name":"TextBox 13","text":"速度","textPreview":"速度","textChars":2,"textLines":1,"bbox":[627.66,336.19,278.05,39.2]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":12,"name":"AutoShape 14","bbox":[914.47,327.44,698.82,56.71]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":12,"name":"TextBox 15","text":"战略效果","textPreview":"战略效果","textChars":4,"textLines":1,"bbox":[923.22,336.19,681.31,39.2]}
+{"kind":"shape","id":"sh/3m94fu18","slide":12,"name":"AutoShape 16","bbox":[93.41,384.14,278.31,56.71]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":12,"name":"TextBox 17","text":"DMCA反通知","textPreview":"DMCA反通知","textChars":7,"textLines":1,"bbox":[102.16,392.9,260.8,39.2]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":12,"name":"AutoShape 18","bbox":[371.71,384.14,247.2,56.71]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":12,"name":"TextBox 19","text":"版权/图片纠纷","textPreview":"版权/图片纠纷","textChars":7,"textLines":1,"bbox":[380.47,392.9,229.69,39.2]}
+{"kind":"shape","id":"sh/4zidonyd","slide":12,"name":"AutoShape 20","bbox":[618.91,384.14,295.56,56.71]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":12,"name":"TextBox 21","text":"快速（10-14天）","textPreview":"快速（10-14天）","textChars":10,"textLines":1,"bbox":[627.66,392.9,278.05,39.2]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":12,"name":"AutoShape 22","bbox":[914.47,384.14,698.82,56.71]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":12,"name":"TextBox 23","text":"通过证明原创创作恢复listing","textPreview":"通过证明原创创作恢复listing","textChars":17,"textLines":1,"bbox":[923.22,392.9,681.31,39.2]}
+{"kind":"shape","id":"sh/4r65wjud","slide":12,"name":"AutoShape 24","bbox":[93.41,440.85,278.31,56.71]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":12,"name":"TextBox 25","text":"临时限制令(TRO)","textPreview":"临时限制令(TRO)","textChars":10,"textLines":1,"bbox":[102.16,449.6,260.8,39.2]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":12,"name":"AutoShape 26","bbox":[371.71,440.85,247.2,56.71]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":12,"name":"TextBox 27","text":"严重假冒","textPreview":"严重假冒","textChars":4,"textLines":1,"bbox":[380.47,449.6,229.69,39.2]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":12,"name":"AutoShape 28","bbox":[618.91,440.85,295.56,56.71]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":12,"name":"TextBox 29","text":"即时（数天）","textPreview":"即时（数天）","textChars":6,"textLines":1,"bbox":[627.66,449.6,278.05,39.2]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":12,"name":"AutoShape 30","bbox":[914.47,440.85,698.82,56.71]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":12,"name":"TextBox 31","text":"立即冻结侵权者账户和资产","textPreview":"立即冻结侵权者账户和资产","textChars":12,"textLines":1,"bbox":[923.22,449.6,681.31,39.2]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":12,"name":"AutoShape 32","bbox":[93.41,497.56,278.31,56.71]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":12,"name":"TextBox 33","text":"337调查","textPreview":"337调查","textChars":5,"textLines":1,"bbox":[102.16,506.31,260.8,39.2]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":12,"name":"AutoShape 34","bbox":[371.71,497.56,247.2,56.71]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":12,"name":"TextBox 35","text":"大规模专利纠纷","textPreview":"大规模专利纠纷","textChars":7,"textLines":1,"bbox":[380.47,506.31,229.69,39.2]}
+{"kind":"shape","id":"sh/58z25kb6","slide":12,"name":"AutoShape 36","bbox":[618.91,497.56,295.56,56.71]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":12,"name":"TextBox 37","text":"缓慢（12-18个月）","textPreview":"缓慢（12-18个月）","textChars":11,"textLines":1,"bbox":[627.66,506.31,278.05,39.2]}
+{"kind":"shape","id":"sh/neloj2t8","slide":12,"name":"AutoShape 38","bbox":[914.47,497.56,698.82,56.71]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":12,"name":"TextBox 39","text":"通过海关在美国边境拦截所有侵权进口商品","textPreview":"通过海关在美国边境拦截所有侵权进口商品","textChars":19,"textLines":1,"bbox":[923.22,506.31,681.31,39.2]}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":12,"name":"AutoShape 40","bbox":[93.41,554.27,278.31,56.71]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":12,"name":"TextBox 41","text":"海关备案","textPreview":"海关备案","textChars":4,"textLines":1,"bbox":[102.16,563.02,260.8,39.2]}
+{"kind":"shape","id":"sh/8bat47y1","slide":12,"name":"AutoShape 42","bbox":[371.71,554.27,247.2,56.71]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":12,"name":"TextBox 43","text":"持续品牌保护","textPreview":"持续品牌保护","textChars":6,"textLines":1,"bbox":[380.47,563.02,229.69,39.2]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":12,"name":"AutoShape 44","bbox":[618.91,554.27,295.56,56.71]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":12,"name":"TextBox 45","text":"持续","textPreview":"持续","textChars":2,"textLines":1,"bbox":[627.66,563.02,278.05,39.2]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":12,"name":"AutoShape 46","bbox":[914.47,554.27,698.82,56.71]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":12,"name":"TextBox 47","text":"使美国海关能够在商品进入市场前扣押假冒商品","textPreview":"使美国海关能够在商品进入市场前扣押假冒商品","textChars":21,"textLines":1,"bbox":[923.22,563.02,681.31,39.2]}
+{"kind":"shape","id":"sh/ulwval87","slide":12,"name":"AutoShape 48","bbox":[93.41,610.97,278.31,56.71]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":12,"name":"TextBox 49","text":"亚马逊透明计划","textPreview":"亚马逊透明计划","textChars":7,"textLines":1,"bbox":[102.16,619.73,260.8,39.2]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":12,"name":"AutoShape 50","bbox":[371.71,610.97,247.2,56.71]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":12,"name":"TextBox 51","text":"产品防伪","textPreview":"产品防伪","textChars":4,"textLines":1,"bbox":[380.47,619.73,229.69,39.2]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":12,"name":"AutoShape 52","bbox":[618.91,610.97,295.56,56.71]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":12,"name":"TextBox 53","text":"持续","textPreview":"持续","textChars":2,"textLines":1,"bbox":[627.66,619.73,278.05,39.2]}
+{"kind":"shape","id":"sh/p4r65wju","slide":12,"name":"AutoShape 54","bbox":[914.47,610.97,698.82,56.71]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":12,"name":"TextBox 55","text":"从源头杜绝假冒进入物流链","textPreview":"从源头杜绝假冒进入物流链","textChars":12,"textLines":1,"bbox":[923.22,619.73,681.31,39.2]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":12,"name":"AutoShape 56","bbox":[93.41,667.68,278.31,56.71]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":12,"name":"TextBox 57","text":"诉前禁令","textPreview":"诉前禁令","textChars":4,"textLines":1,"bbox":[102.16,676.44,260.8,39.2]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":12,"name":"AutoShape 58","bbox":[371.71,667.68,247.2,56.71]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":12,"name":"TextBox 59","text":"情况紧急时","textPreview":"情况紧急时","textChars":5,"textLines":1,"bbox":[380.47,676.44,229.69,39.2]}
+{"kind":"shape","id":"sh/wval87ed","slide":12,"name":"AutoShape 60","bbox":[618.91,667.68,295.56,56.71]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":12,"name":"TextBox 61","text":"即时","textPreview":"即时","textChars":2,"textLines":1,"bbox":[627.66,676.44,278.05,39.2]}
+{"kind":"shape","id":"sh/epkzupwb","slide":12,"name":"AutoShape 62","bbox":[914.47,667.68,698.82,56.71]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":12,"name":"TextBox 63","text":"可在起诉前申请临时禁令保护","textPreview":"可在起诉前申请临时禁令保护","textChars":13,"textLines":1,"bbox":[923.22,676.44,681.31,39.2]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":12,"name":"TextBox 64","text":"组合使用：根据侵权规模和紧急程度选择工具组合。轻微侵权用DMCA，规模化假冒用TRO+337，海关备案作为长期防线。","textPreview":"组合使用：根据侵权规模和紧急程度选择工具组合。轻微侵权用DMCA，规模化假冒用TRO+337，海关备案作为长期防线。","textChars":58,"textLines":1,"bbox":[92.59,754.96,1521.46,39.2]}
+{"kind":"image","id":"im/mp0bi9s3","slide":12,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/tgfmlkjm","slide":12,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/4vmtwra5","slide":12,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/re1w7mp0","slide":12,"text":""}
+{"kind":"slide","id":"sl/4fu18jqh","slide":13,"title":"独立站+社媒：构建品牌护城河","textShapes":31}
+{"kind":"shape","id":"sh/lszqtcj6","slide":13,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":13,"name":"TextBox 5","text":"独立站+社媒：构建品牌护城河","textPreview":"独立站+社媒：构建品牌护城河","textChars":14,"textLines":1,"bbox":[92.59,80.47,1521.46,62.07]}
+{"kind":"shape","id":"sh/sji5snel","slide":13,"name":"AutoShape 6","bbox":[92.59,171.12,1521.46,708.39]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":13,"name":"AutoShape 7","bbox":[92.59,171.12,485.54,708.39]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":13,"name":"AutoShape 8","bbox":[92.59,171.12,485.54,708.39]}
+{"kind":"shape","id":"sh/z61032ls","slide":13,"name":"AutoShape 10","bbox":[92.59,479.49,485.54,400.02]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":13,"name":"TextBox 11","text":"独立站建设","textPreview":"独立站建设","textChars":5,"textLines":1,"bbox":[92.59,479.49,485.54,45.73]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":13,"name":"TextBox 12","text":"建立品牌官网，拥有域名和服务器控制权，不依赖平台规则","textPreview":"建立品牌官网，拥有域名和服务器控制权，不依赖平台规则","textChars":26,"textLines":1,"bbox":[92.59,543.01,485.54,75.13]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":13,"name":"TextBox 13","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[67.91,643.71,25.93,25.93]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":13,"name":"TextBox 14","text":"拥有独立域名，增强品牌可信度","textPreview":"拥有独立域名，增强品牌可信度","textChars":14,"textLines":1,"bbox":[106.81,635.93,471.32,40.83]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":13,"name":"TextBox 15","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[67.91,698.76,25.93,25.93]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":13,"name":"TextBox 16","text":"自主掌控服务器和数据资产","textPreview":"自主掌控服务器和数据资产","textChars":12,"textLines":1,"bbox":[106.81,690.98,471.32,40.83]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":13,"name":"TextBox 17","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[67.91,753.81,25.93,25.93]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":13,"name":"TextBox 18","text":"不受第三方平台规则限制和抽成","textPreview":"不受第三方平台规则限制和抽成","textChars":14,"textLines":1,"bbox":[106.81,746.03,471.32,40.83]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":13,"name":"TextBox 19","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[67.91,808.86,25.93,25.93]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":13,"name":"TextBox 20","text":"建议使用Shopify或WordPress等成熟建站工具","textPreview":"建议使用Shopify或WordPress等成熟建站工具","textChars":28,"textLines":1,"bbox":[106.81,801.08,471.32,78.4]}
+{"kind":"shape","id":"sh/7u54zido","slide":13,"name":"AutoShape 21","bbox":[610.54,171.12,485.54,708.39]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":13,"name":"AutoShape 22","bbox":[610.54,171.12,485.54,708.39]}
+{"kind":"shape","id":"sh/eloj2t83","slide":13,"name":"AutoShape 24","bbox":[610.54,479.49,485.54,400.02]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":13,"name":"TextBox 25","text":"社交媒体矩阵","textPreview":"社交媒体矩阵","textChars":6,"textLines":1,"bbox":[610.54,479.49,485.54,45.73]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":13,"name":"TextBox 26","text":"在Instagram、Facebook、TikTok建立品牌账号，定期发布原创内容积累粉丝","textPreview":"在Instagram、Facebook、TikTok建立品牌账号，定期发布原创内容积累粉丝","textChars":45,"textLines":1,"bbox":[610.54,543.01,485.54,75.13]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":13,"name":"TextBox 27","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[585.86,643.71,25.93,25.93]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":13,"name":"TextBox 28","text":"Instagram：视觉内容为主，打造品牌形象","textPreview":"Instagram：视觉内容为主，打造品牌形象","textChars":23,"textLines":1,"bbox":[624.75,635.93,471.32,78.4]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":13,"name":"TextBox 29","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[585.86,736.33,25.93,25.93]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":13,"name":"TextBox 30","text":"Facebook：社群运营，建立忠实用户群","textPreview":"Facebook：社群运营，建立忠实用户群","textChars":21,"textLines":1,"bbox":[624.75,728.55,471.32,40.83]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":13,"name":"TextBox 31","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[585.86,791.38,25.93,25.93]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":13,"name":"TextBox 32","text":"TikTok：短视频传播，扩大品牌曝光","textPreview":"TikTok：短视频传播，扩大品牌曝光","textChars":19,"textLines":1,"bbox":[624.75,783.6,471.32,40.83]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":13,"name":"TextBox 33","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[585.86,846.43,25.93,25.93]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":13,"name":"TextBox 34","text":"制定内容日历，保持发布频率稳定","textPreview":"制定内容日历，保持发布频率稳定","textChars":15,"textLines":1,"bbox":[624.75,838.65,471.32,40.83]}
+{"kind":"shape","id":"sh/47y1kre1","slide":13,"name":"AutoShape 35","bbox":[1128.49,171.12,485.56,708.39]}
+{"kind":"shape","id":"sh/bm58z25k","slide":13,"name":"AutoShape 36","bbox":[1128.49,171.12,485.56,708.39]}
+{"kind":"shape","id":"sh/twra5gbq","slide":13,"name":"AutoShape 38","bbox":[1128.49,479.52,485.56,399.99]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":13,"name":"TextBox 39","text":"品牌故事化","textPreview":"品牌故事化","textChars":5,"textLines":1,"bbox":[1128.49,479.52,485.56,45.73]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":13,"name":"TextBox 40","text":"通过创始人故事、产品理念、用户评价构建品牌差异化，让仿冒者无法复制品牌价值","textPreview":"通过创始人故事、产品理念、用户评价构建品牌差异化，让仿冒者无法复制品牌价值","textChars":37,"textLines":1,"bbox":[1128.49,543.04,485.56,112.7]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":13,"name":"TextBox 41","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1103.81,681.31,25.93,25.93]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":13,"name":"TextBox 42","text":"讲述创始人初心与愿景，建立情感连接","textPreview":"讲述创始人初心与愿景，建立情感连接","textChars":17,"textLines":1,"bbox":[1142.7,673.53,471.35,40.83]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":13,"name":"TextBox 43","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1103.81,736.35,25.93,25.93]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":13,"name":"TextBox 44","text":"传达产品理念与设计哲学","textPreview":"传达产品理念与设计哲学","textChars":11,"textLines":1,"bbox":[1142.7,728.58,471.35,40.83]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":13,"name":"TextBox 45","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1103.81,791.4,25.93,25.93]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":13,"name":"TextBox 46","text":"收集展示真实用户评价与案例","textPreview":"收集展示真实用户评价与案例","textChars":13,"textLines":1,"bbox":[1142.7,783.62,471.35,40.83]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":13,"name":"TextBox 47","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1103.81,846.45,25.93,25.93]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":13,"name":"TextBox 48","text":"构建竞争对手难以复制的品牌文化","textPreview":"构建竞争对手难以复制的品牌文化","textChars":15,"textLines":1,"bbox":[1142.7,838.67,471.35,40.83]}
+{"kind":"image","id":"im/ap4r65wj","slide":13,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/gvy90je9","slide":13,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/9gr2p8nq","slide":13,"name":"Picture 9","geometry":"roundRect","bbox":[197.38,171.12,275.96,275.96]}
+{"kind":"image","id":"im/2p8nqxs7","slide":13,"name":"Picture 23","geometry":"roundRect","bbox":[715.33,171.12,275.96,275.96]}
+{"kind":"image","id":"im/ra5gbq1o","slide":13,"name":"Picture 37","geometry":"roundRect","bbox":[1233.28,171.12,275.98,275.98]}
+{"kind":"image","id":"im/kjm1cfa9","slide":13,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/4fu18jqh","slide":13,"text":""}
+{"kind":"slide","id":"sl/lwval87e","slide":14,"title":"337调查：中国卖家的美国海关拦截应对","textShapes":19}
+{"kind":"shape","id":"sh/wfyxobm5","slide":14,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":14,"name":"TextBox 5","text":"337调查：中国卖家的美国海关拦截应对","textPreview":"337调查：中国卖家的美国海关拦截应对","textChars":19,"textLines":1,"bbox":[92.59,270.83,1521.46,62.07]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":14,"name":"AutoShape 6","bbox":[92.59,362.65,1521.46,326.49]}
+{"kind":"shape","id":"sh/wra5gbq1","slide":14,"name":"AutoShape 7","bbox":[92.59,362.65,489.52,326.49]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":14,"name":"TextBox 8","text":"什么是337调查","textPreview":"什么是337调查","textChars":8,"textLines":1,"bbox":[119.03,389.09,436.64,47.37]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":14,"name":"TextBox 9","text":"美国国际贸易委员会(USITC)针对进口贸易中的不公平行为进行调查","textPreview":"美国国际贸易委员会(USITC)针对进口贸易中的不公平行为进行调查","textChars":33,"textLines":1,"bbox":[119.03,454.96,436.64,78.4]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":14,"name":"TextBox 10","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[94.14,559.81,26.46,26.46]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":14,"name":"TextBox 11","text":"主要针对专利和商标侵权","textPreview":"主要针对专利和商标侵权","textChars":11,"textLines":1,"bbox":[133.83,551.87,421.84,40.83]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":14,"name":"AutoShape 12","bbox":[608.55,362.65,489.52,326.49]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":14,"name":"TextBox 13","text":"应对策略","textPreview":"应对策略","textChars":4,"textLines":1,"bbox":[634.99,389.09,436.64,47.37]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":14,"name":"TextBox 14","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[610.1,462.9,26.46,26.46]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":14,"name":"TextBox 15","text":"委托美国律师应诉","textPreview":"委托美国律师应诉","textChars":8,"textLines":1,"bbox":[649.79,454.96,421.84,40.83]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":14,"name":"TextBox 16","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[610.1,518.54,26.46,26.46]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":14,"name":"TextBox 17","text":"挑战申请人资格或专利有效性","textPreview":"挑战申请人资格或专利有效性","textChars":13,"textLines":1,"bbox":[649.79,510.6,421.84,40.83]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":14,"name":"TextBox 18","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[610.1,574.17,26.46,26.46]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":14,"name":"TextBox 19","text":"寻求和解","textPreview":"寻求和解","textChars":4,"textLines":1,"bbox":[649.79,566.24,421.84,40.83]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":14,"name":"TextBox 20","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[610.1,629.81,26.46,26.46]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":14,"name":"TextBox 21","text":"调整供应链","textPreview":"调整供应链","textChars":5,"textLines":1,"bbox":[649.79,621.87,421.84,40.83]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":14,"name":"AutoShape 22","bbox":[1124.51,362.65,489.54,326.49]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":14,"name":"TextBox 23","text":"预防措施","textPreview":"预防措施","textChars":4,"textLines":1,"bbox":[1150.95,389.09,436.66,47.37]}
+{"kind":"textbox","id":"sh/lwval87e","slide":14,"name":"TextBox 24","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1126.06,462.9,26.46,26.46]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":14,"name":"TextBox 25","text":"海关备案（Recordation）是第一道防线","textPreview":"海关备案（Recordation）是第一道防线","textChars":23,"textLines":1,"bbox":[1165.75,454.96,421.86,80.03]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":14,"name":"TextBox 26","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1126.06,557.74,26.46,26.46]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":14,"name":"TextBox 27","text":"提前布局专利可避免成为调查目标","textPreview":"提前布局专利可避免成为调查目标","textChars":15,"textLines":1,"bbox":[1165.75,549.8,421.86,40.83]}
+{"kind":"image","id":"im/q1orytsv","slide":14,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/fmlkjm1c","slide":14,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/5sneloj2","slide":14,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/lwval87e","slide":14,"text":""}
+{"kind":"slide","id":"sl/25kb6xkf","slide":15,"title":"专利无效程序：USPTO多方复审(IPR)实战","textShapes":41}
+{"kind":"shape","id":"sh/dcbulwva","slide":15,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"shape","id":"sh/vixczed8","slide":15,"name":"AutoShape 5","bbox":[269.14,331.06,2.63,79.37]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":15,"name":"AutoShape 6","bbox":[657.78,331.06,2.63,79.37]}
+{"kind":"shape","id":"sh/donyd0z6","slide":15,"name":"AutoShape 7","bbox":[1046.41,331.06,2.63,79.37]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":15,"name":"AutoShape 8","bbox":[1435.05,331.06,2.63,79.37]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":15,"name":"TextBox 9","text":"专利无效程序：USPTO多方复审(IPR)实战","textPreview":"专利无效程序：USPTO多方复审(IPR)实战","textChars":23,"textLines":1,"bbox":[92.59,209.53,1521.46,62.07]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":15,"name":"AutoShape 10","bbox":[92.59,301.35,1521.46,449.12]}
+{"kind":"shape","id":"sh/adsji5sn","slide":15,"name":"AutoShape 11","bbox":[92.59,331.11,1521.46,2.63]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":15,"name":"AutoShape 12","bbox":[92.59,301.35,355.56,449.12]}
+{"kind":"shape","id":"sh/sji5snel","slide":15,"name":"AutoShape 13","bbox":[240.61,301.3,59.51,59.52]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":15,"name":"TextBox 14","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[263.96,311.46,33.08,39.2]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":15,"name":"AutoShape 15","bbox":[119.03,429.49,302.68,320.98]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":15,"name":"TextBox 16","text":"第一阶段：提交请愿书","textPreview":"第一阶段：提交请愿书","textChars":10,"textLines":1,"bbox":[119.03,429.49,302.68,94.73]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":15,"name":"TextBox 17","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[94.14,550.67,26.46,26.46]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":15,"name":"TextBox 18","text":"列明无效理由和证据","textPreview":"列明无效理由和证据","textChars":9,"textLines":1,"bbox":[133.83,542.73,287.88,40.83]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":15,"name":"TextBox 19","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[94.14,606.3,26.46,26.46]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":15,"name":"TextBox 20","text":"提供专利文献引用支持","textPreview":"提供专利文献引用支持","textChars":10,"textLines":1,"bbox":[133.83,598.37,287.88,40.83]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":15,"name":"TextBox 21","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[94.14,661.94,26.46,26.46]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":15,"name":"TextBox 22","text":"说明现有技术对比","textPreview":"说明现有技术对比","textChars":8,"textLines":1,"bbox":[133.83,654,287.88,40.83]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":15,"name":"TextBox 23","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[94.14,717.58,26.46,26.46]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":15,"name":"TextBox 24","text":"明确法律依据条款","textPreview":"明确法律依据条款","textChars":8,"textLines":1,"bbox":[133.83,709.64,287.88,40.83]}
+{"kind":"shape","id":"sh/nih4byhg","slide":15,"name":"AutoShape 25","bbox":[481.22,301.35,355.56,449.12]}
+{"kind":"shape","id":"sh/g3ex0nux","slide":15,"name":"AutoShape 26","bbox":[629.25,301.3,59.51,59.52]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":15,"name":"TextBox 27","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[649.59,311.46,33.08,39.2]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":15,"name":"AutoShape 28","bbox":[507.66,429.49,302.68,320.98]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":15,"name":"TextBox 29","text":"第二阶段：USPTO受理","textPreview":"第二阶段：USPTO受理","textChars":12,"textLines":1,"bbox":[507.66,429.49,302.68,94.73]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":15,"name":"TextBox 30","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[482.78,550.67,26.46,26.46]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":15,"name":"TextBox 31","text":"审查请愿书受理条件","textPreview":"审查请愿书受理条件","textChars":9,"textLines":1,"bbox":[522.47,542.73,287.88,40.83]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":15,"name":"TextBox 32","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[482.78,606.3,26.46,26.46]}
+{"kind":"textbox","id":"sh/61032lsz","slide":15,"name":"TextBox 33","text":"评估时间约1个月","textPreview":"评估时间约1个月","textChars":8,"textLines":1,"bbox":[522.47,598.37,287.88,40.83]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":15,"name":"TextBox 34","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[482.78,661.94,26.46,26.46]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":15,"name":"TextBox 35","text":"确定是否立案通知","textPreview":"确定是否立案通知","textChars":8,"textLines":1,"bbox":[522.47,654,287.88,40.83]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":15,"name":"TextBox 36","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[482.78,717.58,26.46,26.46]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":15,"name":"TextBox 37","text":"初步审查材料完整性","textPreview":"初步审查材料完整性","textChars":9,"textLines":1,"bbox":[522.47,709.64,287.88,40.83]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":15,"name":"AutoShape 38","bbox":[869.86,301.35,355.56,449.12]}
+{"kind":"shape","id":"sh/onyd0z61","slide":15,"name":"AutoShape 39","bbox":[1017.88,301.3,59.51,59.52]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":15,"name":"TextBox 40","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1037.53,311.46,33.08,39.2]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":15,"name":"AutoShape 41","bbox":[896.3,429.49,302.68,320.98]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":15,"name":"TextBox 42","text":"第三阶段：立案审查","textPreview":"第三阶段：立案审查","textChars":9,"textLines":1,"bbox":[896.3,429.49,302.68,94.73]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":15,"name":"TextBox 43","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[871.41,550.67,26.46,26.46]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":15,"name":"TextBox 44","text":"双方提交书面意见","textPreview":"双方提交书面意见","textChars":8,"textLines":1,"bbox":[911.1,542.73,287.88,40.83]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":15,"name":"TextBox 45","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[871.41,606.3,26.46,26.46]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":15,"name":"TextBox 46","text":"进行口头审理程序","textPreview":"进行口头审理程序","textChars":8,"textLines":1,"bbox":[911.1,598.37,287.88,40.83]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":15,"name":"TextBox 47","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[871.41,661.94,26.46,26.46]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":15,"name":"TextBox 48","text":"交换证据材料","textPreview":"交换证据材料","textChars":6,"textLines":1,"bbox":[911.1,654,287.88,40.83]}
+{"kind":"textbox","id":"sh/lwval87e","slide":15,"name":"TextBox 49","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[871.41,717.58,26.46,26.46]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":15,"name":"TextBox 50","text":"答辩与反驳程序","textPreview":"答辩与反驳程序","textChars":7,"textLines":1,"bbox":[911.1,709.64,287.88,40.83]}
+{"kind":"shape","id":"sh/m58z25kb","slide":15,"name":"AutoShape 51","bbox":[1258.49,301.35,355.56,449.12]}
+{"kind":"shape","id":"sh/twra5gbq","slide":15,"name":"AutoShape 52","bbox":[1406.51,301.3,59.51,59.52]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":15,"name":"TextBox 53","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1424.84,311.46,33.08,39.2]}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":15,"name":"AutoShape 54","bbox":[1284.93,429.49,302.68,320.98]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":15,"name":"TextBox 55","text":"第四阶段：最终裁决","textPreview":"第四阶段：最终裁决","textChars":9,"textLines":1,"bbox":[1284.93,429.49,302.68,94.73]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":15,"name":"TextBox 56","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1260.04,550.67,26.46,26.46]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":15,"name":"TextBox 57","text":"通常12个月内出结果","textPreview":"通常12个月内出结果","textChars":10,"textLines":1,"bbox":[1299.73,542.73,287.88,40.83]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":15,"name":"TextBox 58","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1260.04,606.3,26.46,26.46]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":15,"name":"TextBox 59","text":"成功率约60%","textPreview":"成功率约60%","textChars":7,"textLines":1,"bbox":[1299.73,598.37,287.88,40.83]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":15,"name":"TextBox 60","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1260.04,661.94,26.46,26.46]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":15,"name":"TextBox 61","text":"发布最终书面决定","textPreview":"发布最终书面决定","textChars":8,"textLines":1,"bbox":[1299.73,654,287.88,40.83]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":15,"name":"TextBox 62","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1260.04,717.58,26.46,26.46]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":15,"name":"TextBox 63","text":"可上诉至PTAB","textPreview":"可上诉至PTAB","textChars":8,"textLines":1,"bbox":[1299.73,709.64,287.88,40.83]}
+{"kind":"image","id":"im/d0z61032","slide":15,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/kf6dcbul","slide":15,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/vu9knih4","slide":15,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/25kb6xkf","slide":15,"text":""}
+{"kind":"slide","id":"sl/7y1kre1w","slide":16,"title":"亚马逊品牌备案2.0：深度操作指南","textShapes":47}
+{"kind":"shape","id":"sh/rytsvu9k","slide":16,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":16,"name":"TextBox 5","text":"亚马逊品牌备案2.0：深度操作指南","textPreview":"亚马逊品牌备案2.0：深度操作指南","textChars":17,"textLines":1,"bbox":[92.59,80.77,1521.46,57.17]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":16,"name":"AutoShape 6","bbox":[92.59,162.57,1521.46,716.63]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":16,"name":"AutoShape 7","bbox":[92.59,162.57,357.78,353.54]}
+{"kind":"shape","id":"sh/g3ex0nux","slide":16,"name":"AutoShape 8","bbox":[92.59,162.57,54.16,54.16]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":16,"name":"TextBox 9","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[113.82,171.68,30.1,35.93]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":16,"name":"TextBox 10","text":"第一步 - 在USPTO注册商标","textPreview":"第一步 - 在USPTO注册商标","textChars":16,"textLines":1,"bbox":[170.81,170.84,279.56,84.93]}
+{"kind":"textbox","id":"sh/cvixczed","slide":16,"name":"TextBox 11","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[146.94,278.33,24.08,24.08]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":16,"name":"TextBox 12","text":"需已注册或待审状态","textPreview":"需已注册或待审状态","textChars":9,"textLines":1,"bbox":[183.06,271.11,267.31,37.57]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":16,"name":"TextBox 13","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[146.94,328.15,24.08,24.08]}
+{"kind":"textbox","id":"sh/54zidony","slide":16,"name":"TextBox 14","text":"确保商标分类与销售品类匹配","textPreview":"确保商标分类与销售品类匹配","textChars":13,"textLines":1,"bbox":[183.06,320.93,267.31,73.5]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":16,"name":"TextBox 15","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[146.94,413.9,24.08,24.08]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":16,"name":"TextBox 16","text":"准备商标注册号和证书文件","textPreview":"准备商标注册号和证书文件","textChars":12,"textLines":1,"bbox":[183.06,406.68,267.31,73.5]}
+{"kind":"shape","id":"sh/udg7adsj","slide":16,"name":"AutoShape 17","bbox":[480.46,162.57,357.8,353.54]}
+{"kind":"shape","id":"sh/1032lszq","slide":16,"name":"AutoShape 18","bbox":[480.46,162.57,54.16,54.16]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":16,"name":"TextBox 19","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[498.96,171.68,30.1,35.93]}
+{"kind":"textbox","id":"sh/obm58z25","slide":16,"name":"TextBox 20","text":"第二步 - 准备资产证明","textPreview":"第二步 - 准备资产证明","textChars":12,"textLines":1,"bbox":[558.68,170.84,279.58,84.93]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":16,"name":"TextBox 21","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[534.81,278.33,24.08,24.08]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":16,"name":"TextBox 22","text":"品牌官网（需包含完整品牌故事）","textPreview":"品牌官网（需包含完整品牌故事）","textChars":15,"textLines":1,"bbox":[570.93,271.11,267.33,73.5]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":16,"name":"TextBox 23","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[534.81,364.08,24.08,24.08]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":16,"name":"TextBox 24","text":"产品图片（需清晰展示品牌标识）","textPreview":"产品图片（需清晰展示品牌标识）","textChars":15,"textLines":1,"bbox":[570.93,356.86,267.33,73.5]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":16,"name":"TextBox 25","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[534.81,449.84,24.08,24.08]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":16,"name":"TextBox 26","text":"品牌故事、产品定位、包装设计等素材","textPreview":"品牌故事、产品定位、包装设计等素材","textChars":17,"textLines":1,"bbox":[570.93,442.61,267.33,73.5]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":16,"name":"AutoShape 27","bbox":[868.35,162.57,357.8,353.54]}
+{"kind":"shape","id":"sh/orytsvu9","slide":16,"name":"AutoShape 28","bbox":[868.35,162.57,54.16,54.16]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":16,"name":"TextBox 29","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[886.24,171.68,30.1,35.93]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":16,"name":"TextBox 30","text":"第三步 - 提交品牌备案申请","textPreview":"第三步 - 提交品牌备案申请","textChars":14,"textLines":1,"bbox":[946.57,170.84,279.58,84.93]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":16,"name":"TextBox 31","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[922.71,278.33,24.08,24.08]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":16,"name":"TextBox 32","text":"登录亚马逊品牌备案门户（Brand Registry）","textPreview":"登录亚马逊品牌备案门户（Brand Registry）","textChars":27,"textLines":1,"bbox":[958.82,271.11,267.33,73.5]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":16,"name":"TextBox 33","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[922.71,364.08,24.08,24.08]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":16,"name":"TextBox 34","text":"上传商标注册证书","textPreview":"上传商标注册证书","textChars":8,"textLines":1,"bbox":[958.82,356.86,267.33,37.57]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":16,"name":"TextBox 35","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[922.71,413.9,24.08,24.08]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":16,"name":"TextBox 36","text":"填写品牌信息和产品列表","textPreview":"填写品牌信息和产品列表","textChars":11,"textLines":1,"bbox":[958.82,406.68,267.33,37.57]}
+{"kind":"textbox","id":"sh/0z61032l","slide":16,"name":"TextBox 37","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[922.71,463.72,24.08,24.08]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":16,"name":"TextBox 38","text":"提交前仔细核对所有资料","textPreview":"提交前仔细核对所有资料","textChars":11,"textLines":1,"bbox":[958.82,456.5,267.33,37.57]}
+{"kind":"shape","id":"sh/i5sneloj","slide":16,"name":"AutoShape 39","bbox":[1256.25,162.57,357.8,353.54]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":16,"name":"AutoShape 40","bbox":[1256.25,162.57,54.16,54.16]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":16,"name":"TextBox 41","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1272.91,171.68,30.1,35.93]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":16,"name":"TextBox 42","text":"第四步 - 等待亚马逊审核","textPreview":"第四步 - 等待亚马逊审核","textChars":13,"textLines":1,"bbox":[1334.47,170.84,279.58,84.93]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":16,"name":"TextBox 43","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1310.6,278.33,24.08,24.08]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":16,"name":"TextBox 44","text":"审核周期通常为1-2周","textPreview":"审核周期通常为1-2周","textChars":11,"textLines":1,"bbox":[1346.72,271.11,267.33,37.57]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":16,"name":"TextBox 45","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1310.6,328.15,24.08,24.08]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":16,"name":"TextBox 46","text":"保持邮箱和后台联系方式畅通","textPreview":"保持邮箱和后台联系方式畅通","textChars":13,"textLines":1,"bbox":[1346.72,320.93,267.33,73.5]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":16,"name":"TextBox 47","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1310.6,413.9,24.08,24.08]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":16,"name":"TextBox 48","text":"如有问题亚马逊会通过邮件联系","textPreview":"如有问题亚马逊会通过邮件联系","textChars":14,"textLines":1,"bbox":[1346.72,406.68,267.33,73.5]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":16,"name":"AutoShape 49","bbox":[92.59,576.29,1521.46,302.91]}
+{"kind":"shape","id":"sh/tovahoza","slide":16,"name":"AutoShape 50","bbox":[92.59,576.29,54.16,54.16]}
+{"kind":"textbox","id":"sh/032lszqt","slide":16,"name":"TextBox 51","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[109.79,585.4,30.1,35.93]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":16,"name":"TextBox 52","text":"第五步 - 解锁品牌权益","textPreview":"第五步 - 解锁品牌权益","textChars":12,"textLines":1,"bbox":[170.81,584.56,1443.24,42.47]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":16,"name":"TextBox 53","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[146.94,649.59,24.08,24.08]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":16,"name":"TextBox 54","text":"举报工具（Report a Violation）","textPreview":"举报工具（Report a Violation）","textChars":24,"textLines":1,"bbox":[183.06,642.36,1430.99,37.57]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":16,"name":"TextBox 55","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[146.94,699.41,24.08,24.08]}
+{"kind":"textbox","id":"sh/bulwval8","slide":16,"name":"TextBox 56","text":"透明计划（Transparency）","textPreview":"透明计划（Transparency）","textChars":18,"textLines":1,"bbox":[183.06,692.18,1430.99,37.57]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":16,"name":"TextBox 57","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[146.94,749.22,24.08,24.08]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":16,"name":"TextBox 58","text":"A+内容页面","textPreview":"A+内容页面","textChars":6,"textLines":1,"bbox":[183.06,742,1430.99,37.57]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":16,"name":"TextBox 59","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[146.94,799.04,24.08,24.08]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":16,"name":"TextBox 60","text":"品牌旗舰店（Brand Store）","textPreview":"品牌旗舰店（Brand Store）","textChars":18,"textLines":1,"bbox":[183.06,791.82,1430.99,37.57]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":16,"name":"TextBox 61","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[146.94,848.86,24.08,24.08]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":16,"name":"TextBox 62","text":"更多流量入口和品牌保护","textPreview":"更多流量入口和品牌保护","textChars":11,"textLines":1,"bbox":[183.06,841.63,1430.99,37.57]}
+{"kind":"image","id":"im/83itgfml","slide":16,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/fu18jqh0","slide":16,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/m94fu18j","slide":16,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/7y1kre1w","slide":16,"text":""}
+{"kind":"slide","id":"sl/8z25kb6x","slide":17,"title":"商业秘密保护：技术型卖家的必修课","textShapes":33}
+{"kind":"shape","id":"sh/wval87ed","slide":17,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":17,"name":"TextBox 5","text":"商业秘密保护：技术型卖家的必修课","textPreview":"商业秘密保护：技术型卖家的必修课","textChars":16,"textLines":1,"bbox":[92.59,169.36,1521.46,62.07]}
+{"kind":"shape","id":"sh/psfil0rq","slide":17,"name":"AutoShape 6","bbox":[92.59,261.18,1521.46,529.46]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":17,"name":"AutoShape 7","bbox":[92.59,261.18,360.54,529.46]}
+{"kind":"textbox","id":"sh/7u54zido","slide":17,"name":"TextBox 8","text":"法律框架","textPreview":"法律框架","textChars":4,"textLines":1,"bbox":[121.48,290.07,302.76,47.37]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":17,"name":"TextBox 9","text":"美国《保护商业秘密法》(DTSA)提供联邦层面保护","textPreview":"美国《保护商业秘密法》(DTSA)提供联邦层面保护","textChars":25,"textLines":1,"bbox":[121.48,355.94,302.76,117.6]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":17,"name":"TextBox 10","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[96.59,499.98,26.46,26.46]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":17,"name":"TextBox 11","text":"联邦层面统一的商业秘密保护标准","textPreview":"联邦层面统一的商业秘密保护标准","textChars":15,"textLines":1,"bbox":[136.28,492.05,287.95,80.03]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":17,"name":"TextBox 12","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[96.59,594.82,26.46,26.46]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":17,"name":"TextBox 13","text":"可提起联邦诉讼，跨州执法便利","textPreview":"可提起联邦诉讼，跨州执法便利","textChars":14,"textLines":1,"bbox":[136.28,586.88,287.95,80.03]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":17,"name":"TextBox 14","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[96.59,689.66,26.46,26.46]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":17,"name":"TextBox 15","text":"故意盗窃可主张三倍赔偿","textPreview":"故意盗窃可主张三倍赔偿","textChars":11,"textLines":1,"bbox":[136.28,681.72,287.95,80.03]}
+{"kind":"shape","id":"sh/6tovahoz","slide":17,"name":"AutoShape 16","bbox":[479.57,261.18,360.54,529.46]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":17,"name":"TextBox 17","text":"保护前提","textPreview":"保护前提","textChars":4,"textLines":1,"bbox":[508.46,290.07,302.76,47.37]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":17,"name":"TextBox 18","text":"必须证明采取了合理保密措施：NDA、访问权限、加密存储","textPreview":"必须证明采取了合理保密措施：NDA、访问权限、加密存储","textChars":27,"textLines":1,"bbox":[508.46,355.94,302.76,117.6]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":17,"name":"TextBox 19","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[483.57,499.98,26.46,26.46]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":17,"name":"TextBox 20","text":"签署保密协议(NDA)明确界定保密范围","textPreview":"签署保密协议(NDA)明确界定保密范围","textChars":19,"textLines":1,"bbox":[523.26,492.05,287.95,80.03]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":17,"name":"TextBox 21","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[483.57,594.82,26.46,26.46]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":17,"name":"TextBox 22","text":"实施分级访问权限，控制信息知悉范围","textPreview":"实施分级访问权限，控制信息知悉范围","textChars":17,"textLines":1,"bbox":[523.26,586.88,287.95,80.03]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":17,"name":"TextBox 23","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[483.57,689.66,26.46,26.46]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":17,"name":"TextBox 24","text":"采用加密存储与传输技术保护核心数据","textPreview":"采用加密存储与传输技术保护核心数据","textChars":17,"textLines":1,"bbox":[523.26,681.72,287.95,80.03]}
+{"kind":"shape","id":"sh/obm58z25","slide":17,"name":"AutoShape 25","bbox":[866.54,261.18,360.54,529.46]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":17,"name":"TextBox 26","text":"高风险行为","textPreview":"高风险行为","textChars":5,"textLines":1,"bbox":[895.43,290.07,302.76,47.37]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":17,"name":"TextBox 27","text":"向\"伪客户\"随意提供技术资料、未签保密协议的样品寄送","textPreview":"向\"伪客户\"随意提供技术资料、未签保密协议的样品寄送","textChars":26,"textLines":1,"bbox":[895.43,355.94,302.76,117.6]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":17,"name":"TextBox 28","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[870.54,499.98,26.46,26.46]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":17,"name":"TextBox 29","text":"核实客户真实身份与业务需求再提供资料","textPreview":"核实客户真实身份与业务需求再提供资料","textChars":18,"textLines":1,"bbox":[910.23,492.05,287.95,80.03]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":17,"name":"TextBox 30","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[870.54,594.82,26.46,26.46]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":17,"name":"TextBox 31","text":"样品寄送前必须签署保密协议","textPreview":"样品寄送前必须签署保密协议","textChars":13,"textLines":1,"bbox":[910.23,586.88,287.95,80.03]}
+{"kind":"textbox","id":"sh/032lszqt","slide":17,"name":"TextBox 32","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[870.54,689.66,26.46,26.46]}
+{"kind":"textbox","id":"sh/tovahoza","slide":17,"name":"TextBox 33","text":"避免在未核保情况下暴露核心技术细节","textPreview":"避免在未核保情况下暴露核心技术细节","textChars":17,"textLines":1,"bbox":[910.23,681.72,287.95,80.03]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":17,"name":"AutoShape 34","bbox":[1253.52,261.18,360.54,529.46]}
+{"kind":"textbox","id":"sh/bulwval8","slide":17,"name":"TextBox 35","text":"证据要求","textPreview":"证据要求","textChars":4,"textLines":1,"bbox":[1282.41,290.07,302.76,47.37]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":17,"name":"TextBox 36","text":"保留技术交底记录、邮件往来、样品寄送单等完整证据链","textPreview":"保留技术交底记录、邮件往来、样品寄送单等完整证据链","textChars":25,"textLines":1,"bbox":[1282.41,355.94,302.76,117.6]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":17,"name":"TextBox 37","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1257.52,499.98,26.46,26.46]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":17,"name":"TextBox 38","text":"完整记录技术文档的交接时间与对象","textPreview":"完整记录技术文档的交接时间与对象","textChars":16,"textLines":1,"bbox":[1297.21,492.05,287.95,80.03]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":17,"name":"TextBox 39","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1257.52,594.82,26.46,26.46]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":17,"name":"TextBox 40","text":"存档所有沟通邮件作为知情证据","textPreview":"存档所有沟通邮件作为知情证据","textChars":14,"textLines":1,"bbox":[1297.21,586.88,287.95,80.03]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":17,"name":"TextBox 41","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1257.52,689.66,26.46,26.46]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":17,"name":"TextBox 42","text":"保存物流单据与签收确认","textPreview":"保存物流单据与签收确认","textChars":11,"textLines":1,"bbox":[1297.21,681.72,287.95,80.03]}
+{"kind":"image","id":"im/bulwval8","slide":17,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/032lszqt","slide":17,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/tovahoza","slide":17,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/8z25kb6x","slide":17,"text":""}
+{"kind":"slide","id":"sl/54zidony","slide":18,"title":"版权保护：跨境卖家的隐形战场","textShapes":21}
+{"kind":"shape","id":"sh/4fu18jqh","slide":18,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":18,"name":"TextBox 5","text":"版权保护：跨境卖家的隐形战场","textPreview":"版权保护：跨境卖家的隐形战场","textChars":14,"textLines":1,"bbox":[92.59,260.49,1521.46,62.07]}
+{"kind":"shape","id":"sh/xobm58z2","slide":18,"name":"AutoShape 6","bbox":[92.59,352.32,1521.46,347.16]}
+{"kind":"shape","id":"sh/83itgfml","slide":18,"name":"AutoShape 7","bbox":[92.59,352.32,355.56,347.16]}
+{"kind":"shape","id":"sh/fepkzupw","slide":18,"name":"AutoShape 8","bbox":[92.59,352.32,59.51,59.52]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":18,"name":"TextBox 9","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[115.94,362.48,33.08,39.2]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":18,"name":"TextBox 10","text":"01 自动保护","textPreview":"01 自动保护","textChars":7,"textLines":1,"bbox":[178.54,361.4,269.6,47.37]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":18,"name":"TextBox 11","text":"作品创作完成即拥有版权，无需登记","textPreview":"作品创作完成即拥有版权，无需登记","textChars":16,"textLines":1,"bbox":[178.54,427.27,269.6,78.4]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":18,"name":"TextBox 12","text":"但登记是提起诉讼的前提条件","textPreview":"但登记是提起诉讼的前提条件","textChars":13,"textLines":1,"bbox":[178.54,524.18,269.6,78.4]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":18,"name":"TextBox 13","text":"未登记作品仍受保护，诉讼难度更高","textPreview":"未登记作品仍受保护，诉讼难度更高","textChars":16,"textLines":1,"bbox":[178.54,621.08,269.6,78.4]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":18,"name":"AutoShape 14","bbox":[481.22,352.32,355.56,347.16]}
+{"kind":"shape","id":"sh/dsji5sne","slide":18,"name":"AutoShape 15","bbox":[481.22,352.32,59.51,59.52]}
+{"kind":"textbox","id":"sh/61032lsz","slide":18,"name":"TextBox 16","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[501.56,362.48,33.08,39.2]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":18,"name":"TextBox 17","text":"02 登记价值","textPreview":"02 登记价值","textChars":7,"textLines":1,"bbox":[567.18,361.4,269.6,47.37]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":18,"name":"TextBox 18","text":"登记证书是诉讼利器，可主张法定赔偿","textPreview":"登记证书是诉讼利器，可主张法定赔偿","textChars":17,"textLines":1,"bbox":[567.18,427.27,269.6,78.4]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":18,"name":"TextBox 19","text":"最高可达 15 万美元 / 件（故意侵权）","textPreview":"最高可达 15 万美元 / 件（故意侵权）","textChars":21,"textLines":1,"bbox":[567.18,524.18,269.6,78.4]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":18,"name":"TextBox 20","text":"可同时主张律师费由被告承担","textPreview":"可同时主张律师费由被告承担","textChars":13,"textLines":1,"bbox":[567.18,621.08,269.6,78.4]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":18,"name":"AutoShape 21","bbox":[869.86,352.32,355.56,347.16]}
+{"kind":"shape","id":"sh/ji5snelo","slide":18,"name":"AutoShape 22","bbox":[869.86,352.32,59.51,59.52]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":18,"name":"TextBox 23","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[889.51,362.48,33.08,39.2]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":18,"name":"TextBox 24","text":"03 高风险场景","textPreview":"03 高风险场景","textChars":8,"textLines":1,"bbox":[955.81,361.4,269.6,47.37]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":18,"name":"TextBox 25","text":"产品图片、产品视频：被竞争对手盗用","textPreview":"产品图片、产品视频：被竞争对手盗用","textChars":17,"textLines":1,"bbox":[955.81,427.27,269.6,78.4]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":18,"name":"TextBox 26","text":"Listing 文案：被搬运导致流量流失","textPreview":"Listing 文案：被搬运导致流量流失","textChars":20,"textLines":1,"bbox":[955.81,524.18,269.6,78.4]}
+{"kind":"textbox","id":"sh/ulwval87","slide":18,"name":"TextBox 27","text":"包装设计：公版仿冒造成品牌混淆","textPreview":"包装设计：公版仿冒造成品牌混淆","textChars":15,"textLines":1,"bbox":[955.81,621.08,269.6,78.4]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":18,"name":"AutoShape 28","bbox":[1258.49,352.32,355.56,347.16]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":18,"name":"AutoShape 29","bbox":[1258.49,352.32,59.51,59.52]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":18,"name":"TextBox 30","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1276.82,362.48,33.08,39.2]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":18,"name":"TextBox 31","text":"04 自保措施","textPreview":"04 自保措施","textChars":7,"textLines":1,"bbox":[1344.45,361.4,269.6,47.37]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":18,"name":"TextBox 32","text":"在美国版权局提前登记核心图片和文案","textPreview":"在美国版权局提前登记核心图片和文案","textChars":17,"textLines":1,"bbox":[1344.45,427.27,269.6,78.4]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":18,"name":"TextBox 33","text":"保留创作源文件（PSD/AI）及时间戳","textPreview":"保留创作源文件（PSD/AI）及时间戳","textChars":19,"textLines":1,"bbox":[1344.45,524.18,269.6,78.4]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":18,"name":"TextBox 34","text":"建立完整的创作证据链，备诉之用","textPreview":"建立完整的创作证据链，备诉之用","textChars":15,"textLines":1,"bbox":[1344.45,621.08,269.6,78.4]}
+{"kind":"image","id":"im/4zidonyd","slide":18,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/fepkzupw","slide":18,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/mtwra5gb","slide":18,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/54zidony","slide":18,"text":""}
+{"kind":"slide","id":"sl/m58z25kb","slide":19,"title":"美国专利申请：发明专利 vs 外观设计专利","textShapes":17}
+{"kind":"shape","id":"sh/4nap4r65","slide":19,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":19,"name":"TextBox 5","text":"美国专利申请：发明专利 vs 外观设计专利","textPreview":"美国专利申请：发明专利 vs 外观设计专利","textChars":21,"textLines":1,"bbox":[92.59,131.54,1521.46,62.07]}
+{"kind":"shape","id":"sh/twra5gbq","slide":19,"name":"AutoShape 6","bbox":[92.59,223.36,1521.46,536.15]}
+{"kind":"shape","id":"sh/4byhgn29","slide":19,"name":"AutoShape 7","bbox":[92.59,223.36,360.54,294.05]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":19,"name":"TextBox 8","text":"保护范围","textPreview":"保护范围","textChars":4,"textLines":1,"bbox":[119.03,249.8,307.66,47.37]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":19,"name":"TextBox 9","text":"发明专利：保护功能性发明","textPreview":"发明专利：保护功能性发明","textChars":12,"textLines":1,"bbox":[119.03,315.67,307.66,78.4]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":19,"name":"TextBox 10","text":"外观设计专利：保护产品外观造型","textPreview":"外观设计专利：保护产品外观造型","textChars":15,"textLines":1,"bbox":[119.03,412.57,307.66,78.4]}
+{"kind":"shape","id":"sh/1032lszq","slide":19,"name":"AutoShape 11","bbox":[479.57,223.36,360.54,294.05]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":19,"name":"TextBox 12","text":"保护期限","textPreview":"保护期限","textChars":4,"textLines":1,"bbox":[506.01,249.8,307.66,47.37]}
+{"kind":"textbox","id":"sh/judg7ads","slide":19,"name":"TextBox 13","text":"发明专利：20年","textPreview":"发明专利：20年","textChars":8,"textLines":1,"bbox":[506.01,315.67,307.66,39.2]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":19,"name":"TextBox 14","text":"外观设计专利：15年","textPreview":"外观设计专利：15年","textChars":10,"textLines":1,"bbox":[506.01,373.37,307.66,39.2]}
+{"kind":"shape","id":"sh/1orytsvu","slide":19,"name":"AutoShape 15","bbox":[866.54,223.36,360.54,294.05]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":19,"name":"TextBox 16","text":"审查方式","textPreview":"审查方式","textChars":4,"textLines":1,"bbox":[892.98,249.8,307.66,47.37]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":19,"name":"TextBox 17","text":"发明专利：需通过USPTO实质审查","textPreview":"发明专利：需通过USPTO实质审查","textChars":17,"textLines":1,"bbox":[892.98,315.67,307.66,78.4]}
+{"kind":"textbox","id":"sh/cvixczed","slide":19,"name":"TextBox 18","text":"外观设计专利：审查相对简单","textPreview":"外观设计专利：审查相对简单","textChars":13,"textLines":1,"bbox":[892.98,412.57,307.66,78.4]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":19,"name":"AutoShape 19","bbox":[1253.52,223.36,360.54,294.05]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":19,"name":"TextBox 20","text":"申请周期","textPreview":"申请周期","textChars":4,"textLines":1,"bbox":[1279.96,249.8,307.66,47.37]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":19,"name":"TextBox 21","text":"发明专利：平均2-3年","textPreview":"发明专利：平均2-3年","textChars":11,"textLines":1,"bbox":[1279.96,315.67,307.66,39.2]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":19,"name":"TextBox 22","text":"外观设计专利：平均12-18个月","textPreview":"外观设计专利：平均12-18个月","textChars":16,"textLines":1,"bbox":[1279.96,373.37,307.66,78.4]}
+{"kind":"shape","id":"sh/yd0z6103","slide":19,"name":"AutoShape 23","bbox":[92.59,543.85,1521.46,215.65]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":19,"name":"TextBox 24","text":"申请费用","textPreview":"申请费用","textChars":4,"textLines":1,"bbox":[119.03,570.29,1468.58,47.37]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":19,"name":"TextBox 25","text":"发明专利：费用较高","textPreview":"发明专利：费用较高","textChars":9,"textLines":1,"bbox":[119.03,636.16,1468.58,39.2]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":19,"name":"TextBox 26","text":"外观设计专利：费用较低","textPreview":"外观设计专利：费用较低","textChars":11,"textLines":1,"bbox":[119.03,693.87,1468.58,39.2]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":19,"name":"TextBox 27","text":"⚠️ 关键提醒：美国没有实用新型专利，这是中国卖家最常踩的坑！","textPreview":"⚠️ 关键提醒：美国没有实用新型专利，这是中国卖家最常踩的坑！","textChars":31,"textLines":1,"bbox":[92.59,789.26,1521.46,39.2]}
+{"kind":"image","id":"im/q1orytsv","slide":19,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/fmlkjm1c","slide":19,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/5sneloj2","slide":19,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/m58z25kb","slide":19,"text":""}
+{"kind":"slide","id":"sl/bat47y1k","slide":20,"title":"美国商标注册：实战操作指南","textShapes":27}
+{"kind":"shape","id":"sh/je9cvixc","slide":20,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":20,"name":"TextBox 5","text":"美国商标注册：实战操作指南","textPreview":"美国商标注册：实战操作指南","textChars":13,"textLines":1,"bbox":[92.59,76.97,1521.46,62.07]}
+{"kind":"shape","id":"sh/q1orytsv","slide":20,"name":"AutoShape 6","bbox":[92.59,168.8,1521.46,714.23]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":20,"name":"AutoShape 7","bbox":[92.59,168.8,489.52,714.23]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":20,"name":"TextBox 8","text":"注册途径","textPreview":"注册途径","textChars":4,"textLines":1,"bbox":[119.03,195.24,436.64,47.37]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":20,"name":"TextBox 9","text":"马德里国际注册（通过WIPO）或直接向USPTO申请","textPreview":"马德里国际注册（通过WIPO）或直接向USPTO申请","textChars":26,"textLines":1,"bbox":[119.03,261.11,436.64,78.4]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":20,"name":"TextBox 10","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[94.14,365.95,26.46,26.46]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":20,"name":"TextBox 11","text":"马德里体系：一次申请覆盖多个国家，费用较低，适合全球化布局","textPreview":"马德里体系：一次申请覆盖多个国家，费用较低，适合全球化布局","textChars":29,"textLines":1,"bbox":[133.83,358.01,421.84,80.03]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":20,"name":"TextBox 12","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[94.14,460.78,26.46,26.46]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":20,"name":"TextBox 13","text":"直接申请：向USPTO递交，费用约250-350美元/类，流程更直接可控","textPreview":"直接申请：向USPTO递交，费用约250-350美元/类，流程更直接可控","textChars":36,"textLines":1,"bbox":[133.83,452.85,421.84,80.03]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":20,"name":"AutoShape 14","bbox":[608.55,168.8,489.52,714.23]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":20,"name":"TextBox 15","text":"注册流程","textPreview":"注册流程","textChars":4,"textLines":1,"bbox":[634.99,195.24,436.64,47.37]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":20,"name":"TextBox 16","text":"搜索查重→提交申请→USPTO审查→公示期→注册发证","textPreview":"搜索查重→提交申请→USPTO审查→公示期→注册发证","textChars":26,"textLines":1,"bbox":[634.99,261.11,436.64,78.4]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":20,"name":"TextBox 17","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[610.1,365.95,26.46,26.46]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":20,"name":"TextBox 18","text":"搜索查重：使用USPTO官网TESS系统进行近似商标检索","textPreview":"搜索查重：使用USPTO官网TESS系统进行近似商标检索","textChars":28,"textLines":1,"bbox":[649.79,358.01,421.84,80.03]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":20,"name":"TextBox 19","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[610.1,460.78,26.46,26.46]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":20,"name":"TextBox 20","text":"提交申请：准备商品/服务分类及使用证据或意图使用声明","textPreview":"提交申请：准备商品/服务分类及使用证据或意图使用声明","textChars":26,"textLines":1,"bbox":[649.79,452.85,421.84,80.03]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":20,"name":"TextBox 21","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[610.1,555.62,26.46,26.46]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":20,"name":"TextBox 22","text":"USPTO审查：形式审查+实质审查，约3-4个月","textPreview":"USPTO审查：形式审查+实质审查，约3-4个月","textChars":24,"textLines":1,"bbox":[649.79,547.68,421.84,80.03]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":20,"name":"TextBox 23","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[610.1,650.46,26.46,26.46]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":20,"name":"TextBox 24","text":"公示期：审查通过后进入30天异议公示期","textPreview":"公示期：审查通过后进入30天异议公示期","textChars":19,"textLines":1,"bbox":[649.79,642.52,421.84,80.03]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":20,"name":"TextBox 25","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[610.1,745.29,26.46,26.46]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":20,"name":"TextBox 26","text":"注册发证：若无异议，缴纳注册费后下发注册证书，全流程约8-12个月","textPreview":"注册发证：若无异议，缴纳注册费后下发注册证书，全流程约8-12个月","textChars":33,"textLines":1,"bbox":[649.79,737.35,421.84,119.23]}
+{"kind":"shape","id":"sh/z61032ls","slide":20,"name":"AutoShape 27","bbox":[1124.51,168.8,489.54,714.23]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":20,"name":"TextBox 28","text":"关键要点","textPreview":"关键要点","textChars":4,"textLines":1,"bbox":[1150.95,195.24,436.66,47.37]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":20,"name":"TextBox 29","text":"美国商标法核心规则与实操注意事项","textPreview":"美国商标法核心规则与实操注意事项","textChars":16,"textLines":1,"bbox":[1150.95,261.11,436.66,39.2]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":20,"name":"TextBox 30","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1126.06,326.75,26.46,26.46]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":20,"name":"TextBox 31","text":"\"使用在先\"原则：商标权归属以实际商业使用为准，而非申请日期","textPreview":"\"使用在先\"原则：商标权归属以实际商业使用为准，而非申请日期","textChars":30,"textLines":1,"bbox":[1165.75,318.81,421.86,80.03]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":20,"name":"TextBox 32","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1126.06,421.58,26.46,26.46]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":20,"name":"TextBox 33","text":"\"意图使用\"申请：可提前占位，无需立即提交使用证据，但注册前需补交","textPreview":"\"意图使用\"申请：可提前占位，无需立即提交使用证据，但注册前需补交","textChars":33,"textLines":1,"bbox":[1165.75,413.65,421.86,119.23]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":20,"name":"TextBox 34","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1126.06,555.62,26.46,26.46]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":20,"name":"TextBox 35","text":"®符号仅限注册后使用：未注册商标使用®属违法，应用™代替","textPreview":"®符号仅限注册后使用：未注册商标使用®属违法，应用™代替","textChars":28,"textLines":1,"bbox":[1165.75,547.68,421.86,80.03]}
+{"kind":"image","id":"im/2p8nqxs7","slide":20,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/ra5gbq1o","slide":20,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/kzupwb2h","slide":20,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/bat47y1k","slide":20,"text":""}
+{"kind":"slide","id":"sl/j2t83itg","slide":21,"title":"知识产权服务资源库：跨境卖家的后盾","textShapes":31}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":21,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":21,"name":"TextBox 5","text":"知识产权服务资源库：跨境卖家的后盾","textPreview":"知识产权服务资源库：跨境卖家的后盾","textChars":17,"textLines":1,"bbox":[92.59,75.98,1521.46,55.53]}
+{"kind":"shape","id":"sh/m58z25kb","slide":21,"name":"AutoShape 6","bbox":[92.59,155.6,1521.46,728.4]}
+{"kind":"shape","id":"sh/bq1oryts","slide":21,"name":"AutoShape 7","bbox":[92.59,155.6,491.28,462.82]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":21,"name":"TextBox 8","text":"政府资源","textPreview":"政府资源","textChars":4,"textLines":1,"bbox":[116.4,179.41,443.66,42.47]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":21,"name":"TextBox 9","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[92.67,244.01,23.81,23.81]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":21,"name":"TextBox 10","text":"USPTO官网 - 美国专利商标局，提供商标注册、专利申请、真伪查询等完整服务","textPreview":"USPTO官网 - 美国专利商标局，提供商标注册、专利申请、真伪查询等完整服务","textChars":39,"textLines":1,"bbox":[128.4,236.86,431.66,71.87]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":21,"name":"TextBox 11","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[92.67,327.87,23.81,23.81]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":21,"name":"TextBox 12","text":"贸促会 - 中国贸促会知识产权服务中心，涵盖国际版权登记、协议认证","textPreview":"贸促会 - 中国贸促会知识产权服务中心，涵盖国际版权登记、协议认证","textChars":33,"textLines":1,"bbox":[128.4,320.72,431.66,71.87]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":21,"name":"TextBox 13","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[92.67,411.73,23.81,23.81]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":21,"name":"TextBox 14","text":"各地知识产权保护中心 - 地方政府设立的知识产权维权服务和申报指导","textPreview":"各地知识产权保护中心 - 地方政府设立的知识产权维权服务和申报指导","textChars":33,"textLines":1,"bbox":[128.4,404.59,431.66,71.87]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":21,"name":"TextBox 15","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[92.67,495.59,23.81,23.81]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":21,"name":"TextBox 16","text":"美国律师协会(ABA)律师目录 - 覆盖全美知识产权领域执业律师，支持按地区和专业筛选","textPreview":"美国律师协会(ABA)律师目录 - 覆盖全美知识产权领域执业律师，支持按地区和专业筛选","textChars":43,"textLines":1,"bbox":[128.4,488.45,431.66,106.17]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":21,"name":"AutoShape 17","bbox":[607.68,155.6,491.28,462.82]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":21,"name":"TextBox 18","text":"专业机构","textPreview":"专业机构","textChars":4,"textLines":1,"bbox":[631.49,179.41,443.66,42.47]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":21,"name":"TextBox 19","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[607.77,244.01,23.81,23.81]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":21,"name":"TextBox 20","text":"跨境电商协会 - 专注跨境卖家权益保护，提供政策解读和集体维权支持","textPreview":"跨境电商协会 - 专注跨境卖家权益保护，提供政策解读和集体维权支持","textChars":33,"textLines":1,"bbox":[643.49,236.86,431.66,71.87]}
+{"kind":"textbox","id":"sh/1032lszq","slide":21,"name":"TextBox 21","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[607.77,327.87,23.81,23.81]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":21,"name":"TextBox 22","text":"知识产权代理公司 - 专业商标注册、专利申请、侵权调查服务，加快审查周期","textPreview":"知识产权代理公司 - 专业商标注册、专利申请、侵权调查服务，加快审查周期","textChars":36,"textLines":1,"bbox":[643.49,320.72,431.66,71.87]}
+{"kind":"textbox","id":"sh/judg7ads","slide":21,"name":"TextBox 23","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[607.77,411.73,23.81,23.81]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":21,"name":"TextBox 24","text":"专利商标事务所 - 全球范围内的知识产权布局规划和诉讼代理服务","textPreview":"专利商标事务所 - 全球范围内的知识产权布局规划和诉讼代理服务","textChars":31,"textLines":1,"bbox":[643.49,404.59,431.66,71.87]}
+{"kind":"shape","id":"sh/1orytsvu","slide":21,"name":"AutoShape 25","bbox":[1122.77,155.6,491.28,462.82]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":21,"name":"TextBox 26","text":"平台资源","textPreview":"平台资源","textChars":4,"textLines":1,"bbox":[1146.58,179.41,443.66,42.47]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":21,"name":"TextBox 27","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1122.86,244.01,23.81,23.81]}
+{"kind":"textbox","id":"sh/cvixczed","slide":21,"name":"TextBox 28","text":"亚马逊品牌备案门户 - 品牌备案、侵权举报、品牌分析等一站式品牌保护工具","textPreview":"亚马逊品牌备案门户 - 品牌备案、侵权举报、品牌分析等一站式品牌保护工具","textChars":36,"textLines":1,"bbox":[1158.58,236.86,431.66,71.87]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":21,"name":"TextBox 29","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1122.86,327.87,23.81,23.81]}
+{"kind":"textbox","id":"sh/val87ed8","slide":21,"name":"TextBox 30","text":"eBay IP Hub - IP诉讼平台，提供快速举报通道和权利人保护服务","textPreview":"eBay IP Hub - IP诉讼平台，提供快速举报通道和权利人保护服务","textChars":37,"textLines":1,"bbox":[1158.58,320.72,431.66,71.87]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":21,"name":"TextBox 31","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[1122.86,411.73,23.81,23.81]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":21,"name":"TextBox 32","text":"阿里巴巴知识产权保护平台 - 侵权举报、品牌监控、备案申请等综合保护方案","textPreview":"阿里巴巴知识产权保护平台 - 侵权举报、品牌监控、备案申请等综合保护方案","textChars":36,"textLines":1,"bbox":[1158.58,404.59,431.66,71.87]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":21,"name":"AutoShape 33","bbox":[92.59,642.24,1521.46,241.76]}
+{"kind":"textbox","id":"sh/vixczed8","slide":21,"name":"TextBox 34","text":"学习平台","textPreview":"学习平台","textChars":4,"textLines":1,"bbox":[116.4,666.05,1473.84,42.47]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":21,"name":"TextBox 35","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[92.67,730.64,23.81,23.81]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":21,"name":"TextBox 36","text":"WIPO在线课程 - 世界知识产权组织免费课程，覆盖商标、专利、版权基础知识","textPreview":"WIPO在线课程 - 世界知识产权组织免费课程，覆盖商标、专利、版权基础知识","textChars":38,"textLines":1,"bbox":[128.4,723.5,1461.84,37.57]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":21,"name":"TextBox 37","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[92.67,780.2,23.81,23.81]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":21,"name":"TextBox 38","text":"美国版权局培训 - 官方版权登记、侵权举证、国际保护策略等专业培训","textPreview":"美国版权局培训 - 官方版权登记、侵权举证、国际保护策略等专业培训","textChars":33,"textLines":1,"bbox":[128.4,773.06,1461.84,37.57]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":21,"name":"TextBox 39","text":"●","textPreview":"●","textChars":1,"textLines":1,"bbox":[92.67,829.76,23.81,23.81]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":21,"name":"TextBox 40","text":"跨境电商学院 - 聚焦跨境电商知识产权实战培训，案例分析和防控方案","textPreview":"跨境电商学院 - 聚焦跨境电商知识产权实战培训，案例分析和防控方案","textChars":33,"textLines":1,"bbox":[128.4,822.62,1461.84,37.57]}
+{"kind":"image","id":"im/ovahoza1","slide":21,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/vahoza1g","slide":21,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/6tovahoz","slide":21,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/j2t83itg","slide":21,"text":""}
+{"kind":"slide","id":"sl/mhk3q5o7","slide":22,"title":"跨境电商知识产权保护年度行动计划","textShapes":24}
+{"kind":"shape","id":"sh/d8v6psfi","slide":22,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":22,"name":"TextBox 9","text":"跨境电商知识产权保护年度行动计划","textPreview":"跨境电商知识产权保护年度行动计划","textChars":16,"textLines":1,"bbox":[92.59,81.87,1521.46,45.73]}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":22,"name":"AutoShape 10","bbox":[92.59,143.45,1521.46,734.65]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":22,"name":"AutoShape 11","bbox":[92.59,143.45,608.57,367.32]}
+{"kind":"shape","id":"sh/4nap4r65","slide":22,"name":"AutoShape 13","bbox":[271.21,385.22,251.33,251.33]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":22,"name":"TextBox 14","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[392.18,497,24.14,27.77]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":22,"name":"TextBox 15","text":"Q1季度","textPreview":"Q1季度","textChars":4,"textLines":1,"bbox":[111.88,187.71,569.99,34.3]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":22,"name":"TextBox 16","text":"完成品牌商标检索，提交美国商标申请","textPreview":"完成品牌商标检索，提交美国商标申请","textChars":17,"textLines":1,"bbox":[111.88,231.86,569.99,27.77]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":22,"name":"TextBox 17","text":"建立内部保密协议流程","textPreview":"建立内部保密协议流程","textChars":10,"textLines":1,"bbox":[111.88,269.48,569.99,27.77]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":22,"name":"TextBox 18","text":"制定IP保护内部培训计划","textPreview":"制定IP保护内部培训计划","textChars":12,"textLines":1,"bbox":[111.88,307.09,569.99,27.77]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":22,"name":"AutoShape 19","bbox":[396.88,510.78,608.57,367.32]}
+{"kind":"shape","id":"sh/jqh0fepk","slide":22,"name":"AutoShape 21","bbox":[575.5,385.01,251.33,251.33]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":22,"name":"TextBox 22","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[694.27,496.79,24.14,27.77]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":22,"name":"TextBox 23","text":"Q2季度","textPreview":"Q2季度","textChars":4,"textLines":1,"bbox":[416.17,693.33,569.99,34.3]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":22,"name":"TextBox 24","text":"提交外观设计专利申请","textPreview":"提交外观设计专利申请","textChars":10,"textLines":1,"bbox":[416.17,737.48,569.99,27.77]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":22,"name":"TextBox 25","text":"完成亚马逊品牌备案","textPreview":"完成亚马逊品牌备案","textChars":9,"textLines":1,"bbox":[416.17,775.1,569.99,27.77]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":22,"name":"TextBox 26","text":"建立侵权监测机制","textPreview":"建立侵权监测机制","textChars":8,"textLines":1,"bbox":[416.17,812.72,569.99,27.77]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":22,"name":"TextBox 27","text":"搭建竞争对手专利监控体系","textPreview":"搭建竞争对手专利监控体系","textChars":12,"textLines":1,"bbox":[416.17,850.34,569.99,27.77]}
+{"kind":"shape","id":"sh/ulwval87","slide":22,"name":"AutoShape 28","bbox":[701.16,143.45,608.57,367.32]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":22,"name":"AutoShape 30","bbox":[879.79,385.22,251.33,251.33]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":22,"name":"TextBox 31","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[998.08,497,24.14,27.77]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":22,"name":"TextBox 32","text":"Q3季度","textPreview":"Q3季度","textChars":4,"textLines":1,"bbox":[720.46,150.09,569.99,34.3]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":22,"name":"TextBox 33","text":"评估专利布局，查漏补缺","textPreview":"评估专利布局，查漏补缺","textChars":11,"textLines":1,"bbox":[720.46,194.24,569.99,27.77]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":22,"name":"TextBox 34","text":"启动独立站建设","textPreview":"启动独立站建设","textChars":7,"textLines":1,"bbox":[720.46,231.86,569.99,27.77]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":22,"name":"TextBox 35","text":"积累原创内容","textPreview":"积累原创内容","textChars":6,"textLines":1,"bbox":[720.46,269.48,569.99,27.77]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":22,"name":"TextBox 36","text":"完善产品图片版权保护","textPreview":"完善产品图片版权保护","textChars":10,"textLines":1,"bbox":[720.46,307.09,569.99,27.77]}
+{"kind":"shape","id":"sh/ed8v6psf","slide":22,"name":"AutoShape 37","bbox":[1005.45,510.78,608.6,367.32]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":22,"name":"AutoShape 39","bbox":[1184.07,385.01,251.33,251.33]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":22,"name":"TextBox 40","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1301.39,496.79,24.14,27.77]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":22,"name":"TextBox 41","text":"Q4季度","textPreview":"Q4季度","textChars":4,"textLines":1,"bbox":[1024.75,693.33,570.01,34.3]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":22,"name":"TextBox 42","text":"年度IP审计","textPreview":"年度IP审计","textChars":6,"textLines":1,"bbox":[1024.75,737.48,570.01,27.77]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":22,"name":"TextBox 43","text":"评估反侵权效果","textPreview":"评估反侵权效果","textChars":7,"textLines":1,"bbox":[1024.75,775.1,570.01,27.77]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":22,"name":"TextBox 44","text":"规划下一年度保护预算","textPreview":"规划下一年度保护预算","textChars":10,"textLines":1,"bbox":[1024.75,812.72,570.01,27.77]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":22,"name":"TextBox 45","text":"总结经验优化流程","textPreview":"总结经验优化流程","textChars":8,"textLines":1,"bbox":[1024.75,850.34,570.01,27.77]}
+{"kind":"image","id":"im/9w3m94fu","slide":22,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/kb6xkf6d","slide":22,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/r2p8nqxs","slide":22,"name":"Picture 5","bbox":[387.08,366.46,19.29,8.58]}
+{"kind":"image","id":"im/2hwfyxob","slide":22,"name":"Picture 6","bbox":[691.36,646.52,19.29,8.58]}
+{"kind":"image","id":"im/8nqxs72x","slide":22,"name":"Picture 7","bbox":[995.65,366.46,19.29,8.58]}
+{"kind":"image","id":"im/18jqh0fe","slide":22,"name":"Picture 8","bbox":[1299.94,646.52,19.29,8.58]}
+{"kind":"image","id":"im/qh0fepkz","slide":22,"name":"Picture 12","bbox":[218.43,508.35,356.89,356.89]}
+{"kind":"image","id":"im/j2t83itg","slide":22,"name":"Picture 20","bbox":[522.72,156.32,356.89,356.89]}
+{"kind":"image","id":"im/8bat47y1","slide":22,"name":"Picture 29","bbox":[827.01,508.35,356.89,356.89]}
+{"kind":"image","id":"im/1w7mp0bi","slide":22,"name":"Picture 38","bbox":[1131.3,156.32,356.89,356.89]}
+{"kind":"image","id":"im/q5o7qpg3","slide":22,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/mhk3q5o7","slide":22,"text":""}
+{"kind":"slide","id":"sl/5wjudg7a","slide":23,"title":"感谢","textShapes":5}
+{"kind":"shape","id":"sh/g3ex0nux","slide":23,"name":"AutoShape 3","bbox":[0,0,1706.67,960]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":23,"name":"TextBox 5","text":"感谢","textPreview":"感谢","textChars":2,"textLines":1,"bbox":[92.59,271.85,1521.46,78.4]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":23,"name":"TextBox 6","text":"从防守到反击：掌握全球商业规则","textPreview":"从防守到反击：掌握全球商业规则","textChars":15,"textLines":1,"bbox":[92.59,380.01,1521.46,78.4]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":23,"name":"TextBox 7","text":"从制造实力到规则主导。最强有力的保护是主动准备。","textPreview":"从制造实力到规则主导。最强有力的保护是主动准备。","textChars":24,"textLines":1,"bbox":[92.59,488.17,1521.46,62.07]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":23,"name":"TextBox 8","text":"知识产权战略团队","textPreview":"知识产权战略团队","textChars":8,"textLines":1,"bbox":[92.59,579.99,1521.46,39.2]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":23,"name":"TextBox 9","text":"2024年6月","textPreview":"2024年6月","textChars":7,"textLines":1,"bbox":[92.59,648.95,1521.46,39.2]}
+{"kind":"image","id":"im/zed8v6ps","slide":23,"name":"Picture 2","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/6xkf6dcb","slide":23,"name":"Picture 4","bbox":[0,0,1706.67,960]}
+{"kind":"image","id":"im/hk3q5o7q","slide":23,"name":"","alt":"Cathay Praxis Law 美国博衡律师事务所 Logo","bbox":[1520.67,5,168,160]}
+{"kind":"notes","id":"nt/5wjudg7a","slide":23,"text":""}

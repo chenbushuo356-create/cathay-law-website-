@@ -1365,7 +1365,9 @@ function showPrivacyPolicy() {
         function loadNewsPreview() {
             const container = document.getElementById('news-preview-container');
             const featured = newsData.find(n => n.featured) || newsData[0];
-            const others = newsData.filter(n => n.id !== featured.id).slice(0, 3);
+            const others = ContentHelpers.sortByDate(
+                newsData.filter(n => n.id !== featured.id)
+            ).slice(0, 3);
             const lang = LanguageModule.getCurrent();
             
             let html = `

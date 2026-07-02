@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cathay Praxis Law Business Card Preview</title>
+  <style>
+    :root {
+      --navy: #16324F;
+      --muted: #6B7280;
+      --line: #D1D5DB;
+    }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f1f5f9; font-family: Inter, -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; color: var(--navy); }
+    main { display: grid; grid-template-columns: repeat(2, minmax(320px, 1fr)); gap: 28px; padding: 36px; }
+    .card { width: 3.5in; height: 2in; box-shadow: 0 18px 40px rgba(15, 23, 42, .14); overflow: hidden; position: relative; background: white; }
+    .front { background: white; }
+    .front-logo { position: absolute; right: .18in; top: .19in; width: .92in; }
+    .front-logo-zh { position: absolute; right: .18in; top: .98in; width: .92in; text-align: center; color: var(--navy); font-size: 7.2pt; }
+    .front-name { position: absolute; left: .18in; top: .43in; font-family: Georgia, serif; font-weight: 700; font-size: 10.4pt; color: #111827; }
+    .front-zh { position: absolute; left: .18in; top: .72in; font-size: 16.5pt; color: #111827; }
+    .front-title { position: absolute; left: .18in; top: 1.02in; font-size: 8.2pt; color: #111827; }
+    .front-address { position: absolute; right: .18in; bottom: .62in; font-size: 5.2pt; color: #111827; white-space: nowrap; }
+    .front-rule { position: absolute; left: .08in; right: .08in; bottom: .51in; height: 1px; background: var(--line); }
+    .front-info { position: absolute; left: .18in; right: .18in; bottom: .16in; display: grid; grid-template-columns: .74in .74in .87in .72in; column-gap: .08in; align-items: center; }
+    .front-info .row { min-width: 0; position: relative; padding-left: .20in; color: #111827; font-size: 3.5pt; }
+    .front-info .row:not(:last-child)::after { content: ""; position: absolute; right: -.04in; top: -.04in; height: .27in; width: 1px; background: var(--line); }
+    .front-info .label { margin: 0 0 2px; color: #111827; font-size: 4.6pt; }
+    .front-info .row span:last-child { white-space: nowrap; }
+    .front-info .row.phone span:last-child { font-size: 4.3pt; }
+    .front-info .row.email span:last-child { font-size: 2.75pt; }
+    .front-info .row.web span:last-child { font-size: 3.2pt; }
+    .front-info .icon { position: absolute; left: 0; top: .005in; width: .15in; height: .15in; border-radius: 999px; background: var(--navy); color: white; display: grid; place-items: center; font-size: 7pt; line-height: 1; }
+    .back { padding: .40in .28in; }
+    .content { position: relative; z-index: 1; height: 100%; }
+    h1 { margin: 0; font-family: Georgia, serif; font-size: 8.8pt; line-height: 1; }
+    .role { margin-top: 8px; font-size: 7.2pt; }
+    .corp { margin-top: 8px; color: var(--muted); font-size: 5.7pt; }
+    .zh-name { position: absolute; right: 0; top: 0; font-family: Inter, -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; font-size: 9.2pt; font-weight: 400; }
+    .firm-zh { margin-top: 7px; color: var(--navy); font-size: 6.4pt; }
+    .rule { height: 1px; background: var(--line); margin: 14px 0 18px; }
+    .info { display: grid; grid-template-columns: 1.54in 1.10in; column-gap: .32in; row-gap: 11px; }
+    .row { font-size: 6.4pt; }
+    .row span:last-child { font-size: 6.4pt; }
+    .row.long span:last-child { font-size: 5.1pt; }
+    .label { display: block; margin-bottom: 3px; color: var(--muted); font-size: 4.8pt; text-transform: uppercase; }
+    .address { grid-column: 1 / span 2; }
+    .back-title { font-family: Georgia, serif; font-weight: 700; font-size: 12.6pt; color: var(--navy); margin: 0 0 .20in; }
+    .back-copy { width: 2.20in; font-size: 6.2pt; line-height: 1.34; color: #111827; }
+    .back-qr { position: absolute; right: .28in; bottom: .35in; width: .56in; }
+    .back-wechat-label { position: absolute; right: .94in; bottom: .71in; font-size: 5.1pt; color: var(--muted); }
+    .back-wechat-id { position: absolute; right: .94in; bottom: .55in; font-size: 6.3pt; color: #111827; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card front">
+      <img class="front-logo" src="logo-front-navy-no-zh.png" alt="Cathay Praxis Law">
+      <div class="front-logo-zh">美国博衡律师事务所</div>
+      <div class="front-name">David Zhengping Zhou</div>
+      <div class="front-zh">周争平</div>
+      <div class="front-title">Founder & Managing Partner</div>
+      <div class="front-address">1259 El Camino Real, Unit 1468, Menlo Park, CA 94025, USA</div>
+      <div class="front-rule"></div>
+      <div class="front-info">
+        <div class="row phone"><span class="icon">☎</span><span class="label">M (U.S.)</span><span>+1 (341) 2379530</span></div>
+        <div class="row phone"><span class="icon">☎</span><span class="label">M (China)</span><span>+86 13975181755</span></div>
+        <div class="row email"><span class="icon">✉</span><span class="label">Email</span><span>zhengping.zhou@cathaypraxislaw.com</span></div>
+        <div class="row web"><span class="icon">◎</span><span class="label">Website</span><span>www.cathaypraxislaw.com</span></div>
+      </div>
+    </section>
+    <section class="card back">
+      <div class="back-title">Cross-Border Counsel</div>
+      <div class="back-copy">Advising businesses on cross-border transactions, U.S. market entry, regulatory compliance, trade controls, economic sanctions, and international dispute resolution.</div>
+      <img class="back-qr" src="../../images/wechat-qr-zhengping-zhou.png" alt="WeChat QR">
+      <div class="back-wechat-label">WECHAT</div>
+      <div class="back-wechat-id">Zhengping Zhou</div>
+    </section>
+  </main>
+</body>
+</html>
