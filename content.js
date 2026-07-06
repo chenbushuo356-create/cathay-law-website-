@@ -590,6 +590,188 @@ const newsData = [
 // ============================================
 const insightsData = [
     {
+        id: 'insight-007',
+        slug: 'birthright-citizenship-wong-kim-ark-trump-v-barbara',
+        date: '2026-06-30',
+        category: 'immigration',
+        image: '',
+        title: {
+            en: "The U.S. Supreme Court Reaffirms the Fourteenth Amendment’s Birthright Citizenship: From Wong Kim Ark to Trump v. Barbara",
+            zh: "美国最高院再次确认第十四修正案：出生公民权：从黄金德案到 Trump v. Barbara"
+        },
+        excerpt: {
+            en: "On June 30, 2026, the United States Supreme Court issued its decision in Trump v. Barbara, No. 25-365, reaffirming a foundational constitutional principle: a person born in the United States and subject to its jurisdiction is, as a general rule, a U.S. citizen from birth. The decision rejected an attempt by the Trump Administration to restrict birthright citizenship through executive action and once again confirmed the enduring authority of United States v. Wong Kim Ark, the landmark 1898 case involving a Chinese American born in San Francisco.",
+            zh: "2026年6月30日，美国最高法院在 Trump v. Barbara, No. 25-365 一案中再次确认：在美国出生、并受美国管辖的人，原则上自出生时即取得美国公民身份。该案不仅否定了特朗普政府试图通过行政令限制出生公民权的做法，也再次重申了1898年 United States v. Wong Kim Ark（黄金德案）所确立的宪法原则。对在美华人而言，这不是一场遥远的宪法争论，而是一段与华人移民史、族裔平等和基本权利密切相连的法律记忆。最高法院本案所审理的问题，正是美国宪法是否保障父母在美国非法居留或临时居留情况下，其在美国出生子女的公民身份。"
+        },
+        content: {
+            en: `
+                <p class="lead">On June 30, 2026, the United States Supreme Court issued its decision in <em>Trump v. Barbara</em>, No. 25-365, reaffirming a foundational constitutional principle: a person born in the United States and subject to its jurisdiction is, as a general rule, a U.S. citizen from birth. The decision rejected an attempt by the Trump Administration to restrict birthright citizenship through executive action and once again confirmed the enduring authority of <em>United States v. Wong Kim Ark</em>, the landmark 1898 case involving a Chinese American born in San Francisco.</p>
+
+                <p>For the Chinese American community, this case is not merely a technical constitutional dispute. It is deeply connected to the history of Chinese immigration, racial equality, and the long struggle for equal recognition under American law. At the heart of the case was a fundamental question: whether the Constitution protects the citizenship of children born in the United States when their parents are undocumented or are present only on temporary immigration status.</p>
+
+                <h2>I. The Case: Can an Executive Order Rewrite the Constitution?</h2>
+
+                <p>The case arose from Executive Order No. 14160, signed by President Trump on January 20, 2025, entitled <em>Protecting the Meaning and Value of American Citizenship</em>. The Executive Order asserted that certain children born in the United States should not be treated as citizens at birth if, at the time of birth, the mother was unlawfully present in the United States, or was lawfully but temporarily present, and the father was neither a U.S. citizen nor a lawful permanent resident.</p>
+
+                <p>If implemented, the Executive Order would have had consequences far beyond undocumented families. It could also have affected children born in the United States to parents holding temporary visas, including tourist visas, student visas, and work visas. In substance, the case was not merely about immigration policy. It raised a far more fundamental constitutional question: Can the President, through executive order, alter the meaning of citizenship under the Fourteenth Amendment?</p>
+
+                <p>The Citizenship Clause of the Fourteenth Amendment provides:</p>
+
+                <blockquote>“All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside.”</blockquote>
+
+                <p>The dispute centered on the phrase “subject to the jurisdiction thereof.” The Trump Administration argued that this phrase required a more complete form of political allegiance. In its view, undocumented immigrants and temporary visitors, although physically present in the United States, did not owe the United States the kind of full allegiance necessary to transmit birthright citizenship to their children.</p>
+
+                <p>The Supreme Court’s majority rejected that argument. Chief Justice Roberts, writing for the Court, explained that being “subject to the jurisdiction” of the United States ordinarily means being subject to the governing authority and laws of the United States. With limited traditional exceptions—such as children of foreign diplomats and certain historical categories not fully subject to U.S. authority—persons present in U.S. territory are generally subject to U.S. law. Children born to undocumented or temporarily present parents therefore fall within the text of the Fourteenth Amendment.</p>
+
+                <h2>II. <em>Wong Kim Ark</em>: An Ordinary Chinese American Who Changed Constitutional History</h2>
+
+                <p>To understand the significance of <em>Trump v. Barbara</em>, one must return to <em>United States v. Wong Kim Ark</em>.</p>
+
+                <p>Wong Kim Ark was born in San Francisco in 1873. His parents were Chinese nationals who had lived and worked in the United States but were legally barred from naturalizing because of the exclusionary laws of the time. According to the historical record, Wong was born in San Francisco to Chinese parents who were subjects of the Emperor of China, but who were not diplomats, officials, or representatives of the Chinese government.</p>
+
+                <p>As an adult, Wong traveled to China to visit family. In 1895, when he returned to the United States, he was denied entry at the port of San Francisco. The government argued that although Wong had been born in the United States, he was not a U.S. citizen because his parents were Chinese nationals and could not become citizens under American law.</p>
+
+                <p>The case arose during the era of Chinese exclusion. The Chinese Exclusion Act of 1882 was the first major federal statute in American history to target immigration from a specific ethnic group. Chinese immigrants faced systemic discrimination in immigration, employment, residence, naturalization, and social status. Wong Kim Ark was not a political leader or prominent public figure. He was an ordinary Chinese American worker. Yet through litigation, he challenged the federal government’s attempt to deny his citizenship.</p>
+
+                <p>In 1898, the Supreme Court ruled in his favor by a vote of 6 to 2. The Court held that Wong, having been born in the United States and being subject to U.S. jurisdiction, was a U.S. citizen from birth. The Court confirmed that the Fourteenth Amendment adopted the principle of citizenship by place of birth—<em>jus soli</em>—rather than citizenship determined by bloodline, race, ethnicity, nationality, or the naturalization eligibility of one’s parents.</p>
+
+                <p>The importance of <em>Wong Kim Ark</em> cannot be overstated. The case did not merely secure Wong’s personal right to return to the country of his birth. It established a constitutional foundation that has protected generations of children born in the United States to immigrant parents. It ensured that the question “Who is an American?” could not be answered solely by reference to ancestry, race, or the political status of one’s parents.</p>
+
+                <h2>III. How the Supreme Court Responded to the Trump Administration</h2>
+
+                <p>In <em>Trump v. Barbara</em>, the Supreme Court placed the case squarely within the constitutional tradition of <em>Wong Kim Ark</em>. The majority emphasized that <em>Wong Kim Ark</em> confirmed the common-law principle of birthright citizenship: a person born within the sovereign territory of the United States is generally subject to its jurisdiction and therefore acquires citizenship at birth, subject only to narrow historical exceptions.</p>
+
+                <p>The Court rejected the Administration’s attempt to redefine jurisdiction in terms of permanent residence or complete political allegiance. It observed that temporary visitors, business travelers, students, and other foreign nationals present in the United States are not immune from U.S. law. They are subject to U.S. courts, criminal law, civil law, taxation rules where applicable, and other exercises of governmental authority. Their presence may be temporary, but their legal subjection to U.S. jurisdiction is real.</p>
+
+                <p>One of the strongest parts of the majority opinion was its response to the government’s historical argument. The Administration attempted to portray birthright citizenship as limited to children of parents who had established permanent allegiance to the United States. The Court found little historical support for that position and rejected it as a dramatically revisionist reading of the Fourteenth Amendment.</p>
+
+                <p>The majority also noted the simplicity of the constitutional text. The Fourteenth Amendment does not speak in terms of “mother,” “father,” “lawful,” “unlawful,” “temporary,” or “permanent.” If the framers of the Amendment had intended to condition birthright citizenship on the immigration status or residence status of parents, the Constitution could have said so. It did not.</p>
+
+                <p>The Court therefore held that the Executive Order could not create new exceptions to the Citizenship Clause. A President may not, under the guise of immigration policy, rewrite the constitutional definition of citizenship.</p>
+
+                <h2>IV. Justice Jackson’s Historical Warning: The Fourteenth Amendment Also Concerns Chinese Americans</h2>
+
+                <p>Justice Jackson’s concurring opinion is especially significant for the Chinese American community. She emphasized that the Fourteenth Amendment was not merely a narrow post-Civil War measure designed only to resolve the citizenship status of formerly enslaved Black Americans. It was part of a broader constitutional reconstruction aimed at dismantling systems of racial hierarchy, inherited status, and exclusionary citizenship.</p>
+
+                <p>Justice Jackson reviewed congressional debates from the nineteenth century, including debates over whether the children of Chinese immigrants should be citizens. Some members of Congress argued that the children of German immigrants could become citizens, but the children of Chinese immigrants should not. Others warned that birthright citizenship would allow Chinese people to “overrun” California.</p>
+
+                <p>Supporters of the Fourteenth Amendment rejected such distinctions. They insisted that the law should not discriminate among children born in the United States based on race or ancestry. Justice Jackson’s opinion thus reminds us that the Fourteenth Amendment was framed in broad, universal terms precisely because the nation had experienced the dangers of caste-based citizenship and racial exclusion.</p>
+
+                <p>This history matters. Birthright citizenship is not a special privilege granted to any particular group. It is a constitutional rejection of the idea that citizenship may be allocated by bloodline, race, parental origin, or political prejudice.</p>
+
+                <h2>V. The Dissents: The Debate Is Not Over</h2>
+
+                <p>The case was not unanimous. Several Justices dissented. Justice Thomas argued that the original meaning of the Fourteenth Amendment was more closely tied to domicile and permanent allegiance, and that its primary purpose was to secure citizenship for formerly enslaved persons and similarly situated groups. Justice Gorsuch also suggested that <em>Wong Kim Ark</em> involved parents who had established a settled residence in the United States and therefore should not automatically control the status of children born to temporary visitors.</p>
+
+                <p>These dissenting opinions are important because they show that the debate over birthright citizenship has not disappeared. Although the Supreme Court reaffirmed the constitutional rule in this case, the interpretation of the Fourteenth Amendment remains contested in some quarters. Constitutional rights do not remain secure simply because they were once recognized. Their continued vitality depends on courts, public understanding, civic engagement, and sustained legal advocacy.</p>
+
+                <h2>VI. From <em>Wong Kim Ark</em> to Today: Chinese American Rights Must Be Taken Seriously and Vigorously Protected</h2>
+
+                <p>For Chinese Americans, <em>Wong Kim Ark</em> is not a remote historical case. It is a mirror reflecting the difficult path by which Chinese immigrants and their descendants have fought for recognition, belonging, and equal protection under American law.</p>
+
+                <p>From the Chinese Exclusion Act to <em>Wong Kim Ark</em>, from national security investigations in scientific and academic fields to contemporary restrictions involving land ownership, investment, visas, employment, and education, Chinese Americans have repeatedly found themselves at the intersection of immigration policy, racial identity, geopolitical suspicion, and questions of loyalty.</p>
+
+                <p>Very often, the issue is not merely technical compliance with legal rules. It is a deeper question of belonging: Are Chinese Americans fully part of the American constitutional community? Are they entitled to the same presumption of loyalty, fairness, and dignity as others? Are their children to be treated equally as citizens of the country in which they were born?</p>
+
+                <p><em>Trump v. Barbara</em> gives a clear answer: citizenship cannot be denied because of parental immigration status, ethnic background, visa category, or political winds. A child born in the United States and subject to its laws should not have his or her constitutional identity turned into a tool of political conflict.</p>
+
+                <p>At the same time, this case reminds us that rights do not preserve themselves. Dignity does not descend automatically. Although <em>Wong Kim Ark</em> was decided more than a century ago, suspicion toward Chinese Americans continues to appear in new forms. The language may change—from exclusion to national security, from race to risk, from discrimination to compliance—but the underlying danger can remain the same.</p>
+
+                <p>The Chinese American community must therefore move beyond reactive responses to individual incidents. It needs sustained, professional, and institutional forms of rights protection. This includes supporting public-interest legal organizations, participating in amicus briefs, monitoring discriminatory legislation, engaging in policy advocacy, building legal aid networks, and responding firmly but responsibly to selective enforcement, overbroad suspicion, and systemic exclusion.</p>
+
+                <p>The participation of Chinese American legal organizations as amici curiae in cases like <em>Trump v. Barbara</em> demonstrates how minority communities can use institutional legal channels to shape constitutional interpretation and public policy. This is not only litigation strategy. It is civic participation. It is also a form of community self-defense within the rule of law.</p>
+
+                <p><em>Wong Kim Ark</em> proved that even in the harshest era of Chinese exclusion, an ordinary Chinese American could help shape the course of American constitutional law. <em>Trump v. Barbara</em> proves that even rights recognized for more than a century may be challenged again under new political conditions.</p>
+
+                <p>We should therefore remember Wong Kim Ark not only as the plaintiff in a historic case, but as a symbol of legal courage. We should view <em>Trump v. Barbara</em> not only as a victory over one executive order, but as a reminder that constitutional equality requires constant vigilance.</p>
+
+                <p>The rights of Chinese Americans must be seen. Their voices must be heard. Their dignity must be protected through law, professionalism, and collective action.</p>
+
+                <p>From <em>Wong Kim Ark</em> to <em>Trump v. Barbara</em>, the struggle over birthright citizenship has always been more than a dispute about immigration status. It concerns how the Constitution defines equality, how immigrant communities secure belonging, and whether racial and ethnic minorities can resist suspicion and exclusion through law.</p>
+
+                <p>Rights are not gifts. Equality is not a slogan. Both must be defended through concrete action. The greatest lesson of <em>Wong Kim Ark</em> remains urgent today: in the face of systemic discrimination, silence is never enough. Only by understanding the law, using the law, and supporting sustained legal advocacy can Chinese Americans truly protect their equality, justice, and dignity.</p>
+            `,
+            zh: `
+                <p class="lead">2026年6月30日，美国最高法院在 <em>Trump v. Barbara</em>, No. 25-365 一案中再次确认：在美国出生、并受美国管辖的人，原则上自出生时即取得美国公民身份。该案不仅否定了特朗普政府试图通过行政令限制出生公民权的做法，也再次重申了1898年 <em>United States v. Wong Kim Ark</em>（黄金德案）所确立的宪法原则。对在美华人而言，这不是一场遥远的宪法争论，而是一段与华人移民史、族裔平等和基本权利密切相连的法律记忆。最高法院本案所审理的问题，正是美国宪法是否保障父母在美国非法居留或临时居留情况下，其在美国出生子女的公民身份。</p>
+
+                <h2>一、案件缘起：行政令能否改写宪法？</h2>
+
+                <p>本案源于特朗普总统于2025年1月20日签署的第14160号行政令，标题为 <em>Protecting the Meaning and Value of American Citizenship</em>。该行政令主张，如果孩子出生时，母亲在美国非法居留，或者虽合法但只是临时停留，而父亲并非美国公民或永久居民，则该孩子不属于美国宪法第十四修正案所称“受美国管辖”的人，因此不得自动取得美国公民身份。最高法院判决书明确记载，该行政令试图将此类孩子排除在第十四修正案以及《移民与国籍法》确认的出生公民权之外。</p>
+
+                <p>这项行政令如果生效，影响范围将远远超出无证移民家庭。它还可能波及持旅游签证、学生签证、工作签证等临时身份在美国停留者的子女。换言之，本案并非只是移民政策争议，而是一个更根本的宪法问题：总统能否以行政令方式，改变美国宪法第十四修正案对“公民身份”的基本定义？</p>
+
+                <p>第十四修正案第一句规定：“所有在美国出生或归化、并受其管辖的人，都是美国及其居住州的公民。”本案的争议焦点，不在于这些孩子是否“出生在美国”，而在于“subject to the jurisdiction thereof”——即“受其管辖”——应如何解释。特朗普政府试图将其解释为一种更强的政治效忠关系，认为非法居留或临时居留的外国人虽身在美国，但并未对美国形成完整效忠关系，因此其在美所生子女不应自动取得美国公民身份。</p>
+
+                <p>最高法院多数意见拒绝了这一解释。Roberts首席大法官代表多数意见指出，“受美国管辖”的普通法律含义，指的是美国政府对其领土内人员行使治理和法律权力。除外交官子女、十九世纪特定印第安部落成员子女等传统有限例外外，在美国领土内的人通常均受美国法律管辖；无证居留者或临时停留者的子女，并不属于这些例外。最高法院因此确认，他们既“出生在美国”，也“受美国管辖”，依据宪法即为美国公民。</p>
+
+                <h2>二、黄金德案：一个普通华人改变美国宪法史</h2>
+
+                <p>要理解 <em>Trump v. Barbara</em> 的历史重量，必须回到一百二十八年前的黄金德案。</p>
+
+                <p>黄金德于1873年出生于旧金山，父母均为中国籍移民，长期居住并经商于美国，但因当时美国法律限制，其父母无法归化为美国公民。案件记录显示，黄金德出生于旧金山萨克拉门托街，其父母为中国人，属清朝臣民；其父母在其出生时已在美国建立住所并经营生意，且并非中国政府外交或官方人员。</p>
+
+                <p>黄金德成年后曾前往中国探亲。1895年，他返回美国时，在旧金山港口被美国政府拒绝入境。政府的理由很直接：虽然他出生在美国，但其父母不是美国公民，且属于中国臣民，因此黄金德本人也不应被认定为美国公民。国家档案馆资料也记载，黄金德于1895年8月自中国探亲返回美国时，被以“并非美国公民”为由拒绝入境，尽管他出生在旧金山。</p>
+
+                <p>这起案件发生在排华时代。1882年《排华法案》是美国历史上第一部针对特定族裔移民群体的联邦排斥法律。华人移民在入境、就业、居住、归化和社会身份上遭受系统性限制。黄金德并非政治人物，也不是社会名流，而是一名普通华人劳工。正是这样一位普通华人，通过法律程序挑战了美国政府对其公民身份的否定。</p>
+
+                <p>1898年，美国最高法院以6比2作出判决，认定黄金德因出生于美国，并受美国法律管辖，自出生时即取得美国公民身份。最高法院在该案中确认，第十四修正案确立的是以出生地为基础的公民身份规则，而不是以父母血统、族裔、国籍或是否能够归化为基础的身份规则。康奈尔法律信息研究所对该案的概括也指出，最高法院认为第十四修正案下的公民身份适用于在美国出生、父母为外国臣民或公民且非外交或官方人员的子女。</p>
+
+                <p>黄金德案的伟大之处，不仅在于黄金德本人赢回了入境美国的权利，更在于它为后来一百二十多年在美国出生的移民子女确立了稳定的宪法身份基础。它使“谁是美国人”这一问题，不再完全取决于父母身份、族裔来源或政治环境，而回到宪法文本所确认的基本原则：出生于美国，并受美国法律管辖，即享有美国公民身份。</p>
+
+                <h2>三、最高法院如何回应特朗普政府的主张？</h2>
+
+                <p>在 <em>Trump v. Barbara</em> 中，最高法院多数意见明确将本案置于黄金德案的宪法传统之中。Roberts首席大法官指出，黄金德案确认了普通法上的出生地原则，即在主权领土内出生者，除少数传统例外外，因出生即受该主权保护，并受该主权管辖。最高法院特别强调，临时来美从事商务或旅游的外国人，并不享有免于美国管辖的地位；他们在美国境内期间受美国法律约束，因此其在美出生子女亦受美国管辖。</p>
+
+                <p>多数意见中最有力的论述之一，是对政府“历史修正主义”叙事的回应。政府试图主张，真正的“效忠”必须建立在住所或永久居留基础上，因此临时停留者或非法居留者不应被视为充分受美国管辖。最高法院对此明确指出，支持这种大幅改写历史的证据非常稀少；从1776年至1868年的资料看，“因出生而产生的效忠”仍然是指在特定主权领土和保护之下出生者所负有的关系。</p>
+
+                <p>更重要的是，多数意见敏锐指出，第十四修正案文本非常简洁，并没有行政令反复使用的“母亲”“父亲”“合法”“临时”等限制性词语。如果制宪者或修宪者意图将出生公民权限制于父母为公民、永久居民或合法定居者的子女，宪法文本理应作出明确规定。最高法院因此认为，行政令不能在宪法文本之外创造新的例外，更不能以父母身份否定孩子出生时已经取得的宪法身份。</p>
+
+                <p>本案判决结果是维持下级法院判决，阻止该行政令执行。Roberts首席大法官撰写法院意见，Sotomayor、Kagan、Barrett和Jackson大法官加入；Kavanaugh大法官同意判决结果但部分不同意多数意见的分析；Thomas、Alito和Gorsuch大法官分别或共同发表不同意见。最高法院官方案卷也显示，本案于2026年4月1日进行口头辩论，并于2026年6月30日作出维持判决。</p>
+
+                <h2>四、Jackson大法官的历史提醒：第十四修正案也关乎华人</h2>
+
+                <p>本案中，Jackson大法官的协同意见尤其值得华人社区重视。她强调，第十四修正案并非只是南北战争后为被解放黑奴提供公民身份的“局部修补”，而是美国重建时期对种族等级、身份支配和排斥性公民观的宪法性回应。</p>
+
+                <p>Jackson大法官特别回顾了十九世纪国会辩论中有关华人移民子女公民身份的争论。她指出，Civil Rights Act of 1866 最初版本曾聚焦于非裔美国人，但随后修改为更具普遍性的语言：“所有在美国出生且不受外国权力管辖的人，均为美国公民，不因肤色而有所区别。”她认为，这一变化并非简单措辞调整，而是国会在当时强烈反移民、尤其反华情绪背景下，对普遍主义公民身份原则的选择。</p>
+
+                <p>她还特别提到，国会辩论中曾有人主张德国移民子女可以成为美国公民，但中国移民子女不应如此，因为“德国人不是中国人”。也有人警告，第十四修正案会让华人“淹没”加州。对此，当时支持修正案的议员回应，法律不应在不同族裔之间作这种区分；在加州出生的华人父母子女，也应被视为美国公民。</p>
+
+                <p>这段论述极为重要。它说明，第十四修正案从一开始就不仅关乎黑人公民身份，也关乎所有少数族裔、移民后代以及被排斥群体是否能够平等进入美国宪法共同体。出生公民权不是某一族裔的特殊待遇，而是美国宪法对身份等级制和族裔排斥逻辑的否定。</p>
+
+                <h2>五、不同意见：争议并未结束</h2>
+
+                <p>当然，本案并非没有分歧。Thomas大法官认为，第十四修正案的历史任务主要是解决被解放黑奴及类似群体的公民身份问题，不应当然扩张至临时来美人员子女。Gorsuch大法官也认为，黄金德案的事实背景是父母已在美国建立住所，其判决不必然决定临时停留者子女的身份问题。Alito大法官同样对多数意见的历史解释提出反对。</p>
+
+                <p>这些不同意见提醒我们：即便出生公民权在本案中再次获得确认，围绕第十四修正案的解释争议并不会完全结束。宪法权利的稳定，依赖的不仅是一次判决，也依赖法院构成、社会共识、公共表达和持续的法律行动。</p>
+
+                <h2>六、从黄金德案到今天：华人权益必须被重视，也必须被有力维护</h2>
+
+                <p>对于在美华人而言，黄金德案从来不是一段尘封的历史。它是一面镜子，照见华人在美国争取平等身份的艰难道路。</p>
+
+                <p>从排华法案到黄金德案，从科研和学术领域的国家安全审查，到土地、投资、签证、就业和教育领域的制度性限制，华人社区长期处在移民、族裔、国家安全和政治忠诚等多重叙事的交汇处。许多时候，华人面对的问题并不是单纯的法律技术问题，而是更深层的身份质疑：你是否真正属于这里？你是否值得信任？你的孩子是否应当平等地被承认为这个国家的一员？</p>
+
+                <p><em>Trump v. Barbara</em> 的意义，正在于最高法院再次作出清晰回答：公民身份不能因父母身份、族裔背景、移民类别或政治风向而被任意否定。一个孩子出生在美国，并受美国法律管辖，其宪法身份不应成为政治运动的工具，也不应被行政令随意剥夺。</p>
+
+                <p>但本案也提醒我们，权利不会自动延续，尊严不会自然降临。黄金德案已经过去一百二十多年，但围绕华人身份、忠诚和归属的质疑仍会以不同形式反复出现。今天的华人社区，不能只在危机发生后被动回应，而应当更加重视制度化、专业化、持续化的权益维护。</p>
+
+                <p>这包括：支持公益法律组织，参与法庭之友意见提交，关注歧视性立法，推动政策沟通，建立专业法律援助机制，对针对华人的不当执法、选择性调查和制度性排斥进行及时、理性而有力的回应。最高法院官方案卷显示，本案中 Chinese American Legal Defense Alliance 也作为法庭之友提交了意见书，这正是少数族裔社区通过制度渠道影响宪法解释和公共政策的重要方式。</p>
+
+                <p>黄金德案证明，即便在排华最严重的年代，普通华人也可以通过法律改变美国宪法史。<em>Trump v. Barbara</em> 则再次证明，即便一项权利已被确认百余年，也仍可能在新的政治环境下遭遇重新解释和挑战。</p>
+
+                <p>所以，今天我们纪念黄金德，不只是纪念一位华人赢得的案件；我们关注 <em>Trump v. Barbara</em>，也不只是关注一项移民政策的胜负。我们真正要记住的是：华人的权利必须被看见，华人的声音必须被听见，华人的尊严必须被法律有力维护。</p>
+
+                <p>从黄金德案到 <em>Trump v. Barbara</em>，这场关于出生公民权的法律接力，早已超越个案本身。它关乎美国宪法如何定义平等，关乎移民后代如何获得稳定身份，也关乎华人社区能否在面对偏见、怀疑和排斥时，继续以法律、专业和团结维护自身应有的地位。</p>
+
+                <p>权利不是恩赐，而是争取而来；平等不是口号，而要通过每一次具体行动加以守护。黄金德案留下的最大启示，正是：面对制度性歧视，沉默从来不是出路。唯有重视法律、运用法律、支持法律行动，华人社区才能真正维护自己的平等、公正与尊严。</p>
+            `
+        },
+        featured: true,
+        highlight: true,
+        author: 'David Zhou, Founder & Managing Partner, Cathay Praxis Law P.C.',
+        tags: ['Birthright Citizenship', 'Fourteenth Amendment', 'Trump v. Barbara', 'Wong Kim Ark', 'Immigration', 'Chinese American Rights'],
+        readTime: 28
+    },
+    {
         id: 'insight-001',
         slug: 'ear-entity-list-removal-strategy',
         date: '2026-03-15',
@@ -1019,6 +1201,7 @@ const categoryDefinitions = {
         achievement: { en: 'Achievement', zh: '业绩展示' }
     },
     insights: {
+        immigration: { en: 'Immigration & Citizenship', zh: '移民与公民权' },
         export: { en: 'Export Controls', zh: '出口管制' },
         cfius: { en: 'CFIUS', zh: 'CFIUS' },
         ip: { en: 'Intellectual Property', zh: '知识产权' },
