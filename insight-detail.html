@@ -578,6 +578,9 @@
                 const img = document.getElementById('article-image');
                 img.src = article.image;
                 img.alt = ContentHelpers.getTitle(article, lang);
+                img.className = article.imageFit === 'full'
+                    ? 'w-full h-auto rounded-lg'
+                    : 'w-full h-64 md:h-80 object-cover rounded-lg';
                 imgContainer.classList.remove('hidden');
             }
             

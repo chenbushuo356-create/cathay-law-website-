@@ -585,6 +585,94 @@ const newsData = [
     }
 ];
 
+const section301Insight = {
+        id: 'insight-008',
+        slug: 'ieepa-section-301-tariff-restructuring-china-compliance',
+        date: '2026-07-27',
+        category: 'export',
+        image: 'images/insight-section-301-tariff-restructuring.png',
+        imageFit: 'full',
+        title: {
+            en: 'From IEEPA’s Setback to a “Global” Section 301: Reconstructing the U.S. Tariff System and Compliance Responses for Chinese Enterprises',
+            zh: '从IEEPA受挫到“全球化”Section 301：美国关税体系重构及中国企业的合规应对'
+        },
+        excerpt: {
+            en: 'The Supreme Court’s February 2026 IEEPA decision did not end U.S. tariff measures. USTR’s new Section 301 action concerning 60 economies instead makes product-level classification, origin, stacking, and contract review more important for Chinese enterprises trading with the United States.',
+            zh: '最高法院限制IEEPA关税路径，并不意味着美国关税措施退场。USTR针对60个经济体的新Section 301行动，使产品税号、原产地、税负叠加及合同安排的逐项核查更加重要。'
+        },
+        content: {
+            en: `
+                <p class="lead">The U.S. Supreme Court’s February 2026 decision in <em>Learning Resources, Inc. v. Trump</em> limited the use of the International Emergency Economic Powers Act (IEEPA) as authority for tariffs. That decision did not, however, remove the tariff tools available under the traditional trade statutes. The Section 301 action announced by the U.S. Trade Representative (USTR) on July 23, 2026 illustrates the resulting shift: the legal basis, product coverage, exclusions, and collection rules must now be analyzed measure by measure.</p>
+
+                <h2>I. A change in legal path, not the end of tariff risk</h2>
+                <p>The Court’s decision addressed whether IEEPA authorizes the President to impose tariffs. It did not invalidate duties imposed under statutes that contain more specific trade authorities, including Section 301 of the Trade Act of 1974 and Section 232 of the Trade Expansion Act of 1962. Accordingly, an enterprise should not treat the IEEPA decision as a single, across-the-board reduction in U.S. tariff exposure.</p>
+                <p>The practical question remains product-specific: which measure applies to the imported article, whether an exclusion applies, and whether more than one duty layer is collected at entry. The answer may differ across a finished machine, a replacement part, a component imported for U.S. assembly, and an item sourced from a third country.</p>
+
+                <h2>II. The July 2026 forced-labor Section 301 action</h2>
+                <p>On July 23, 2026, USTR took final action in 60 Section 301 investigations concerning failures to impose and effectively enforce prohibitions on imports produced with forced labor. USTR stated that the action imposes additional tariffs of 10% or 12.5%, subject to specified product exemptions. China is among the investigated economies. The action followed investigations, public comments, hearings, and consultations; its operation should be confirmed against the final Federal Register notice and Customs and Border Protection implementation materials for each import transaction.</p>
+                <p>The measure is often described as a “global” Section 301 tariff because of its breadth. Legally, it is better understood as a set of parallel Section 301 actions, with scope and exclusions defined by the final action. It is not a substitute for determining the applicable HTSUS classification and Chapter 99 reporting provisions for the particular product.</p>
+
+                <h2>III. Section 301, legacy China duties, and Section 232 must be kept separate</h2>
+                <p>The new action is distinct from the Section 301 duties imposed in earlier investigations concerning China’s technology-transfer, intellectual-property, and innovation practices. A product can therefore require analysis under the ordinary Column 1 duty rate, prior China Section 301 measures, the new forced-labor Section 301 measure, and any other applicable duty program. Whether duties stack is controlled by the governing notices, exclusions, and entry instructions—not by a single country-level tariff percentage.</p>
+                <p>Section 232 has a different statutory basis and is directed to national-security findings for particular products. USTR’s July 2026 fact sheet states that articles and parts already subject to Section 232 tariffs are outside the new Section 301 action. This exclusion does not eliminate the need to identify all other duties applicable to the product, nor does it answer classification or origin questions.</p>
+
+                <h2>IV. Operational consequences for a Chinese manufacturing enterprise</h2>
+                <p>For enterprises exporting machinery, components, or other industrial products to the United States, the commercial impact is usually not captured by one blended rate. Finished goods and spare parts may be classified differently; U.S. assembly may change the supply-chain analysis but does not by itself determine origin; and dealer pricing, purchase orders, and long-term supply arrangements may allocate tariff costs in different ways.</p>
+                <p>Third-country sourcing also requires care. Origin is determined by the governing customs rules and the actual manufacturing process, not merely by shipment routing, invoicing, or a change in the immediate supplier. A restructuring that lacks sufficient production substance may create customs, duty, and enforcement risk.</p>
+
+                <h2>V. Recommended near-term workstream</h2>
+                <ol>
+                    <li><strong>Build a product-level tariff matrix.</strong> Record HTSUS classifications, country of origin, ordinary duties, Chapter 99 provisions, exclusions, and the customs entry party for each material product.</li>
+                    <li><strong>Validate classification and origin evidence.</strong> Review bills of materials, manufacturing flow, supplier declarations, and prior broker advice; identify products for which a prospective ruling or specialist review may be appropriate.</li>
+                    <li><strong>Review historical entries and current contracts.</strong> Prioritize material imports for entry-data testing and examine whether supply, sales, and dealer agreements clearly allocate tariff changes, price adjustments, reporting cooperation, and audit support.</li>
+                    <li><strong>Evaluate localization on actual operations.</strong> Any U.S. or third-country manufacturing plan should be assessed against the real production process, capacity, cost, logistics, customs origin rules, and documentation requirements.</li>
+                </ol>
+
+                <h2>VI. Conclusion</h2>
+                <p>The current environment calls for a product-by-product and transaction-by-transaction analysis. The IEEPA decision changed one legal route; it did not eliminate the use of Section 301, Section 232, or ordinary customs duties. Companies should therefore treat the new Section 301 action as a trigger to refresh their classification, origin, entry, and contractual controls, while confirming the final implementation rules before making pricing or supply-chain decisions.</p>
+
+                <p class="text-sm text-gray-500 mt-6">Sources: <a href="https://www.supremecourt.gov/opinions/25pdf/24-1287_new_3135.pdf" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">Learning Resources, Inc. v. Trump</a> (U.S. Supreme Court, Feb. 20, 2026); <a href="https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">USTR final-action announcement</a> and <a href="https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/july/fact-sheet-ustr-section-301-action-response-failure-60-economies-ban-imports-produced-forced-labor" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">USTR fact sheet</a> (July 23, 2026).</p>
+            `,
+            zh: `
+                <p class="lead">2026年2月，美国最高法院在 <em>Learning Resources, Inc. v. Trump</em> 一案中限制了以《国际紧急经济权力法》（IEEPA）作为征收关税依据的路径。但该判决并未取消传统贸易法项下的关税工具。美国贸易代表办公室（USTR）于2026年7月23日就60个经济体采取的新Section 301行动，恰恰说明企业需要按具体措施、具体产品、具体进口交易重新核对法律依据、适用范围、豁免和征收规则。</p>
+
+                <h2>一、法律路径调整，不等于关税风险消失</h2>
+                <p>最高法院审查的是IEEPA是否授权总统征收关税，并未否定具有更具体贸易授权的法律工具，包括《1974年贸易法》Section 301和《1962年贸易扩展法》Section 232。因此，不能将该判决理解为对美国关税暴露的普遍性降低。</p>
+                <p>企业仍需回到产品层面判断：进口货物适用何种措施、是否具备豁免条件、是否可能叠加多个税层。整机、备件、供美国组装的零部件及第三国采购产品，结论可能并不相同。</p>
+
+                <h2>二、2026年7月“强迫劳动301”行动</h2>
+                <p>2026年7月23日，USTR对60项与未建立或未有效执行强迫劳动产品进口禁令有关的Section 301调查作出最终行动，宣布对有关经济体的多数进口产品加征10%或12.5%关税，并设置特定产品豁免。中国在被调查经济体之列。该行动经过调查、公众意见、听证和磋商程序；就具体进口交易而言，仍应以最终《联邦公报》公告和美国海关与边境保护局（CBP）的执行指引核对适用规则。</p>
+                <p>该措施因覆盖范围广而常被称为“全球化”Section 301；从法律结构看，更准确的理解是多项并行的Section 301行动，其适用范围和豁免须以最终行动确定。企业不能仅以国家税率代替对具体HTSUS税号及Chapter 99申报编码的判断。</p>
+
+                <h2>三、新旧Section 301与Section 232应分别核查</h2>
+                <p>本次措施不同于此前针对中国技术转让、知识产权和创新政策的Section 301关税。对同一产品，可能需要分别分析普通Column 1关税、既有中国Section 301措施、新“强迫劳动301”措施以及其他可能适用的税种。是否叠加，应以相关公告、豁免及报关指引为准，不能以单一的“国家总税率”判断。</p>
+                <p>Section 232具有不同的法定依据，针对的是特定产品的国家安全调查。USTR 7月23日的事实说明明确，已经适用Section 232关税的货物及其零部件不适用本次新Section 301措施。该排除并不当然解决其他税种、归类或原产地问题。</p>
+
+                <h2>四、对中国制造企业的实际影响</h2>
+                <p>对向美国出口工程机械、零部件或其他工业产品的企业而言，实际税负往往不能用一个综合税率概括：整机和备件可能适用不同归类；美国本地组装会影响供应链分析，但并不当然决定原产地；经销商定价、采购订单和长期供货协议对关税成本的分配也可能不同。</p>
+                <p>第三国采购或制造同样应审查实际生产情况。原产地应依据适用海关规则和真实制造工序判断，不能仅以转运、换单或更换直接供应商确定。缺乏实质生产基础的安排，可能引发海关、补税及执法风险。</p>
+
+                <h2>五、建议优先开展的工作</h2>
+                <ol>
+                    <li><strong>建立产品级关税矩阵。</strong> 按主要产品记录HTSUS归类、原产地、普通关税、Chapter 99编码、豁免及进口申报主体。</li>
+                    <li><strong>复核归类和原产地证据。</strong> 结合物料清单、制造流程、供应商声明及既有报关意见，识别需要进一步审查或申请预裁定的产品。</li>
+                    <li><strong>审查历史进口和现行合同。</strong> 对金额较大的进口交易优先核对申报数据，并检查采购、销售和经销协议是否清晰约定关税变化、调价机制、申报协作和审计支持。</li>
+                    <li><strong>以真实运营评估本地化方案。</strong> 美国或第三国制造安排应结合实际工序、产能、成本、物流、原产地规则及留痕要求进行评估。</li>
+                </ol>
+
+                <h2>六、结语</h2>
+                <p>当前环境下，更稳妥的管理方式是逐产品、逐交易分析。IEEPA判决改变的是一条法律路径，并未消除Section 301、Section 232或普通海关税负。企业可将本次新Section 301行动作为更新归类、原产地、报关和合同控制的触发点，并在调整定价或供应链前核对最终执行规则。</p>
+
+                <p class="text-sm text-gray-500 mt-6">主要资料：<a href="https://www.supremecourt.gov/opinions/25pdf/24-1287_new_3135.pdf" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">Learning Resources, Inc. v. Trump</a>（美国最高法院，2026年2月20日）；<a href="https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">USTR最终行动公告</a>及<a href="https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/july/fact-sheet-ustr-section-301-action-response-failure-60-economies-ban-imports-produced-forced-labor" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">USTR事实说明</a>（均为2026年7月23日）。</p>
+            `
+        },
+        featured: true,
+        highlight: true,
+        author: 'David Zhou, Founder & Managing Partner, Cathay Praxis Law, PC',
+        tags: ['Section 301', 'Section 232', 'IEEPA', 'Tariffs', 'Customs', 'HTSUS', 'Country of Origin', 'China Trade'],
+        readTime: 10
+};
+
 // ============================================
 // Insights Data - 法律评析数据（含完整内容）
 // ============================================
@@ -1186,7 +1274,8 @@ const insightsData = [
         author: 'David Wang',
         tags: ['ITC', 'Section 337', 'IP Litigation', 'Patent'],
         readTime: 8
-    }
+    },
+    section301Insight
 ];
 
 // ============================================
