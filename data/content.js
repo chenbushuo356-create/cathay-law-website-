@@ -595,7 +595,7 @@ const section301Insight = {
     imageFit: 'full',
     title: {
         en: 'From IEEPA’s Setback to a “Global” Section 301: Reconstructing the U.S. Tariff System and Practical Compliance Implications for Chinese Enterprises',
-        zh: '从IEEPA受挫到“全球化”Section 301 美国关税体系重构及中国企业的合规应对'
+        zh: '从IEEPA受挫到“全球化”Section 301：美国关税体系重构及中国企业的合规应对'
     },
     excerpt: {
         en: 'A legal and operational analysis of the evolving U.S. tariff framework, including Section 301, Section 232, customs classification, country of origin, and supply-chain planning for Chinese construction-equipment enterprises.',
