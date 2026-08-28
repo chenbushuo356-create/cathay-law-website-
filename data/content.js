@@ -618,6 +618,204 @@ const section301Insight = {
 // ============================================
 const insightsData = [
     {
+        id: 'insight-009',
+        slug: 'ymtc-strand-consult-personal-jurisdiction-cross-border-litigation-risk',
+        date: '2026-08-13',
+        category: 'litigation',
+        image: '',
+        title: {
+            en: 'Personal Jurisdiction in U.S. Litigation: Lessons From YMTC v. Strand Consult on Cross-Border Litigation Risk for Chinese Enterprises',
+            zh: '从长江存储诉 Strand Consult 案看美国属人管辖权：中国企业跨境诉讼的程序风险与应对'
+        },
+        excerpt: {
+            en: 'The D.D.C. dismissed YMTC’s Lanham Act claim against Danish defendants for lack of personal jurisdiction, without reaching the merits and without imposing Rule 11 sanctions. The decision illustrates why foreign plaintiffs must map forum contacts, claims, evidence, and enforcement paths before filing a cross-border case.',
+            zh: '美国哥伦比亚特区联邦地区法院因缺乏属人管辖权驳回长江存储对丹麦被告的《兰哈姆法》请求，未审理实体问题并拒绝 Rule 11 制裁动议。本案提示中国企业：跨境诉讼应先完成法院地联系、请求权、证据与执行路径的整体评估。'
+        },
+        content: {
+            en: `
+                <p class="lead">On August 13, 2026, the U.S. District Court for the District of Columbia issued a Memorandum Opinion in <em>Yangtze Memory Technologies Co., Ltd. v. Strand Consult ApS</em>, No. 1:25-cv-03554 (CJN). The Court dismissed YMTC’s Lanham Act false-advertising claim against a Danish consulting firm and its executive for lack of personal jurisdiction, without reaching the merits, and declined to impose Rule 11 sanctions. The practical significance of the decision lies not in whether the challenged statements were true, but in how personal jurisdiction, issue preclusion, a website forum-selection clause, long-arm jurisdiction, and forum non conveniens can determine whether a foreign defendant remains in a U.S. court.</p>
+
+                <p>For Chinese enterprises, a cross-border case is first a matter of procedural design and only then a matter of substantive claims. Without an integrated pre-filing assessment of the defendant’s contacts, the forum, available claims, evidence, and enforcement path, a commercially plausible claim may never progress beyond threshold procedure.</p>
+
+                <h2>I. A procedural dismissal is not a merits loss</h2>
+
+                <p>YMTC and its U.S. subsidiary alleged that Strand Consult and Roslyn Layton, who operated the “China Tech Threat” website, published false and misleading material concerning YMTC’s commercial relationships with U.S. customers. The complaint asserted a false-advertising claim under Section 43(a) of the Lanham Act, 15 U.S.C. § 1125(a). At the Rule 12 stage, the Court’s recitation of the relevant facts reflected the complaint’s allegations; it was not a judicial finding that those allegations were true.</p>
+
+                <p>Judge Nichols addressed only the threshold question of personal jurisdiction. The Court granted the motion to dismiss but denied the sanctions motion. Because the dismissal rested on lack of personal jurisdiction, it was without prejudice. The Court did not decide whether Strand Consult’s statements were true, whether they were commercially actionable, or whether YMTC could obtain relief on the merits. It would therefore be inaccurate to describe the decision as holding that the disputed statements were lawful or that YMTC’s false-advertising theory failed on the merits.</p>
+
+                <p>The same day, Judge Nichols addressed the commercial-speech question under the Lanham Act in a related YMTC case involving Micron Technology and DCI Group. The two matters should be kept distinct: the Strand Consult case was resolved at the jurisdictional threshold, whereas the Micron/DCI matter addressed a substantive Lanham Act issue.</p>
+
+                <h2>II. Why the case could not clear the jurisdictional threshold in Washington, D.C.</h2>
+
+                <p>YMTC had first sued Strand Consult and Layton in the Northern District of California in 2024. In that action, YMTC amended its complaint after a California state-law defamation claim encountered a proposed anti-SLAPP defense and proceeded on a Lanham Act theory. YMTC later sought reconsideration and transfer to the District of Columbia.</p>
+
+                <p>The Northern District of California concluded that the defendants had waived a personal-jurisdiction defense as to California itself. Yet, when considering YMTC’s transfer motion, the court still had to decide whether the action could originally have been brought in the District of Columbia. Relying on Rule 4(k)(2), YMTC did not establish sufficient contacts for D.C. jurisdiction, so transfer was denied. The California court then dismissed on forum non conveniens grounds, subject to the defendants’ acceptance of service in Denmark and waiver of applicable limitations defenses there.</p>
+
+                <p>After the California case formally closed, YMTC filed again in D.C., invoking two different jurisdictional grounds: the China Tech Threat website’s Terms of Use and the D.C. long-arm statute’s “transacting business” and “tortious injury” provisions. The procedural obstacle was that the prior case had already decided whether D.C. could exercise personal jurisdiction over the same Danish defendants for this dispute.</p>
+
+                <h2>III. Issue preclusion can bar a jurisdictional issue, not merely old arguments</h2>
+
+                <p>The Court first applied collateral estoppel, or issue preclusion. Under D.C. Circuit authority, the relevant issue must have been actually litigated, actually and necessarily determined by a court of competent jurisdiction, and capable of being applied fairly against the party to be bound. The Court concluded that these requirements were met.</p>
+
+                <p>YMTC argued that the earlier action did not analyze the Terms of Use or the D.C. long-arm statute. The Court relied on the principle reflected in <em>Yamaha Corp. of America v. United States</em>: once an issue has been litigated and decided, preclusion may reach the issue as a whole rather than only the particular arguments previously made. A party generally cannot ask another court to decide the same jurisdictional issue anew merely because it later identifies another theory.</p>
+
+                <p>This is a significant warning for cross-border litigation. A transfer request or other procedural application is not necessarily a temporary tactical step. If a party asks a court to decide whether the target forum has power over a defendant, that determination may acquire preclusive effect. New statutes, contract language, or reasoning paths may not reopen a jurisdictional issue that was materially decided at the first critical procedural stage.</p>
+
+                <h2>IV. A website forum-selection clause is not a universal consent to jurisdiction</h2>
+
+                <p>YMTC also relied on the China Tech Threat Terms of Use, which required legal actions arising out of or relating to the Terms, a user’s use of the site, or the services to be brought in D.C. and included consent-to-jurisdiction wording. The Court focused on the clause’s scope rather than treating it as an unconditional acceptance of jurisdiction for every dispute connected with the website.</p>
+
+                <p>The Lanham Act claim challenged publication and alleged effects on third-party customers; its resolution did not depend on YMTC’s use of the website or on interpreting or enforcing the Terms of Use. The Court therefore found an insufficient contractual nexus between the claim and the clause. For online businesses, platform rules, and Terms of Use, the drafting and litigation lesson is that a forum-selection clause is not an independent, all-purpose grant of jurisdiction. Its effect depends first on whether the asserted claim truly falls within the contractual scope.</p>
+
+                <h2>V. A globally accessible website does not by itself create local jurisdiction</h2>
+
+                <p>YMTC further invoked D.C. Code § 13-423. For “transacting business,” the Court emphasized that the defendant’s forum contacts must have a substantial relationship with the claim. A website’s Terms of Use referring to D.C., or the fact that D.C. residents can access a website, does not by itself show that the operator conducted claim-related business in D.C.</p>
+
+                <p>The Court likewise required more concrete forum contacts for a theory based on tortious injury from out-of-district conduct, such as regular business, a persistent course of conduct, or substantial local revenue. The internet-jurisdiction principle reflected in <em>GTE New Media Services v. BellSouth</em> remains important: a globally accessible site does not automatically subject its operator to personal jurisdiction wherever users can view it.</p>
+
+                <p>Specific jurisdiction continues to turn on purposeful forum contacts and a nexus to the claim. In cross-border business-disparagement, online-tort, and hostile-publicity cases, a claimant should identify evidence of forum-directed conduct before filing: targeted advertising, local-customer communications, lobbying of local government or industry bodies, paid activities, contract performance, local revenue, or similar deliberate contacts.</p>
+
+                <h2>VI. Forum non conveniens: jurisdiction does not mean the U.S. is the best forum</h2>
+
+                <p>The California action also highlights forum non conveniens. In a cross-border case, a U.S. court may find that a foreign court is an adequate alternative forum and weigh the parties, witnesses, evidence, place of conduct, and judicial-administration factors in favor of overseas litigation. Strand Consult was a Danish company and the alleged central conduct was undertaken by Danish personnel in Denmark, giving Denmark a natural connection to the dispute.</p>
+
+                <p>Accordingly, after asking whether a U.S. court may exercise jurisdiction, a Chinese enterprise should separately ask whether that court is the most suitable forum. If the defendant, principal witnesses, servers, business documents, and conduct are located abroad, the claimant should evaluate forum non conveniens risk alongside limitations rules, evidence procedures, remedies, injunctive relief, enforcement cost, and the practical availability of the alternative forum.</p>
+
+                <h2>VII. A procedural due-diligence framework for Chinese enterprises</h2>
+
+                <p>The lesson is not simply that suing a foreign company in the United States is difficult. Cross-border litigation depends on systematic procedural design. A substantive right does not mean that every U.S. court may exercise judicial power over every defendant.</p>
+
+                <h3>1. Build a Defendant Contact Map</h3>
+
+                <p>Look beyond the defendant’s place of incorporation. Investigate U.S. customers, employees, advisers, website operations, meetings, contracts, revenue, assets, lobbying, and targeted communications. Personal jurisdiction depends on provable contacts, not a generalized assertion that the defendant affected the U.S. market.</p>
+
+                <h3>2. Evaluate all jurisdictional theories at the first critical stage</h3>
+
+                <p>Forum-selection clauses, consent, waiver, state long-arm statutes, Rule 4(k)(2), alter-ego and agency theories should be assessed together where potentially relevant. Waiver, issue preclusion, and judicial estoppel can constrain a theory that is identified only after a key procedural decision.</p>
+
+                <h3>3. Design claim selection and forum selection together</h3>
+
+                <p>Defamation, Lanham Act, tortious-interference, and unfair-competition claims have different elements, defenses, speech protections, and jurisdictional connections. Changing a claim to avoid a particular state’s anti-SLAPP regime can also affect federal jurisdiction, merits requirements, and forum choice.</p>
+
+                <h3>4. Prepare a Forum and Enforcement Memorandum before filing</h3>
+
+                <p>Compare state, federal, and foreign forums for their adjudicatory basis, procedural risk, discovery, limitations periods, available remedies, and enforceability. A more disciplined sequence is: Evidence → Contacts → Claims → Jurisdiction → Forum → Enforcement.</p>
+
+                <h3>5. Preserve evidence for publicity and unfair-competition disputes</h3>
+
+                <p>Secure evidence concerning funding sources, mandates, content creation and dissemination, targeted customers or government bodies, procurement changes, commercial loss, and causation. Evidence that a defendant deliberately directed conduct at customers, officials, or markets in a particular state can materially change the personal-jurisdiction analysis.</p>
+
+                <h2>Conclusion</h2>
+
+                <p><em>YMTC v. Strand Consult</em> is a representative cross-border case in which procedure determined whether the merits could be heard. The Court did not make a final determination on the truth of the challenged statements or Lanham Act liability. Its analysis of issue preclusion, the scope of a forum-selection clause, and the D.C. long-arm statute instead delineates the circumstances in which foreign defendants may be subject to suit in a U.S. court.</p>
+
+                <p>For Chinese enterprises, the objective is not to avoid every jurisdictional dispute; such disputes are common in cross-border litigation. The central risk is allowing an inadequately prepared first procedural step to foreclose a critical forum, or discovering after substantial cost that the U.S. is not a sustainable litigation venue. A mature cross-border dispute strategy considers jurisdiction, claims, evidence, communications, regulation, and ultimate enforcement on a single litigation map.</p>
+
+                <h2>Case materials and principal authorities</h2>
+
+                <div class="overflow-x-auto"><table class="insight-table"><tr><th>Item</th><th>Information</th></tr><tr><td>Case</td><td><em>Yangtze Memory Technologies Co., Ltd., et al. v. Strand Consult ApS, et al.</em></td></tr><tr><td>Court</td><td>U.S. District Court for the District of Columbia</td></tr><tr><td>Docket</td><td>Civil Action No. 1:25-cv-03554 (CJN), Document 34</td></tr><tr><td>Decision date</td><td>August 13, 2026</td></tr><tr><td>Judge</td><td>Carl J. Nichols, U.S. District Judge</td></tr></table></div>
+
+                <ul><li><a href="https://law.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2025cv03554/285617/34/" target="_blank" rel="noopener noreferrer">Memorandum Opinion (Document 34)</a></li><li>Federal Rule of Civil Procedure 12(b)(2) and Rule 11.</li><li>D.C. Code § 13-423.</li><li><em>Otherson v. Department of Justice</em>, 711 F.2d 267 (D.C. Cir. 1983).</li><li><em>Yamaha Corp. of America v. United States</em>, 961 F.2d 245 (D.C. Cir. 1992).</li><li><em>GTE New Media Services Inc. v. BellSouth Corp.</em>, 199 F.3d 1343 (D.C. Cir. 2000).</li><li><em>Sinochem International Co. v. Malaysia International Shipping Corp.</em>, 549 U.S. 422 (2007).</li></ul>
+
+                <p class="text-sm text-gray-500 mt-6">This article is a case commentary and cross-border litigation risk study. It is not a formal legal opinion for any particular dispute.</p>
+            `,
+            zh: `
+                <p class="lead">2026年8月13日，美国哥伦比亚特区联邦地区法院在 <em>Yangtze Memory Technologies Co., Ltd. v. Strand Consult ApS</em>, No. 1:25-cv-03554 (CJN) 一案中作出备忘录意见。法院没有进入《兰哈姆法》虚假宣传请求的实体审理，而是以缺乏属人管辖权为由驳回案件，同时拒绝被告提出的 Rule 11 制裁动议。本案的实务价值不在于判断涉案报道是否真实或是否构成商业诋毁，而在于展示属人管辖权、争点排除、网站管辖条款、长臂法及不方便法院原则如何共同决定一家外国被告能否被留在美国法院。</p>
+
+                <p>对中国企业而言，跨境诉讼首先是程序设计问题，其次才是实体请求权问题。诉前如未完成被告联系点、法院地、请求权、证据与执行路径的整体评估，即使实体主张具有商业合理性，也可能长期停留在程序层面。</p>
+
+                <h2>一、判决的真正含义：程序驳回，不等于实体败诉</h2>
+
+                <p>本案原告为长江存储及其美国子公司；被告 Strand Consult 是一家丹麦公共事务咨询机构，Roslyn Layton 与其运营“China Tech Threat”网站。YMTC 在诉状中主张，被告围绕其与美国客户的商业合作发布虚假、误导性内容，并以《兰哈姆法》15 U.S.C. § 1125(a) 为基础提出 false advertising 请求。需要强调的是，判决书在 Rule 12 阶段对相关事实的叙述来自 YMTC 诉状中的指控，并非法院已作出的事实认定。</p>
+
+                <p>Nichols 法官此次只处理属人管辖权这一门槛问题。法院准许被告的驳回动议，但驳回制裁请求。由于驳回基于 lack of personal jurisdiction，裁判属于 without prejudice，并未判断 Strand Consult 的相关陈述是否真实，也没有认定 YMTC 在实体上不能获得救济。将本案概括为“法院认定相关言论合法”或“YMTC 虚假宣传主张被实体否定”均不准确。</p>
+
+                <p>同一天，Nichols 法官在 YMTC 诉 Micron Technology 及 DCI Group 的另一案件中，才就类似出版物是否构成 Lanham Act 意义上的 commercial speech 作出了实体判断。因此，两案应当严格区分：Strand Consult 案首先败在法院权力边界；Micron/DCI 案则涉及 Lanham Act 实体构成。</p>
+
+                <h2>二、为什么案件从加州走到华盛顿，却仍然过不了管辖权门槛</h2>
+
+                <p>YMTC 于 2024 年先在加州北区联邦法院起诉 Strand Consult 与 Layton。原诉状曾包含加州州法诽谤请求，后在被告拟提出 California anti-SLAPP 抗辩的背景下，YMTC 修改诉状，转而主张 Lanham Act。此后，YMTC 一方面申请重新审议，另一方面请求将案件移送至哥伦比亚特区。</p>
+
+                <p>加州法院最终认定 Strand Consult 和 Layton 已经放弃针对加州法院本身的 personal jurisdiction defense；但在审查 YMTC 提出的 transfer motion 时，仍必须回答另一个不同的问题：该案原本是否可以在 D.D.C. 提起。要满足这一前提，就必须证明 D.D.C. 对丹麦被告具有 personal jurisdiction。YMTC 当时依赖 Rule 4(k)(2)，但加州法院认为现有联系不足，拒绝移送。随后法院适用 forum non conveniens，认为争议核心行为由丹麦主体在丹麦实施，丹麦是更适宜的法院地，并以被告接受丹麦送达且不主张相关诉讼时效抗辩为条件驳回。</p>
+
+                <p>加州案件正式结案后，YMTC 次日在 D.D.C. 重新提起诉讼。这一次，YMTC 改用两个新的管辖基础：网站 Terms of Use 中的 D.C. forum-selection clause，以及 D.C. long-arm statute 中的“transacting business”和“tortious injury”条款。问题在于，前案已经对“D.D.C. 能否就这一争议对同一丹麦被告行使 personal jurisdiction”作出判断。</p>
+
+                <h2>三、本案核心：Issue Preclusion 不仅排除旧论点，还可能排除新的管辖理论</h2>
+
+                <p>Nichols 法官首先适用 collateral estoppel，即 issue preclusion。依 D.C. Circuit 判例，争点排除要求相关争点已经在前案实际争辩并提交法院决定、已被有权法院实际且必要地裁判，而且对受约束一方适用不会造成不公平。法院认为这些条件均已满足。</p>
+
+                <p>YMTC 强调，前案并未讨论网站 Terms of Use 和 D.C. long-arm statute，因此本案应允许提出新的管辖依据。但法院援引 <em>Yamaha Corp. of America v. United States</em> 所体现的原则：一旦某一争点已经被提出并决定，被排除的是“整个争点”，而不仅仅是当事人在第一次诉讼中曾经提出的具体论据。也就是说，如果前案已经裁决“D.C. 对本案被告不存在 personal jurisdiction”，当事人原则上不能因为后来想到新的理由，就再次要求另一法院重新决定同一管辖问题。</p>
+
+                <p>这一点对跨境诉讼尤其重要。程序申请并不一定只是“临时性动作”。当一方主动提出 transfer，并请求法院判断目标法院是否有权审理时，该判断可能随最终判决产生争点排除效力。后续诉讼即使换用新的法规、新的合同条款或者新的论证路径，也未必能够绕开第一次形成的程序裁判。</p>
+
+                <h2>四、网站管辖条款为什么没有成为“万能钥匙”</h2>
+
+                <p>YMTC 第二次起诉的重要依据之一，是 China Tech Threat 网站 Terms of Use 中的 forum-selection clause。该条款要求因 Terms of Use 或用户使用网站、服务产生的法律行动在 D.C. 法院提起，并包含同意 D.C. 法院属人管辖的文字。表面看，这是一项明确的 consent-to-jurisdiction 条款。</p>
+
+                <p>但法院没有把它理解为网站运营者对所有“与网站有关”的诉讼都无条件接受 D.C. 管辖。法院关注的是条款的 scope。YMTC 的 Lanham Act 请求针对的是被告发布内容并影响第三方客户的行为，其成立与否并不依赖 YMTC 如何使用网站，也不需要解释或执行 Terms of Use 本身。因此，涉案争议与该管辖条款之间缺乏足够的合同联系。</p>
+
+                <p>这一分析对企业网站、平台条款及线上业务具有普遍意义。选择法院条款并不是脱离合同范围独立存在的“全面管辖授权”。能否据此建立 consent jurisdiction，首先取决于诉请是否真正落入条款定义的争议范围。企业在起草 Terms of Use、供应商平台规则或在线销售协议时，应清楚区分“因条款产生的争议”和“所有与网站内容有关的争议”。</p>
+
+                <h2>五、D.C. 长臂管辖：网站“可访问”并不等于被告“在当地经营”</h2>
+
+                <p>YMTC 还依赖 D.C. Code § 13-423。对于“transacting business”，法院强调，被告与法院地的联系必须与本案诉请之间存在实质关联。仅仅因为网站 Terms of Use 提到 D.C.，或者 D.C. 居民可以访问网站，并不能自动证明 Strand Consult 在 D.C. 从事与本案相关的商业活动。</p>
+
+                <p>对于境外行为造成 D.C. 侵权损害的理论，法院同样要求更具体的 forum contacts，例如持续经营、持续行为或在当地取得实质收入等。Nichols 法官引用 <em>GTE New Media Services v. BellSouth</em> 所体现的互联网管辖原则：一个全球可访问的网站，并不会因为技术上可以被 D.C. 用户浏览，就使运营者自动进入 D.C. 法院的属人管辖范围。</p>
+
+                <p>这反映出美国 specific jurisdiction 的基本逻辑仍然是 purposeful contacts 与 claim nexus。互联网扩大了信息传播范围，却没有取消 minimum contacts 要求。对跨境商业诋毁、网络侵权和恶意宣传案件而言，诉前必须找到“针对法院地”的具体证据，例如定向投放、当地客户沟通、当地政府或行业组织游说、付费活动、合同履行、收入来源或其他有目的的 forum-directed conduct。</p>
+
+                <h2>六、Forum Non Conveniens：即使美国法院“能审”，也不等于美国一定“最适合审”</h2>
+
+                <p>加州前案的另一重要警示是不方便法院原则。美国法院在跨境案件中可能认为外国法院是 adequate alternative forum，并综合当事人、证人、证据、行为发生地和司法管理因素决定是否让案件转向境外。Strand Consult 是丹麦公司，相关行为据称主要由丹麦人员在丹麦实施，这使丹麦与争议具有天然联系。</p>
+
+                <p>因此，中国企业在判断“美国是否存在管辖权”之后，还必须再问一个问题：美国是否是最适宜的法院地。若被告主体、核心证人、服务器、业务文件及主要行为均位于境外，企业应在起诉前同步评估 forum non conveniens 风险，并比较外国法院的诉讼时效、证据制度、损害赔偿、禁令、执行成本和可获得性。仅仅因为商业损失最终体现在美国市场，并不足以保证案件一定留在美国。</p>
+
+                <h2>七、对中国企业的启示：跨境诉讼首先应做“程序尽调”</h2>
+
+                <p>本案最值得中国企业借鉴的，不是简单得出“在美国起诉外国公司很难”的结论，而是认识到美国跨境诉讼高度依赖程序设计。实体权利存在，并不意味着任何美国法院都可以行使司法权。尤其对于外国被告，诉前分析应至少覆盖被告所在地、美国各州实际联系、请求权基础、法院地选择、证据分布、可执行资产及潜在替代法院。</p>
+
+                <h3>第一，建立 Defendant Contact Map</h3>
+
+                <p>不要只看被告注册地，应系统调查其美国客户、雇员、顾问、网站运营、会议活动、合同、收入、资产、游说和定向传播。Personal jurisdiction 最终依赖可证明的联系，而不是对方“影响了美国市场”这一概括性描述。</p>
+
+                <h3>第二，一次性梳理所有 jurisdictional theories</h3>
+
+                <p>若存在 forum-selection clause、consent、waiver、state long-arm statute、Rule 4(k)(2)、alter ego、agency 或其他理论，应在第一次关键程序阶段统一评估。美国程序法中的 waiver、issue preclusion 和 judicial estoppel 都可能使后发现的论点失去使用空间。</p>
+
+                <h3>第三，把 claim selection 与 forum selection 同时设计</h3>
+
+                <p>Defamation、Lanham Act、tortious interference、unfair competition 等请求的构成、抗辩、言论保护和管辖联系并不相同。为了规避某一州的 anti-SLAPP 机制而调整请求权，可能同时改变联邦管辖、实体要件以及后续法院地选择。请求权不能与法院地策略割裂。</p>
+
+                <h3>第四，在起诉前完成 Forum and Enforcement Memorandum</h3>
+
+                <p>企业应比较州法院、联邦法院及外国法院的审理基础、程序风险、discovery 可用性、诉讼时效、禁令、损害赔偿和判决执行。跨境案件最忌“先立案、后找理由”；更稳妥的顺序应是 Evidence → Contacts → Claims → Jurisdiction → Forum → Enforcement。</p>
+
+                <h3>第五，针对舆论攻击和恶意竞争建立诉前证据机制</h3>
+
+                <p>企业应及时固定资金来源、委托关系、内容制作与传播链条、定向客户或政府机构、采购变化、商业损失及因果关系。若核心证据能够证明被告专门面向某州客户、政府人员或市场实施活动，personal jurisdiction 分析将与单纯“网站全球可见”完全不同。</p>
+
+                <h2>结语</h2>
+
+                <p>YMTC 诉 Strand Consult 案是一宗典型的“程序决定实体能否被审理”的跨境诉讼。法院没有对涉案言论真伪和 Lanham Act 责任作最终判断，但通过 issue preclusion、forum-selection clause scope 和 D.C. long-arm statute 明确了外国被告进入美国法院的边界。</p>
+
+                <p>对于中国企业而言，真正需要避免的并不是所有管辖权争议，而是因为诉前准备不足，使关键法院地在第一次程序动作中被提前锁死，或在案件投入大量时间和成本后才发现美国并不是可持续的诉讼场所。成熟的跨境争议策略，应当把程序管辖、实体请求、证据、舆情、监管和最终执行放在同一张诉讼地图上设计。</p>
+
+                <h2>判决书及主要资料</h2>
+
+                <div class="overflow-x-auto"><table class="insight-table"><tr><th>项目</th><th>信息</th></tr><tr><td>判决名称</td><td><em>Yangtze Memory Technologies Co., Ltd., et al. v. Strand Consult ApS, et al.</em></td></tr><tr><td>法院</td><td>United States District Court for the District of Columbia</td></tr><tr><td>案号</td><td>Civil Action No. 1:25-cv-03554 (CJN), Document 34</td></tr><tr><td>判决日期</td><td>August 13, 2026</td></tr><tr><td>法官</td><td>Carl J. Nichols, U.S. District Judge</td></tr></table></div>
+
+                <ul><li><a href="https://law.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2025cv03554/285617/34/" target="_blank" rel="noopener noreferrer">判决书全文（Document 34）</a></li><li>Federal Rule of Civil Procedure 12(b)(2) 与 Rule 11。</li><li>D.C. Code § 13-423。</li><li><em>Otherson v. Department of Justice</em>, 711 F.2d 267 (D.C. Cir. 1983)。</li><li><em>Yamaha Corp. of America v. United States</em>, 961 F.2d 245 (D.C. Cir. 1992)。</li><li><em>GTE New Media Services Inc. v. BellSouth Corp.</em>, 199 F.3d 1343 (D.C. Cir. 2000)。</li><li><em>Sinochem International Co. v. Malaysia International Shipping Corp.</em>, 549 U.S. 422 (2007)。</li></ul>
+
+                <p class="text-sm text-gray-500 mt-6">本文为案件评论与跨境诉讼风险研究，不构成针对任何特定争议的正式法律意见。</p>
+            `
+        },
+        featured: true,
+        highlight: true,
+        author: 'Cathay Praxis Law P.C.',
+        tags: ['Personal Jurisdiction', 'Cross-Border Litigation', 'Forum Non Conveniens', 'Issue Preclusion', 'Lanham Act', 'China Tech Threat'],
+        readTime: 16
+    },
+    {
         id: 'insight-007',
         slug: 'birthright-citizenship-wong-kim-ark-trump-v-barbara',
         date: '2026-06-30',

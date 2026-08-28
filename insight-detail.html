@@ -125,6 +125,19 @@
             background: var(--color-primary);
             font-weight: 600;
         }
+
+        @media (max-width: 1023px) {
+            /* Prevent wide article tables from expanding the single-column grid. */
+            #article-main .grid > * {
+                min-width: 0;
+            }
+
+            .article-content .overflow-x-auto {
+                max-width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
         
         .article-content strong {
             font-weight: 600;
