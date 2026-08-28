@@ -620,7 +620,7 @@ const insightsData = [
     {
         id: 'insight-009',
         slug: 'ymtc-strand-consult-personal-jurisdiction-cross-border-litigation-risk',
-        date: '2026-08-13',
+        date: '2026-08-28',
         category: 'litigation',
         image: '',
         title: {
