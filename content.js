@@ -13,6 +13,74 @@
 // ============================================
 const newsData = [
     {
+        id: 'news-008',
+        slug: 'zhengping-zhou-csuaaa-legal-counsel',
+        date: '2026-11-21T12:00:00Z',
+        category: 'industry',
+        image: 'images/news-csuaaa-appointment-ceremony.jpg',
+        hideCoverInArticle: true,
+        title: {
+            en: 'Cathay Praxis Law Managing Partner Zhengping Zhou Appointed Legal Counsel to Central South University American Alumni Association',
+            zh: 'Cathay Praxis Law管理合伙人周争平受聘担任中南大学美国校友会法律顾问'
+        },
+        excerpt: {
+            en: 'Zhengping “David” Zhou, Esq., Managing Partner of Cathay Praxis Law, P.C., attended as an invited guest and was appointed legal counsel to the Association for a five-year term.',
+            zh: 'Cathay Praxis Law, P.C.管理合伙人周争平律师（Zhengping “David” Zhou, Esq.）应邀出席年会，并在聘任仪式上获聘担任中南大学美国校友会法律顾问，任期五年。'
+        },
+        content: {
+            en: `
+                <p class="lead">The Central South University American Alumni Association (CSUAAA) held its inaugural annual reunion on November 14–15, 2026, at the Sheraton Los Angeles San Gabriel. Alumni from across North America gathered to reconnect and explore opportunities for cross-border collaboration.</p>
+
+                <figure class="my-8">
+                    <img src="images/news-csuaaa-reunion-group.jpg" alt="Group photo at the inaugural CSUAAA annual reunion" width="1920" height="1280" class="w-full h-auto rounded-lg shadow-lg">
+                </figure>
+
+                <p>Zhengping “David” Zhou, Esq., Managing Partner of Cathay Praxis Law, P.C., attended as an invited guest and was appointed legal counsel to the Association for a five-year term. The appointment supports the Association’s efforts to strengthen its governance and compliance practices.</p>
+
+                <figure class="my-8">
+                    <img src="images/news-csuaaa-appointment-ceremony.jpg" alt="Legal counsel appointment ceremony" width="1280" height="853" loading="lazy" class="w-full h-auto rounded-lg shadow-lg">
+                </figure>
+                <figure class="my-8">
+                    <img src="images/news-csuaaa-appointment-letter.jpg" alt="Letter appointing David Zhou as legal counsel to the Association" width="1707" height="1280" loading="lazy" class="w-full h-auto rounded-lg shadow-lg">
+                </figure>
+
+                <p>On November 14, Mr. Zhou delivered a keynote on building a career and innovating across borders, highlighting five legal risks Chinese alumni in North America should be aware of. Drawing on his U.S.–China legal practice, he discussed practical ways to identify and manage risks in career development, cross-border ventures, commercial transactions, and corporate compliance. The talk was warmly received and prompted discussion among attendees.</p>
+
+                <figure class="my-8">
+                    <img src="images/news-csuaaa-keynote.jpg" alt="Zhengping Zhou speaking at the CSUAAA annual reunion" width="1707" height="1280" loading="lazy" class="w-full h-auto rounded-lg shadow-lg">
+                </figure>
+
+                <p>Cathay Praxis Law thanks the Association for its trust and support. Mr. Zhou looks forward to advising the Association on governance and compliance and continuing to share practical legal insights with the alumni community.</p>
+            `,
+            zh: `
+                <p class="lead">2026年11月14日至15日，中南大学美国校友会（CSUAAA）首届年会在洛杉矶地区圣盖博喜来登酒店举行。年会以“湘聚洛城·再续情谊·共创未来”为主题，来自北美各地的中南校友齐聚一堂，共叙同窗情谊，探讨跨境交流与合作。</p>
+
+                <figure class="my-8">
+                    <img src="images/news-csuaaa-reunion-group.jpg" alt="中南大学美国校友会首届年会合影" width="1920" height="1280" class="w-full h-auto rounded-lg shadow-lg">
+                </figure>
+
+                <p>Cathay Praxis Law, P.C.管理合伙人周争平律师（Zhengping “David” Zhou, Esq.）应邀出席年会，并在聘任仪式上获聘担任中南大学美国校友会法律顾问，任期五年。此次聘任是校友会完善组织治理、加强合规建设的一项举措。</p>
+
+                <figure class="my-8">
+                    <img src="images/news-csuaaa-appointment-ceremony.jpg" alt="法律顾问聘任仪式现场" width="1280" height="853" loading="lazy" class="w-full h-auto rounded-lg shadow-lg">
+                </figure>
+                <figure class="my-8">
+                    <img src="images/news-csuaaa-appointment-letter.jpg" alt="中南大学美国校友会颁发给周争平律师的法律顾问聘书" width="1707" height="1280" loading="lazy" class="w-full h-auto rounded-lg shadow-lg">
+                </figure>
+
+                <p>11月14日下午，周律师以《在美发展与跨境创新——北美华人校友不可忽视的五大法律风险》为题发表主旨演讲。他结合中美跨境法律服务经验和实务案例，围绕在美职业发展、跨境创业、商贸往来及企业合规，分析常见法律风险，并就如何在决策前识别风险、在经营中落实合规提出实务建议。演讲获得与会校友的积极反馈，并引发现场交流。</p>
+
+                <figure class="my-8">
+                    <img src="images/news-csuaaa-keynote.jpg" alt="周争平律师在中南大学美国校友会年会发表主旨演讲" width="1707" height="1280" loading="lazy" class="w-full h-auto rounded-lg shadow-lg">
+                </figure>
+
+                <p>Cathay Praxis Law感谢中南大学美国校友会的信任与支持。周律师期待协助校友会完善治理与合规机制，并继续通过法律讲座和专业交流，帮助校友更好地理解在美发展及跨境经营中的法律问题。</p>
+            `
+        },
+        featured: true,
+        author: 'Cathay Praxis Law'
+    },
+    {
         id: 'news-007',
         slug: 'us-cross-border-compliance-ip-seminar-shenzhen-2026',
         date: '2026-06-29',
