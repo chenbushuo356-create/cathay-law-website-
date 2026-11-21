@@ -289,17 +289,19 @@
                     <a href="index.html#about" class="nav-link" data-i18n="nav_about">About</a>
                     <a href="index.html#practice" class="nav-link" data-i18n="nav_practices">Practices</a>
                     <a href="index.html#clients" class="nav-link" data-i18n="nav_clients">Clients</a>
-                    <a href="news.html" class="nav-link active" data-i18n="nav_news">News &amp; Achievements</a>
+                    <a href="index.html#news" class="nav-link active" data-i18n="nav_news">News &amp; Achievements</a>
                     <a href="insights.html" class="nav-link" data-i18n="nav_insights">Insights</a>
                     <a href="index.html#team" class="nav-link" data-i18n="nav_team">Team</a>
                     <a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
-                    <button onclick="LanguageModule.toggle()" class="lang-btn" id="lang-btn">EN</button>
                 </div>
-                <button class="mobile-menu-btn md:hidden" id="mobile-menu-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+                <div class="flex items-center gap-4">
+                    <button type="button" onclick="LanguageModule.toggle()" class="lang-btn" id="lang-btn">EN</button>
+                    <button class="mobile-menu-btn md:hidden" id="mobile-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
             </div>
         </div>
     </nav>
@@ -308,11 +310,11 @@
     <header class="article-header" id="article-header">
         <div class="container relative z-10">
             <nav class="breadcrumb mb-6">
-                <a href="index.html" data-i18n="nav_home">Home</a>
+                <a href="index.html" class="shrink-0 whitespace-nowrap" data-i18n="nav_home">Home</a>
                 <span class="breadcrumb-separator">/</span>
-                <a href="news.html" data-i18n="nav_news">News &amp; Achievements</a>
+                <a href="index.html#news" class="shrink-0 whitespace-nowrap" data-i18n="nav_news">News &amp; Achievements</a>
                 <span class="breadcrumb-separator">/</span>
-                <span id="breadcrumb-title">...</span>
+                <span id="breadcrumb-title" class="min-w-0 truncate" aria-current="page">...</span>
             </nav>
             <h1 class="heading-hero text-3xl md:text-4xl lg:text-5xl mb-6 max-w-4xl" id="article-title">...</h1>
             <div class="article-meta">
@@ -374,7 +376,7 @@
                     
                     <!-- Navigation -->
                     <div class="mt-8 flex justify-between">
-                        <a href="news.html" class="btn btn-glass">
+                        <a href="index.html#news" class="btn btn-glass">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
                             </svg>
@@ -413,7 +415,7 @@
         </svg>
         <h2 class="heading-section text-2xl text-primary mb-2" data-i18n="article_not_found">Article Not Found</h2>
         <p class="text-gray-500 mb-6" data-i18n="article_not_found_desc">The article you are looking for does not exist or has been removed.</p>
-        <a href="news.html" class="btn btn-primary" data-i18n="back_to_news">Back to News</a>
+        <a href="index.html#news" class="btn btn-primary" data-i18n="back_to_news">Back to News</a>
     </div>
 
     <!-- Footer -->
@@ -470,7 +472,7 @@
             document.getElementById('author-name').textContent = article.author || 'Cathay Praxis Law';
             
             // Image
-            if (article.image) {
+            if (article.image && !article.hideCoverInArticle) {
                 const imgContainer = document.getElementById('article-image-container');
                 const img = document.getElementById('article-image');
                 img.src = article.image;
