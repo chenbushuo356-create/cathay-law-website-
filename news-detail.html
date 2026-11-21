@@ -469,7 +469,10 @@
             document.getElementById('article-title').textContent = ContentHelpers.getTitle(article, lang);
             document.getElementById('article-category').textContent = ContentHelpers.getCategoryLabel(article.category, 'news', lang);
             document.getElementById('article-date').textContent = Utils.formatDate(article.date, lang);
-            document.getElementById('author-name').textContent = article.author || 'Cathay Praxis Law';
+            const author = typeof article.author === 'string'
+                ? article.author
+                : article.author?.[lang] || article.author?.en;
+            document.getElementById('author-name').textContent = author || 'Cathay Praxis Law';
             
             // Image
             if (article.image && !article.hideCoverInArticle) {

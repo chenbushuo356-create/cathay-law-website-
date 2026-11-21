@@ -16,7 +16,7 @@ const newsData = [
         id: 'news-008',
         slug: 'zhengping-zhou-csuaaa-legal-counsel',
         date: '2026-11-21T12:00:00Z',
-        category: 'industry',
+        category: 'firm',
         image: 'images/news-csuaaa-appointment-ceremony.jpg',
         hideCoverInArticle: true,
         title: {
@@ -78,7 +78,7 @@ const newsData = [
             `
         },
         featured: true,
-        author: 'Cathay Praxis Law'
+        author: { en: 'Zhengping Zhou', zh: '周争平' }
     },
     {
         id: 'news-007',
@@ -1295,6 +1295,7 @@ const categoryDefinitions = {
         regulation: { en: 'Regulation', zh: '法规更新' },
         case: { en: 'Case Study', zh: '案例研究' },
         industry: { en: 'Industry', zh: '行业动态' },
+        firm: { en: 'Firm News', zh: '律所动态' },
         achievement: { en: 'Achievement', zh: '业绩展示' }
     },
     insights: {
